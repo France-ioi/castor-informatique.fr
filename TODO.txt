@@ -1,0 +1,91 @@
+
+===================================================================
+README modifs à faire dans miniplatform
+
+chercher "Le concours étant terminé"
+et mettre en dessous des if:
+   // HACK PRESENTATION
+   scoreDiffMsg = "Votre score est de ";
+
+et aussi dans le modules/pemFioi/taskStyles.css ajouter
+   h1 {
+     margin-top: 0.5em;
+     font-size: 1.2em;
+   }
+
+===================================================================
+
+TODO
+
+   Dans contestInterface, du texte pas traduit:
+         <p>Pour les autres il suffira de <input type="button" onclick="checkGroup()" value="Réessayer"/>.</p>
+
+TODO
+
+   Est-ce possible d'avoir un argument à la page 
+         http://concours.castor-informatique.fr/
+   afin de pouvoir l'ouvrir directement sur l'onglet "s'entainer" ?
+ 
+   et un autre pour arriver directement sur "consulter ses résultats",
+   comme ça les liens depuis le site principal seront plus directs.
+
+TODO
+   
+   dans le manuel, redondance entre
+      - Qui peut participer au Castor Informatique ?
+      - Peut-on inscrire des élèves de lycée professionnel ?
+
+
+TODO
+
+   page http://coordinateur.castor-informatique.fr/  dans inscription
+   le label "confirmation du mot de passe" ne tient pas sur sa ligne.
+   => remplacer par "mot de passe (confirmation)", et ajouter qq pixels de large
+
+TODO
+
+   Mathias, tu avais dit qu'il fallait gérer les includes de jquery bien comme 
+   il faut pour éviter de charger les fichiers de notre site.
+   voir la fonction "page_includes()" dans common.php.
+   Est-ce tjs d'actualité ?
+
+
+
+=========================================================================
+OLD (à trier)
+=========================================================================
+
+-- Plus tard: lorsqu'on met un mauvais mot de passe, le message 
+   "mot de passe invalide" s'affiche. Ca serait bien de remasquer 
+   ce message dès qu'on modifie le contenu de la textbox. 
+
+-- Plus tard: le highlight des cases en mouseover sur le tableau des 
+   épreuves passées devrait se faire case par case et non ligne par ligne
+
+-- Plus tard: sur http://concours1.castor-informatique.fr/
+   dans l'onglet Annales, changer la phrase du bas en
+  "Vous pouvez également accéder aux sujets 2010 de l'édition 
+  Suisse du Castor Informatique."  
+
+-- Plus tard: sur les sujets d'exemples de la page d'accueil,
+   il affiche "Votre réponse a été enregistrée." mais ensuite le bouton
+   annuler la réponse ne marche pas. 
+   On pourrait d'ailleurs améliorer l'interface en affichant "bonne réponse" 
+   ou "mauvaise réponse". Ca serait d'ailleurs bien que en cas de mauvaise 
+   réponse on encourage la personne a réessayer.
+
+-- Plus tard: dans resultats.php, au-dessus des courbes, il y a écrit "4ème-3ème",  
+   alors que ça devrait être "4e-3e", si on veut rester cohérent partout. 
+   De même dans les onglets. 
+
+-- Plus tard: mettre un message clair expliquant ce que l'on attend des coordinateurs pour 2013
+   - s'ils ont déjà été coordinateurs, ils recevront un mail en septembre/octobre
+   - sinon, il faut qu'ils fournissent leur email pour être prévenu.
+
+-- Plus tard: gestion de la validation des mails non académiques
+   par un autre prof.
+
+-- Plus tard: vérifier l'apparence du site sous Safari
+
+-- Plus tard: passer le site dans un validateur
+
