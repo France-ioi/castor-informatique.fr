@@ -477,3 +477,8 @@ table.orga-table {
    font-weight: bold;
 }
 
+
+.thresholds tr td {
+   border: solid black 1px;
+   padding: 4px;
+}

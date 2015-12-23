@@ -72,8 +72,6 @@ Rejoignez-nous sur :
 <a href="http://www.gouvernement.fr/les-investissements-d-avenir" class="menu-logo"><img width="60%" src="img/logo_investissements_davenir.png" alt="investissements d'avenir" class="logo-img"></a>
 <a href="http://www.assopascaline.fr" class="menu-logo"><img width="95%" src="img/logo_pascaline.jpg" alt="pascaline" class="logo-img"></a>
 <a href="http://www.cnrs.fr/ins2i/" class="menu-logo"><img width="55%" src="img/logo_cnrs.gif" alt="cnrs" class="logo-img"></a>
-<a href="http://www.societe-informatique-de-france.fr/" class="menu-logo"><img width="85%" src="img/logo_sif.png" alt="SIF" class="logo-img"></a>
-<a href="http://www.epi.asso.fr" class="menu-logo"><img width="65%" src="img/logo_epi.png" alt="EPI" class="logo-img" style="margin-top:15px;margin-bottom:15px"></a>
 <a href="http://www.systematic-paris-region.org/" class="menu-logo"><img width="55%" src="img/logo_systematic.jpg" alt="Systematic Paris Region" class="logo-img" ></a>
 <a href="http://tour123.wordpress.com/" class="menu-logo"><img width="70%" src="img/logo_tour123.png" alt="Tour 123" class="logo-img" ></a>
 </div>
@@ -88,7 +86,8 @@ Rejoignez-nous sur :
 
    <div style='float:right; text-align: center; margin-left:1em'>
       <span style='font-size: normal'>Nombre de participants au concours Castor</span><br />
-      <a href='resultats.php'><img src='img/participation.png' alt='Cliquez pour accéder aux statistiques détaillées.' width='333' height='155' style='margin-top:0.5em' /> </a></div>     
+      <a href='resultats.php'><img src='img/participation.png' alt='Cliquez pour accéder aux statistiques détaillées.' width='333' style='margin-top:0.5em' /> </a>
+   </div>
       <?php //   width='375' height='176' ?>
       
    <p style='font-weight: bold'>Le concours Castor vise à faire découvrir aux jeunes l'informatique et les sciences du numérique.</p>
@@ -104,30 +103,56 @@ Rejoignez-nous sur :
    <?php elseif (contest_phase() == 'contest-over'):?>
       </p><p><span class='index-important'>L'édition 2015 vient de se terminer.</span> 
       <p>
-      Le calcul de tous les scores va demander un peu de temps. Les résultats seront disponibles dans les jours à venir.
+      <span style="color:red">Le calcul de tous les scores va demander un peu de temps. Les résultats seront disponibles dans les jours à venir.</span>
    <?php elseif (contest_phase() == 'contest-results-temp'):?>
-      <span class='index-important'>L'édition 2015 a été un grand succès, avec plus de .... participants</span>  dans près de ... établissements&nbsp;!</p> 
+      </p><p><span class='index-important' style='color:red'>L'édition 2015 a été un grand succès, avec plus de 340 000 participants</span>  dans près de 2300 établissements&nbsp;!</p> 
       <p>
-      <span class='index-important'>Les élèves participants et leurs coordinateurs peuvent désormais consulter les résultats.</span> Le classement définitif sera annoncé le 30 Novembre.
-   <?php elseif (false && contest_phase() == 'contest-results'):?>
-      L'édition 2015 a été un grand succès, avec plus de <span class='index-important'>... participants</span>  dans près de ... établissements&nbsp;!</p> 
+      <span class='index-important'>Les coordinateurs peuvent consulter les scores sur leur <a href="http://coordinateur.castor-informatique.fr">interface coordinateur</a></span>, et corriger les éventuelles erreurs dans les noms des participants ou marquer les participations hors classement.
+      </p>
+      <p>
+      Le classement définitif sera annoncé vers le 10 décembre, le temps pour les coordinateurs de faire les corrections nécessaires.
+      </p>
+   <?php elseif (contest_phase() == 'contest-results'):?>
    <?php endif; ?>
    </p>
 
    <p style="text-align: center">
-      <input class="plateforme-button" type="submit" value="Aller au concours" onclick="document.location = 'http://concours.castor-informatique.fr'"> 
+<!--      <input class="plateforme-button" type="submit" value="Aller au concours" onclick="document.location = 'http://concours.castor-informatique.fr'"> 
       <?php if (contest_phase() == 'contest-results-temp'):?>
       <input class="plateforme-button" type="submit" value="Accès aux résultats de l'édition 2013" onclick="document.location = 'resultats.php'">
-      <?php endif; ?>
+      <?php endif; ?>-->
       <?php if (true):?>
       <input class="plateforme-button" type="submit" value="S'entraîner sur les sujets passés" onclick="document.location = 'http://concours.castor-informatique.fr?tab=home'">
-      <?php endif; ?>
-      <?php if (contest_phase() == 'contest-results'):?>
-      <input class="plateforme-button" type="submit" value="Accès aux résultats et statistiques" onclick="document.location = 'resultats.php'">
       <?php endif; ?>
    </p>
 
 </div>
+
+<?php //******************************************************************** ?>
+<?php if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'):?>
+
+   <h1>Résultats 2015</h1>
+
+   <p><span class='index-important'>
+      L'édition 2015 a été un grand succès, avec plus de <span class='index-important'>345 000 participants</span>  dans 2286 établissements&nbsp;!</span>
+   </p>
+   <p>
+   Les participants peuvent <a href="http://concours.castor-informatique.fr?tab=continue">accéder à leur score</a> en utilisant leur code d'accès personnel fourni au début du concours.</p>
+   <p>
+   Les coordinateurs peuvent accéder aux scores de tous leurs élèves sur <a href="http://coordinateur.castor-informatique.fr">l'interface coordinateur</a>.
+   </p>
+   <p>
+   Les 10% meilleurs de chaque catégorie sont qualifiés pour le 1er tour du <a href="http://algorea.org">concours Algoréa</a>,<br/>qui se déroulera <span style="font-weight:bold">du 1er au 7 février 2016</span>.
+   </p>
+   <p style="text-align:center">
+      <input class="plateforme-button" type="submit" value="Accès aux résultats du Castor 2015" onclick="document.location = 'resultats.php'">
+   </p>
+<!--
+      <p style="float:clear">8200 élèves classés parmi les 10% meilleurs du Castor 2014 ont participé au concours <a href="http://algorea.org">Algoréa 2015</a>, et ont progressé au fil des 4 tours du concours, jusqu'à la finale, à laquelle 19 élèves de la 6ème à la 1ère ont été invités.</p>
+-->
+<?php endif; ?>
+
+
 <!--
 <div style="text-align:center">
    <div style="border: 2px solid gray;padding:0.5em;margin:0.5em;font-size:110%">
@@ -136,13 +161,7 @@ Rejoignez-nous sur :
 </div>
 -->
 <?php //******************************************************************** ?>
-<h1>Participer à l'édition 2015</h1>
-
-<div style="text-align:center">
-   <div style="font-weight: bold; border: 2px solid gray;padding:0.5em;margin:0.5em;font-size:110%; background-color: #FFEEEE">
-   <p>NOUVEAU : le concours est maintenant aussi ouvert aux élèves de CM1 et CM2.</p>
-   </div>
-</div>
+<h1>Participer à l'édition 2016</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
    <p>La prochaine édition du concours Castor aura lieu du 14 au 21 novembre 2015.</p>
@@ -156,17 +175,17 @@ Rejoignez-nous sur :
    exemple votre professeur de mathématiques ou de technologie.
    </ul>
 <?php else:?>
-   <p>La prochaine édition du concours Castor aura lieu en novembre 2015.</p>
+   <p>La prochaine édition du concours Castor aura lieu en novembre 2016.</p>
    <p>Si vous êtes enseignant, <a href="http://coordinateur.castor-informatique.fr">inscrivez-vous</a>
-   dès maintenant comme coordinateur. La création des groupes sera bientôt ouverte.</p>
+   dès maintenant comme coordinateur.</p>
 
-   <p>En attendant l'édition 2015 du Castor, vous pouvez <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
+   <p>En attendant l'édition 2016 du Castor, vous pouvez <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
 
    <!--<p>En attendant, il est possible de <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a>.</p>-->
 <?php endif; ?>
-
+<!--
 <p>En attendant le concours, <a href='http://concours.castor-informatique.fr?tab=home'>rejouez les concours passés</a> ou apprenez la programmation<br/>sur <a href="http://www.france-ioi.org/">France-ioi.org</a>&nbsp;!
-
+-->
 
 <!--
    <h1>Après le Castor : Concours Algoréa 2015</h1>
@@ -189,7 +208,7 @@ données, jeux de logique, informatique et société.</p>
 <p>
 <!--Points clés à retenir :-->
 <ul>
-<li>Le concours dure <font class='index-important'>45 minutes</font> et comporte environ 18 questions interactives.</li>
+<li>Le concours dure <font class='index-important'>45 minutes</font> et comporte environ 12 questions interactives.</li>
 <li>Il est <font class='index-important'>gratuit</font> et ne requiert <font class='index-important'>aucune connaissance préalable</font>  en informatique.</li>
 <li>Le concours est ouvert du CM1 à la terminale, et s'adapte au niveau des élèves.</li>
 <li>Les élèves participent seuls ou par binômes, en salle informatique.</li>
@@ -202,9 +221,6 @@ données, jeux de logique, informatique et société.</p>
 </ul>
 </p>
 
-<p><font style="font-weight:bold">Nouveau</font> : la difficulté des questions s'adaptera automatiquement au niveau de chaque participant.</p>
-
-
 <?php if (false): ?>
    <p>
    Des informations détaillées sont disponibles dans le 
@@ -212,40 +228,14 @@ données, jeux de logique, informatique et société.</p>
    </p>
 <?php endif; ?>
 
-<?php //******************************************************************** ?>
-<?php if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'):?>
-
-   <h1>Résultats 2014</h1>
-
-   <table><tr><td style='vertical-align:top; padding-right: 1em'>
-      <p>
-      Les participants peuvent <a href="http://concours.castor-informatique.fr?tab=continue">accéder à leur score</a> en utilisant leur code d'accès personnel fourni au début du concours.</p>
-      <p>
-      Les coordinateurs peuvent accéder aux scores de tous leurs élèves sur <a href="http://coordinateur.castor-informatique.fr">l'interface coordinateur</a>.
-      </p>
-      <?php if (contest_phase() == 'contest-results'):?>
-      <p>Pour voir la distribution des scores, consultez le <a href="resultats.php">bilan du Castor 2014</a>.</p>
-      <?php endif; ?>
-   </td><td>
-      <?php if (contest_phase() == 'contest-results'): ?>
-      <div style='text-align:center'>
-      <span style='font-size: larger'>Nombre de participants au concours Castor</span><br />
-      <a href='resultats.php'><img src='img/participation.png' alt='Cliquez pour accéder aux statistiques détaillées.' width='375' height='176' /> </a></div>
-      <?php endif; ?>
-   </td></tr></table>
-      <p style="float:clear">8200 élèves classés parmi les 10% meilleurs du Castor 2014 ont participé au concours <a href="http://algorea.org">Algoréa 2015</a>, et ont progressé au fil des 4 tours du concours, jusqu'à la finale, à laquelle 19 élèves de la 6ème à la 1ère ont été invités.</p>
-
-<?php endif; ?>
-
-
 <?php if (true):
 ?>
 <?php //******************************************************************** ?>
-<h1>Exemple de sujet</h1>
+<!--<h1>Exemple de sujet</h1>
 
 <div style="font-size: 1.25em; color: black; font-weight: bold; font-family: arial; margin-top: 1em">Traverser le pont</div>
 <iframe style="width: 750px; height: 420px;" class="question-frame" id="questionFrame2" onload="initQuestionFrame('questionFrame2')" src="questions/2014/2014-FR-06-bridge/index.html
-?options=%7B%22difficulty%22%3A%22easy%22%2C%20%22hideTitle%22%3A1%7D"></iframe>
+?options=%7B%22difficulty%22%3A%22easy%22%2C%20%22hideTitle%22%3A1%7D"></iframe>-->
 <?php endif; ?>
 
 
