@@ -1,1 +1,0 @@
-image generated using plateforme/stats/participation.html
