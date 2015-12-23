@@ -123,6 +123,8 @@ $(function() {
    Alice C.,
    Amaury P.,
    Anatole C.,
+   André C.,
+   Arnaud C.,
    Arthur L.,
    Benjamin B.,
    David C.,
@@ -130,8 +132,10 @@ $(function() {
    Ismael B.,
    Jérémie M.,
    Josefa B.,
+   Julien R.,
    Louis J.,
-   Marielle L.
+   Marielle L.,
+   Martin C.,
    Mehdi B.,
    Téodor S.,
    et quelques autres

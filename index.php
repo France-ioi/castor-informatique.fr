@@ -86,7 +86,8 @@ Rejoignez-nous sur :
 
    <div style='float:right; text-align: center; margin-left:1em'>
       <span style='font-size: normal'>Nombre de participants au concours Castor</span><br />
-      <a href='resultats.php'><img src='img/participation.png' alt='Cliquez pour accéder aux statistiques détaillées.' width='333' style='margin-top:0.5em' /> </a>
+      <a href='resultats.php'><img src='img/participation.png' alt='Cliquez pour accéder aux statistiques détaillées.' width='340' height='151' style='margin-top:0.5em' /> </a>
+      <!--  -->
    </div>
       <?php //   width='375' height='176' ?>
       
