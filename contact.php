@@ -28,11 +28,6 @@
 Si vous avez une question, vérifiez d'abord que la réponse n'est pas donnée dans <a href="manuel.php">le manuel</a>, puis contactez-nous par e-mail à <a href="mailto:info@castor-informatique.fr">info@castor-informatique.fr</a>.
 </p>
 
-<h1>Liste de diffusion</h1> 
-
-<p>
-Si vous souhaitez recevoir occasionnellement des e-mails d'information sur le concours Castor (ouverture du prochain concours,
-annonce des résultats, etc.), abonnez-vous à notre liste de diffusion, en nous contactant par email :
 
 <?php //******************************************************************** ?>
 <!--
