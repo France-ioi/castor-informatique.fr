@@ -61,7 +61,7 @@ Rejoignez-nous sur :
 
 <div class="submenu">
 <h1>Organisateurs</h1>
-<a href="http://www.ens-cachan.fr/" class="menu-logo"><img width="75%" src="img/logo_ensc_bleu.png" alt="stef-ENS" class="logo-img"></a>
+<a href="http://www.ens-cachan.fr/" class="menu-logo"><img width="95%" src="img/logo_ensc_bleu.png" alt="stef-ENS" class="logo-img"></a>
 <a href="http://www.france-ioi.org" class="menu-logo"><img width="80%" src="img/logo_franceioi.jpg"  alt="france-ioi" class="logo-img"></a>
 <a href="http://www.inria.fr" class="menu-logo"><img width="95%" src="img/logo_inria.png" alt="inria" class="logo-img" style="margin-bottom:15px;"></a>
 </div>
