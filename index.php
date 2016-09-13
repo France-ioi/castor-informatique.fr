@@ -62,7 +62,7 @@ Rejoignez-nous sur :
 <div class="submenu">
 <h1>Organisateurs</h1>
 <a href="http://www.ens-cachan.fr/" class="menu-logo"><img width="95%" src="img/logo_ensc_bleu.png" alt="stef-ENS" class="logo-img"></a>
-<a href="http://www.france-ioi.org" class="menu-logo"><img width="80%" src="img/logo_franceioi.jpg"  alt="france-ioi" class="logo-img"></a>
+<a href="http://www.france-ioi.org" class="menu-logo"><img width="80%" src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a>
 <a href="http://www.inria.fr" class="menu-logo"><img width="95%" src="img/logo_inria.png" alt="inria" class="logo-img" style="margin-bottom:15px;"></a>
 </div>
 
@@ -84,6 +84,9 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <div>
 
+<!--   <div style="background-color:#FFF0F0;border:solid black 1px;padding:5px">Les résultats du 1er tour du concours Algoréa 2016 <a href="resultats_algorea2016.php">sont disponibles</a>.</div>
+<br/>
+-->
    <div style='float:right; text-align: center; margin-left:1em'>
       <span style='font-size: normal'>Nombre de participants au concours Castor</span><br />
       <a href='resultats.php'><img src='img/participation.png' alt='Cliquez pour accéder aux statistiques détaillées.' width='340' height='151' style='margin-top:0.5em' /> </a>
@@ -91,6 +94,7 @@ Rejoignez-nous sur :
    </div>
       <?php //   width='375' height='176' ?>
       
+
    <p style='font-weight: bold'>Le concours Castor vise à faire découvrir aux jeunes l'informatique et les sciences du numérique.</p>
    <p>
    Le concours est organisé tous les ans, vers le début du mois de novembre. Il se déroule 
@@ -98,11 +102,11 @@ Rejoignez-nous sur :
    <!-- L'édition 2013 a été un grand succès, avec près de <span class='index-important'>180&nbsp;000&nbsp;participants</span> répartis
    dans 1700&nbsp;collèges et lycées de toute la France.-->
    <?php if (contest_phase() == 'contest-soon'):?>
-      </p><p><span class='index-important'>L'édition 2015 se prépare ! Elle aura lieu du samedi 14 novembre à 7h au samedi 21 novembre à 20h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2016 se prépare ! Elle aura lieu du samedi 5 novembre à 8h au samedi 19 novembre à 20h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-running'):?>
-      </p><p><span class='index-important'>L'édition 2015 est en cours ! Elle se déroule du samedi 14 novembre à 7h au samedi 21 novembre à 20h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2016 est en cours ! Elle se déroule du samedi 5 novembre à 8h au samedi 19 novembre à 20h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
-      </p><p><span class='index-important'>L'édition 2015 vient de se terminer.</span> 
+      </p><p><span class='index-important'>L'édition 2016 vient de se terminer.</span> 
       <p>
       <span style="color:red">Le calcul de tous les scores va demander un peu de temps. Les résultats seront disponibles dans les jours à venir.</span>
    <?php elseif (contest_phase() == 'contest-results-temp'):?>
@@ -165,7 +169,7 @@ Rejoignez-nous sur :
 <h1>Participer à l'édition 2016</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
-   <p>La prochaine édition du concours Castor aura lieu du 14 au 21 novembre 2015.</p>
+   <p>La prochaine édition du concours Castor aura lieu du 5 au 19 novembre 2016.</p>
    <ul>
    <li>
    Si vous êtes enseignant, <a href="http://coordinateur.castor-informatique.fr">inscrivez-vous</a>
@@ -247,16 +251,24 @@ données, jeux de logique, informatique et société.</p>
 
 
 <?php //******************************************************************** ?>
-<h1>Au delà du concours</h1>
+<h1>Au delà du concours Castor</h1>
 
 <p>
 Le Castor n'est qu'un premier pas vers la découverte de
-l'informatique. Pour continuer, nous vous recommandons&nbsp;
-<a href="http://www.france-ioi.org/">France-ioi</a>
-et <a href="http://javascool.gforge.inria.fr/">Java's Cool</a>,
-qui proposent de nombreux cours et exercices pour progresser dans les
-domaines de la programmation et de l'algorithmique.
-Par ailleurs,
+l'informatique.
+</p>
+<p>
+L'étape suivante est le concours <a href="http://algorea.org">Algoréa</a>, ouvert à partir du mois janvier, destiné à accompagner les élèves au fil de leur apprentissage de la programmation et de l'algorithmique.
+</p>
+<p>
+<font class='index-important'>Nouveauté cette année :</font> le langage Scratch pourra être utilisé pour résoudre les défis de programmation du concours Algoréa.
+</p>
+<p>
+Pour progresser au fil de l'année et entre les différentes étapes du concours, <a href="http://www.france-ioi.org/">France-ioi</a> propose de nombreux cours et exercices dans les domaines de la programmation et l'algorithmique. Des contenus adaptés aux plus jeunes sont actuellement en préparation.
+</p>
+<p>Nous recommendons également <a href="http://javascool.gforge.inria.fr/">Java's Cool</a>, pour apprendre une version simplifiée de java au travers de nombreuses activités.</p>
+<p>
+Enfin,
 <a href="http://interstices.info/">Interstices</a> vous permet de 
 découvrir les sciences du numérique.
 </p>
@@ -264,11 +276,10 @@ découvrir les sciences du numérique.
 <?php //******************************************************************** ?>
 <h1>À propos du Castor</h1>
 
-<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 36 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment la même semaine, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection d'une trentaine de sujets, dont certains sont communs à plusieurs niveaux.
-Environ 929 000 élèves ont participé à l'épreuve 2014 dans le monde.
+<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment la même semaine, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 1,3 million d'élèves ont participé au concours Castor 2015 dans le monde.
 </p>
 <p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Cachan</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
-
+<!--
 <h1>Affiches</h1>
 <p>Pour faire connaîre le concours autour de vous, vous pouvez imprimer les affiches suivantes :</p>
 <p>
@@ -281,6 +292,7 @@ Environ 929 000 élèves ont participé à l'épreuve 2014 dans le monde.
 </tr>
 </table>
 </p>
+-->
 <?php page_footer(); ?>
 
 </div><!--mainbar-->

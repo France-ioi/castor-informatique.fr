@@ -41,7 +41,7 @@ sur simple demande à info@castor-informatique.fr.
 <p>
 Le présent site a fait l'objet d'une déclaration auprès de la
 Commission Nationale de l'Informatique et des Libertés (CNIL) sous le
-numéro 1531715.
+numéro 1987546 v 0.
 </p>
 <p>
 Conformément à la loi "Informatique et Libertés" du 06/01/1978, 

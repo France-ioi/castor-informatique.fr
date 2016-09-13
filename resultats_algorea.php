@@ -28,7 +28,7 @@ function loadMap() {
 <body>
 <center>
 
-<?php page_header("Résultats du premier tour Algoréa"); ?>
+<?php page_header("Résultats du premier tour Algoréa'2015"); ?>
 		
 <div id="content">
 
@@ -57,7 +57,9 @@ if ($contest_phase == 'contest-running'):?>
 
 <?php endif; if ($contest_phase == 'contest-results-temp' || $contest_phase == 'contest-results' || $contest_phase == 'contest-soon'): ?>
 
-<h1>Résultats du premier tour Algoréa</h1>
+<h1>Résultats du premier tour Algoréa 2015</h1>
+
+Pour les résultats du premier tour Algoréa 2016, allez sur <a href="resultats_algorea2016.php">cette page</a>
 
 <table class="results-table">
 <tr>

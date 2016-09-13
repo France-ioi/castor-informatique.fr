@@ -49,7 +49,7 @@ $(function() {
 <div id="years-2015">
    <table width="100%" style="margin-top:1em"><tr>
    <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=200 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>
-   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi.jpg"  alt="france-ioi" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a></td>
    <td width="33%" align="center"><a href="http://www.inria.fr"><img width=200 src="img/logo_inria.png" alt="inria" class="logo-img"></a></td></tr></table>
 
    <table class="orga-table">
@@ -207,8 +207,8 @@ $(function() {
 </div>
 <div id="years-2014">
    <table width="100%" style="margin-top:1em"><tr>
-   <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=130 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>
-   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi.jpg"  alt="france-ioi" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=200 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a></td>
    <td width="33%" align="center"><a href="http://www.inria.fr"><img width=200 src="img/logo_inria.png" alt="inria" class="logo-img"></a></td></tr></table>
 
    <table class="orga-table">
@@ -379,8 +379,8 @@ $(function() {
 </div>
 <div id="years-2013">
    <table width="100%" style="margin-top:1em"><tr>
-   <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=130 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>
-   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi.jpg"  alt="france-ioi" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=200 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a></td>
    <td width="33%" align="center"><a href="http://www.inria.fr"><img width=200 src="img/logo_inria.png" alt="inria" class="logo-img"></a></td></tr></table>
 
    <table class="orga-table">
@@ -594,8 +594,8 @@ $(function() {
 <div id="years-2012">
 
    <table width="100%" style="margin-top:1em"><tr>
-   <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=130 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>
-   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi.jpg"  alt="france-ioi" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=200 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a></td>
    <td width="33%" align="center"><a href="http://www.inria.fr"><img width=200 src="img/logo_inria.png" alt="inria" class="logo-img"></a></td></tr></table>
 
    <table class="orga-table">
@@ -795,8 +795,8 @@ $(function() {
 <div id="years-2011">
    <table width="100%" style="margin-top:1em">
       <tr>
-         <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=130 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>
-         <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi.jpg"  alt="france-ioi" class="logo-img"></a></td>
+         <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=200 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>
+         <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a></td>
          <td width="33%" align="center"><a href="http://www.inria.fr"><img width=200 src="img/logo_inria.png" alt="inria" class="logo-img"></a></td>
       </tr>
    </table>
