@@ -279,20 +279,20 @@ découvrir les sciences du numérique.
 <p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment la même semaine, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 1,3 million d'élèves ont participé au concours Castor 2015 dans le monde.
 </p>
 <p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Cachan</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
-<!--
+
 <h1>Affiches</h1>
 <p>Pour faire connaîre le concours autour de vous, vous pouvez imprimer les affiches suivantes :</p>
 <p>
 <table style="text-align:center;font-weight:bold">
 <tr><td>Affiche CM1/CM2</td><td>Affiche collège</td><td>Affiche lycée</td></tr>
 <tr>
-   <td style="padding:10px"><a href="documents/poster_castor_2015_primaire.pdf" target="new"><img src="img/poster_castor_2015_primaire.png" style="width:100%;margin:10px"></a></td>
-   <td style="padding:10px"><a href="documents/poster_castor_2015_college.pdf" target="new"><img src="img/poster_castor_2015_college.png" style="width:100%;margin:10px"></a></td>
-   <td style="padding:10px"><a href="documents/poster_castor_2015_lycee.pdf" target="new"><img src="img/poster_castor_2015_lycee.png" style="width:100%;margin:10px"></a></td>
+   <td style="padding:10px"><a href="documents/poster_castor_2016_primaire.pdf" target="new"><img src="img/poster_castor_2016_primaire.png" style="width:100%;margin:10px"></a></td>
+   <td style="padding:10px"><a href="documents/poster_castor_2016_college.pdf" target="new"><img src="img/poster_castor_2016_college.png" style="width:100%;margin:10px"></a></td>
+   <td style="padding:10px"><a href="documents/poster_castor_2016_lycee.pdf" target="new"><img src="img/poster_castor_2016_lycee.png" style="width:100%;margin:10px"></a></td>
 </tr>
 </table>
 </p>
--->
+
 <?php page_footer(); ?>
 
 </div><!--mainbar-->
