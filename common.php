@@ -106,7 +106,7 @@ function page_menu_full() { ?>
 <?php //******************************************************************** ?>
 <?php function page_tracker() { 
    global $useTracker;
-   if ($useTracker):   
+   if (false):   
 ?> 
 <script type="text/javascript">
 

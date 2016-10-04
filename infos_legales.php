@@ -53,11 +53,23 @@ l'adresse info@castor-informatique.fr.
 
 <h1>Éditeur</h1>
 <p>
-Ecole normale Supérieure de Cachan 61, avenue du Président Wilson F-94235 Cachan cedex<br>
-Téléphone : 01 47 40 76 09.<br>
-Directrice de la publication : Françoise Tort.<br>
-info@castor-informatique.fr.<br>
+Association France-ioi, Chez Jacques-Henri Jourdan, 42, rue de Cronstadt, 75015 Paris<br/>
+Téléphone : 09 52 88 41 91<br/>
+Directeur de publication : Mathias Hiron<br/>
+info@castor-informatique.fr
 </p>
+<h2>Hébergeur</h2>
+<p>
+La plateforme du concours et les données personnelles sont hébergées par l'Association France-ioi sur des serveurs AWS-EC2 (sous-domaines concours.castor-informatique.fr et coordinateur.castor-informatique.fr).
+</p>
+<p>
+Les pages de présentation du concours sont hébergées par :
+<p>
+Société Aqua Ray SARL. 14 rue Jules Vanzuppe.<br/>
+94200 Ivry-Sur-Seine. France.<br/>
+http://www.aquaray.fr<br/>
+Tel : 08 20 29 01 08 (0,13 euros/min)<br/>
+<p>
 
 <h1>Hébergeur</h1>
 <P>

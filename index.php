@@ -69,7 +69,7 @@ Rejoignez-nous sur :
 <div class="submenu">
 <h1>Partenaires</h1>
 <a href="http://www.capmaths.fr/" class="menu-logo"><img width="50%" src="img/logo_capmaths.png" alt="CapMaths" class="logo-img" style="padding-bottom: 15px"></a>
-<a href="http://www.gouvernement.fr/les-investissements-d-avenir" class="menu-logo"><img width="60%" src="img/logo_investissements_davenir.png" alt="investissements d'avenir" class="logo-img"></a>
+<a href="http://www.gouvernement.fr/programme-investissements-avenir" class="menu-logo"><img width="60%" src="img/logo_investissements_davenir.png" alt="investissements d'avenir" class="logo-img"></a>
 <a href="http://www.assopascaline.fr" class="menu-logo"><img width="95%" src="img/logo_pascaline.jpg" alt="pascaline" class="logo-img"></a>
 <a href="http://www.cnrs.fr/ins2i/" class="menu-logo"><img width="55%" src="img/logo_cnrs.gif" alt="cnrs" class="logo-img"></a>
 <a href="http://www.systematic-paris-region.org/" class="menu-logo"><img width="55%" src="img/logo_systematic.jpg" alt="Systematic Paris Region" class="logo-img" ></a>
