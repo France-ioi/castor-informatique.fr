@@ -39,6 +39,7 @@ $(function() {
 
 <div id="years">
    <ul class="years">
+      <li><a href="#years-2016">2016</a></li>
       <li><a href="#years-2015">2015</a></li>
       <li><a href="#years-2014">2014</a></li>
       <li><a href="#years-2013">2013</a></li>
@@ -46,6 +47,128 @@ $(function() {
       <li><a href="#years-2011">2011</a></li>
    </ul>
 <!---------------------------------------------------------------------------------->
+<div id="years-2016">
+   <table width="100%" style="margin-top:1em"><tr>
+   <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=200 src="img/logo_ens_paris_saclay.png" alt="ENS" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.inria.fr"><img width=200 src="img/logo_inria.png" alt="inria" class="logo-img"></a></td></tr></table>
+
+   <table class="orga-table">
+
+   <tr>
+   <td style="width:40%">Organisation et coordination</td>
+   <td>
+      Arthur Charguéraud - Inria - France-ioi<br />
+      Mathias Hiron - France-ioi<br />
+      Françoise Tort - STEF, ENS Cachan<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Relations partenaires</td>
+   <td>
+      Sylvie Boldo - Inria<br />
+      Thierry Vieville - Inria<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Suivi des inscriptions</td>
+   <td>
+      Françoise Tort - STEF, ENS Cachan<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Plateforme du concours</td>
+   <td>
+      Mathias Hiron - France-ioi<br />
+      Élie Roux - Consultant<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Comité de sélection des sujets</td>
+   <td>
+      Arthur Charguéraud - Inria - France-ioi<br/>
+      Mathias Hiron - France-ioi<br />
+      Françoise Tort - STEF, ENS Cachan<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Préparation du contenu des sujets
+   </td>
+   <td>
+      Sylvie Boldo - Inria<br />
+      Arthur Charguéraud - Inria - France-ioi<br />
+      Mathias Hiron - France-ioi<br />
+      Françoise Tort - STEF, ENS Cachan<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Développement des sujets interactifs</td>
+   <td>
+      Arthur Charguéraud - Inria - France-ioi<br/>
+      Mathias Hiron - France-ioi<br/>
+      Nir Lavee - Consultant<br/>
+   </td>
+   </tr>
+   <!--
+   <tr>
+   <td>Tests de la plateforme <br/>et des sujets</td>
+   <td>
+   </tr>
+   -->
+   <tr>
+   <td>Hotline pendant le concours</td>
+   <td>
+      Mathias Hiron - France-ioi<br />
+   </td>
+   </tr>
+   <tr>
+
+   <tr>
+   <td>Représentation de la France au ‘BEBRAS Workshop’</td>
+   <td>
+      Alexandre Talon - France-ioi<br />
+   </td>
+   </tr>
+
+   <td>Représentants des partenaires</td>
+   <td>
+      Martin Andler (Cap Maths)<br/>
+      Jean Pierre Cocquerez (CNRS/IN2I)<br />
+      Christian Colmant (@Pascaline)<br />
+      Christian Hamon (Tour 123)<br/>
+      Sylvie Boldo (Systematic)<br />
+   </td>
+   </tr>
+
+   </table>
+      
+
+   <h1>Partenaires</h1>
+
+
+   <table class="partenaires-table"><tr>
+   <td><a href="http://www.systematic-paris-region.org/"><img width=80 src="img/logo_systematic.jpg"  alt="systematic" class="logo-img"></a></td>
+   <td><a href="http://www.capmaths.fr/" class="menu-logo"><img width="80" src="img/logo_capmaths.png" alt="CapMaths" class="logo-img"></a></td>
+   <td><a href="http://www.assopascaline.fr"><img width=130 src="img/logo_pascaline.jpg" alt="Pascaline" class="logo-img"></a></td>
+   <td><a href="http://www.cnrs.fr/ins2i/"><img width=70 src="img/logo_cnrs.gif"  alt="cnrs" class="logo-img"></a></td>
+   <td><a href="http://tour123.wordpress.com/"><img width=90 src="img/logo_tour123.png"  alt="tour123" class="logo-img"></a></td>
+
+   </tr></table>
+   </p>
+   <h1>Autres remerciements</h1>
+   <p>
+   Nous remercions l'ensemble des responsables du concours Castor <a href="http://bebras.org">au niveau international</a>, et les nombreux auteurs de sujets.
+   </p>
+   <p>
+   Et un grand merci à tous les enseignants et leurs établissements, qui organisent le concours partout en France et ailleurs. 
+   </p>
+</div>
 <div id="years-2015">
    <table width="100%" style="margin-top:1em"><tr>
    <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=200 src="img/logo_ensc_bleu.png" alt="ENS" class="logo-img"></a></td>

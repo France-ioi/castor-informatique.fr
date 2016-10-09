@@ -51,17 +51,12 @@ Rejoignez-nous sur :
     </a>
   </td>
 </tr>
-<tr>
-<td align="center" colspan="2">
-   <a href="http://experimentation.viaeduc.fr/group/344">
-      <img height="35px" src="img/viaeduc.png">
-   </a>   
 </table>
 </div>
 
 <div class="submenu">
 <h1>Organisateurs</h1>
-<a href="http://www.ens-cachan.fr/" class="menu-logo"><img width="95%" src="img/logo_ensc_bleu.png" alt="stef-ENS" class="logo-img"></a>
+<a href="http://www.ens-cachan.fr/" class="menu-logo"><img width="95%" src="img/logo_ens_paris_saclay.png" alt="ENS Paris-Saclay" class="logo-img"></a>
 <a href="http://www.france-ioi.org" class="menu-logo"><img width="80%" src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a>
 <a href="http://www.inria.fr" class="menu-logo"><img width="95%" src="img/logo_inria.png" alt="inria" class="logo-img" style="margin-bottom:15px;"></a>
 </div>
@@ -278,7 +273,7 @@ découvrir les sciences du numérique.
 
 <p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment la même semaine, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 1,3 million d'élèves ont participé au concours Castor 2015 dans le monde.
 </p>
-<p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Cachan</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
+<p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Paris-Saclay</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
 
 <h1>Affiches</h1>
 <p>Pour faire connaîre le concours autour de vous, vous pouvez imprimer les affiches suivantes :</p>

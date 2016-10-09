@@ -58,7 +58,8 @@ Téléphone : 09 52 88 41 91<br/>
 Directeur de publication : Mathias Hiron<br/>
 info@castor-informatique.fr
 </p>
-<h2>Hébergeur</h2>
+
+<h1>Hébergeur</h1>
 <p>
 La plateforme du concours et les données personnelles sont hébergées par l'Association France-ioi sur des serveurs AWS-EC2 (sous-domaines concours.castor-informatique.fr et coordinateur.castor-informatique.fr).
 </p>
@@ -70,14 +71,6 @@ Société Aqua Ray SARL. 14 rue Jules Vanzuppe.<br/>
 http://www.aquaray.fr<br/>
 Tel : 08 20 29 01 08 (0,13 euros/min)<br/>
 <p>
-
-<h1>Hébergeur</h1>
-<P>
-Société Aqua Ray SARL. 14 rue Jules Vanzuppe.<br/>
-94200 Ivry-Sur-Seine. France.<br/>
-<a href="http://aquaray.fr">http://www.aquaray.fr</a><br/>
-Tel : 08 20 29 01 08 (0,13 euros/min)<br/>
-</p>
 
 </div><!--infos-->
 
