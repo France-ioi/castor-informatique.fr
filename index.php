@@ -208,12 +208,12 @@ données, jeux de logique, informatique et société.</p>
 <p>
 <!--Points clés à retenir :-->
 <ul>
-<li>Le concours dure <font class='index-important'>45 minutes</font> et comporte environ 12 questions interactives.</li>
+<li>Le concours dure <font class='index-important'>45 minutes</font> et comporte environ 12 questions interactives, chacune déclinée en 3 versions de difficulté croissante.</li>
 <li>Il est <font class='index-important'>gratuit</font> et ne requiert <font class='index-important'>aucune connaissance préalable</font>  en informatique.</li>
 <li>Le concours est ouvert du CM1 à la terminale, et s'adapte au niveau des élèves.</li>
 <li>Les élèves participent seuls ou par binômes, en salle informatique.</li>
-<li>Le concours se déroule sur une semaine, au mois de novembre. <!--du 12 au 19 novembre inclus.--></li>
-<li>Il peut être effectué à n'importe quel moment de cette semaine.</li>
+<li>Le concours se déroule sur deux semaines, au mois du 5 au 19 novembre inclus.</li>
+<li>Il peut être effectué à n'importe quel moment de cette période.</li>
 <li>Des corrections détaillées sont proposées peu après la clôture.</li>
 <li>Des diplômes sont offerts aux participants selon leur score.</li>
 <li>Les 10% meilleurs de chaque niveau sont qualifiés pour le <a href="http://www.algorea.org">concours Algoréa</a>.</li>
@@ -271,7 +271,7 @@ découvrir les sciences du numérique.
 <?php //******************************************************************** ?>
 <h1>À propos du Castor</h1>
 
-<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment la même semaine, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 1,3 million d'élèves ont participé au concours Castor 2015 dans le monde.
+<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment à la même période, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 1,3 million d'élèves ont participé au concours Castor 2015 dans le monde.
 </p>
 <p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Paris-Saclay</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
 
