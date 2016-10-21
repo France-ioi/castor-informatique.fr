@@ -61,7 +61,7 @@ Non malheureusement. Les premières années nous proposions une version texte ad
 <p>Les inscriptions sont ouvertes toute l'année. Si vous êtes enseignant et souhaitez faire participer votre établissement, inscrivez-vous sur <a href='http://coordinateur.castor-informatique.fr'>coordinateur.castor-informatique.fr</a>. Vous pouvez à tout moment organiser des épreuves d'entraînement avec vos élèves sur les sujets des concours des années passées. La création des groupes pour le concours officiel ouvre généralement courant ou fin septembre.</p>
 
 <h2>Quelle est la date limite d'inscription&nbsp;?</h2>
-<p>Il n'y a pas de date limite d'inscription, et il sera encore possible de s'inscrire pendant la semaine du concours. Nous vous conseillons cependant de vous inscrire sans attendre comme coordinateur de votre établissement. Vous serez alors libre de définir ou modifier les détails de la participation de votre établissement.</p>
+<p>Il n'y a pas de date limite d'inscription, et il sera encore possible de s'inscrire pendant la période du concours. Nous vous conseillons cependant de vous inscrire sans attendre comme coordinateur de votre établissement. Vous serez alors libre de définir ou modifier les détails de la participation de votre établissement.</p>
 
 <h2>Doit-il y avoir un seul coordonnateur, ou coordinatrice, par établissement&nbsp;? </h2>
 <p>
@@ -89,7 +89,7 @@ Pas nécessairement. Aucun prérequis n'est nécessaire. Il est néanmoins possi
 
 <h2>L'épreuve se déroule-t-elle un jour précis à une heure précise&nbsp;?</h2>
 <p>
-L'enseignant(e) organise les sessions sur les plages horaires qui lui conviennent, dans la semaine du concours. Il/elle donne une date et un horaire indicatifs au moment de la création de chaque groupe d'élèves qui participera au concours au même niveau et en même temps.
+L'enseignant(e) organise les sessions sur les plages horaires qui lui conviennent, dans la période du concours. Il/elle donne une date et un horaire indicatifs au moment de la création de chaque groupe d'élèves qui participera au concours au même niveau et en même temps.
 Attention à bien enregistrer plusieurs groupes si plusieurs ensembles d'élèves de même niveau participent à des moments différents.
 </p>
 
