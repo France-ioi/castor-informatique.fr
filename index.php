@@ -117,10 +117,10 @@ Rejoignez-nous sur :
    </p>
 
    <p style="text-align: center">
-<!--      <input class="plateforme-button" type="submit" value="Aller au concours" onclick="document.location = 'http://concours.castor-informatique.fr'"> 
+      <input class="plateforme-button" type="submit" value="Aller au concours" onclick="document.location = 'http://concours.castor-informatique.fr'"> 
       <?php if (contest_phase() == 'contest-results-temp'):?>
       <input class="plateforme-button" type="submit" value="Accès aux résultats de l'édition 2013" onclick="document.location = 'resultats.php'">
-      <?php endif; ?>-->
+      <?php endif; ?>
       <?php if (true):?>
       <input class="plateforme-button" type="submit" value="S'entraîner sur les sujets passés" onclick="document.location = 'http://concours.castor-informatique.fr?tab=home'">
       <?php endif; ?>
@@ -164,11 +164,11 @@ Rejoignez-nous sur :
 <h1>Participer à l'édition 2016</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
-   <p>La prochaine édition du concours Castor aura lieu du 5 au 19 novembre 2016.</p>
+   <p>L'édition 2016 du concours Castor est en cours. Elle a lieu du 5 au 19 novembre 2016.</p>
    <ul>
    <li>
-   Si vous êtes enseignant, <a href="http://coordinateur.castor-informatique.fr">inscrivez-vous</a>
-   dès maintenant comme coordinateur. La création des groupes sera bientôt ouverte.
+   Si vous êtes enseignant, vous pouvez encore vous <a href="http://coordinateur.castor-informatique.fr">inscrire</a>
+   comme coordinateur.
    </li>
    <li>
    Si vous êtes élève, parlez du concours à un enseignant, par
