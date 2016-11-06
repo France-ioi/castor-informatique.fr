@@ -47,7 +47,7 @@ function loadMap() {
 
 <h1>Résultats</h1>
 
-<p>Le concours se déroule du 14 au 21 novembre. <span style='font-weight:bold'>Les résultats seront annoncés après la fin du concours.</span></p>
+<p>Le concours se déroule du 5 au 19 novembre. <span style='font-weight:bold'>Les résultats seront annoncés après la fin du concours.</span></p>
 
 <?php endif; if (contest_phase() == 'contest-over'):?>
 
@@ -181,6 +181,7 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <p>
       Les 10% meilleurs classés de chaque niveau scolaire et chaque type de participation (individuelle ou par binôme) sont sélectionnés pour l'étape suivante&nbsp;:
    </p>
+   <!--
    <p style="text-align:center;font-weight:bold">
       le premier tour du concours <a href="http://www.algorea.org">Algoréa</a>, du 1er au 7 février 2016.
    </p>
@@ -238,6 +239,7 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
       </tr>
    </table>
    <br/>
+   -->
    <p>
       Notez qu'il est aussi possible de se qualifier en résolvant au moins 12 exercices sur <a href="http://www.france-ioi.org">france-ioi.org</a>.
    </p>

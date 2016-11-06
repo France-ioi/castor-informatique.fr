@@ -82,6 +82,7 @@ $(function() {
    <tr>
    <td>Plateforme du concours</td>
    <td>
+      Sébastien Carlier - Consultant<br />
       Mathias Hiron - France-ioi<br />
       Élie Roux - Consultant<br />
    </td>
@@ -100,7 +101,6 @@ $(function() {
    <td>Préparation du contenu des sujets
    </td>
    <td>
-      Sylvie Boldo - Inria<br />
       Arthur Charguéraud - Inria - France-ioi<br />
       Mathias Hiron - France-ioi<br />
       Françoise Tort - STEF, ENS Cachan<br />
