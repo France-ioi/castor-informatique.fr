@@ -140,7 +140,7 @@ $(function() {
    <td>
       Martin Andler (Cap Maths)<br/>
       Jean Pierre Cocquerez (CNRS/IN2I)<br />
-      Christian Colmant (@Pascaline)<br />
+      Rémi Ferrand (@Pascaline)<br />
       Christian Hamon (Tour 123)<br/>
       Sylvie Boldo (ANR)<br />
    </td>
