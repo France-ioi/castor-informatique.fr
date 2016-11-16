@@ -142,7 +142,7 @@ $(function() {
       Jean Pierre Cocquerez (CNRS/IN2I)<br />
       Christian Colmant (@Pascaline)<br />
       Christian Hamon (Tour 123)<br/>
-      Sylvie Boldo (Systematic)<br />
+      Sylvie Boldo (ANR)<br />
    </td>
    </tr>
 
@@ -153,8 +153,8 @@ $(function() {
 
 
    <table class="partenaires-table"><tr>
-   <td><a href="http://www.systematic-paris-region.org/"><img width=80 src="img/logo_systematic.jpg"  alt="systematic" class="logo-img"></a></td>
    <td><a href="http://www.capmaths.fr/" class="menu-logo"><img width="80" src="img/logo_capmaths.png" alt="CapMaths" class="logo-img"></a></td>
+   <td><a href="http://www.agence-nationale-recherche.fr/"><img width=130 src="img/logo_anr.png"  alt="ANR" class="logo-img"></a></td>
    <td><a href="http://www.assopascaline.fr"><img width=130 src="img/logo_pascaline.jpg" alt="Pascaline" class="logo-img"></a></td>
    <td><a href="http://www.cnrs.fr/ins2i/"><img width=70 src="img/logo_cnrs.gif"  alt="cnrs" class="logo-img"></a></td>
    <td><a href="http://tour123.wordpress.com/"><img width=90 src="img/logo_tour123.png"  alt="tour123" class="logo-img"></a></td>
@@ -298,10 +298,10 @@ $(function() {
    <td>Représentants des partenaires</td>
    <td>
       Martin Andler (Cap Maths)<br/>
+      Sylvie Boldo (ANR)<br />
       Jean Pierre Cocquerez (CNRS/IN2I)<br />
       Christian Colmant (@Pascaline)<br />
       Christian Hamon (Tour 123)<br/>
-      Sylvie Boldo (Systematic)<br />
    </td>
    </tr>
 
@@ -312,8 +312,8 @@ $(function() {
 
 
    <table class="partenaires-table"><tr>
-   <td><a href="http://www.systematic-paris-region.org/"><img width=80 src="img/logo_systematic.jpg"  alt="systematic" class="logo-img"></a></td>
    <td><a href="http://www.capmaths.fr/" class="menu-logo"><img width="80" src="img/logo_capmaths.png" alt="CapMaths" class="logo-img"></a></td>
+   <td><a href="http://www.agence-nationale-recherche.fr/"><img width=120 src="img/logo_anr.png"  alt="ANR" class="logo-img"></a></td>
    <td><a href="http://www.assopascaline.fr"><img width=130 src="img/logo_pascaline.jpg" alt="Pascaline" class="logo-img"></a></td>
    <td><a href="http://www.cnrs.fr/ins2i/"><img width=70 src="img/logo_cnrs.gif"  alt="cnrs" class="logo-img"></a></td>
    <td><a href="http://tour123.wordpress.com/"><img width=90 src="img/logo_tour123.png"  alt="tour123" class="logo-img"></a></td>

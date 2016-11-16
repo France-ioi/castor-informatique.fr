@@ -65,9 +65,9 @@ Rejoignez-nous sur :
 <h1>Partenaires</h1>
 <a href="http://www.capmaths.fr/" class="menu-logo"><img width="50%" src="img/logo_capmaths.png" alt="CapMaths" class="logo-img" style="padding-bottom: 15px"></a>
 <a href="http://www.gouvernement.fr/programme-investissements-avenir" class="menu-logo"><img width="60%" src="img/logo_investissements_davenir.png" alt="investissements d'avenir" class="logo-img"></a>
+<a href="http://www.agence-nationale-recherche.fr/" class="menu-logo"><img width="80%" src="img/logo_anr.png" alt="Agence Nationale de la Recherche" class="logo-img" ></a>
 <a href="http://www.assopascaline.fr" class="menu-logo"><img width="95%" src="img/logo_pascaline.jpg" alt="pascaline" class="logo-img"></a>
 <a href="http://www.cnrs.fr/ins2i/" class="menu-logo"><img width="55%" src="img/logo_cnrs.gif" alt="cnrs" class="logo-img"></a>
-<a href="http://www.systematic-paris-region.org/" class="menu-logo"><img width="55%" src="img/logo_systematic.jpg" alt="Systematic Paris Region" class="logo-img" ></a>
 <a href="http://tour123.wordpress.com/" class="menu-logo"><img width="70%" src="img/logo_tour123.png" alt="Tour 123" class="logo-img" ></a>
 </div>
 
@@ -97,9 +97,9 @@ Rejoignez-nous sur :
    <!-- L'édition 2013 a été un grand succès, avec près de <span class='index-important'>180&nbsp;000&nbsp;participants</span> répartis
    dans 1700&nbsp;collèges et lycées de toute la France.-->
    <?php if (contest_phase() == 'contest-soon'):?>
-      </p><p><span class='index-important'>L'édition 2016 se prépare ! Elle aura lieu du samedi 5 novembre à 8h au samedi 19 novembre à 20h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2016 se prépare ! Elle aura lieu du samedi 5 novembre à 8h au samedi 19 novembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-running'):?>
-      </p><p><span class='index-important'>L'édition 2016 est en cours ! Elle se déroule du samedi 5 novembre à 8h au samedi 19 novembre à 20h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2016 est en cours ! Elle se déroule du samedi 5 novembre à 8h au samedi 19 novembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
       </p><p><span class='index-important'>L'édition 2016 vient de se terminer.</span> 
       <p>
