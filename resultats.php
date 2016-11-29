@@ -1,6 +1,6 @@
    <?php include("common.php"); ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 
 <head>
 <?php page_includes(); ?>
@@ -155,7 +155,7 @@ Les élèves dont le nom est listé dans leur catégorie sont ceux qui recevront
 <p>Rappel : vous pouvez obtenir votre score et voir le détail de vos résultats à l'aide de votre code personnel sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a>.</p>
 
 <div class="resultats-graphiques" style="margin-top:0.5em;margin-bottom:1em">
-<?php include("resultats2015_castor.php"); ?>
+<?php include("resultats2016_castor.php"); ?>
 </div>
 <!--
 <p>
@@ -244,6 +244,9 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
       Notez qu'il est aussi possible de se qualifier en résolvant au moins 12 exercices sur <a href="http://www.france-ioi.org">france-ioi.org</a>.
    </p>
 
+<h1 style="clear:both">Participation par établissement</h1>
+
+<iframe src="schoolResults.html" style="width:760px;height:100vh;"></iframe>
 
 <?php //******************************************************************** ?>
 <h1>Historique</h1>

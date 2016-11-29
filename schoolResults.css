@@ -1,0 +1,41 @@
+#content {
+	width: 980px;
+	margin: 0 auto 0 auto;
+	text-align: left;
+}
+#mainbar {
+	margin-right: 185px;
+	padding-right: 35px;
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+#academies_results table {
+}
+#academies_results table caption {
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+#academies_results table thead {
+	border-bottom: 3px solid #ddd;
+}
+#academies_results tbody tr:hover {
+	background-color: #f3f3f3;
+}
+#academies_results table th {
+	border: 1px solid #ddd;
+	text-align: center;
+	vertical-align: middle;
+}
+#academies_results table td {
+	border: 1px solid #ddd;
+}
+#academies_results table thead tr:first-child th:nth-child(1),
+#academies_results table thead tr:first-child th:nth-child(2),
+#academies_results table td:nth-child(1),
+#academies_results table td:nth-child(2) {
+	width: 25%;
+}
+#academies_results table td:nth-child(1n+3) {
+	width: 1;
+	text-align: right;
+}
