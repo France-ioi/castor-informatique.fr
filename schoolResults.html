@@ -109,7 +109,7 @@ app.controller("mainController", function($scope) {
 			<thead>
 			<tr>
 				<th rowspan=2>Nom</th>
-				<th rowspan=2>Ville</th>
+				<th ng-if="formInfos.region != 'all'" rowspan=2>Ville</th>
 				<th colspan="18" class="text-center">Nombre de participants</th>
 			</tr>
 			<tr>
@@ -136,7 +136,7 @@ app.controller("mainController", function($scope) {
 			<tbody>
 		  	<tr ng-repeat="school in contestData[formInfos['region']] | orderBy : ['!' + filters[formInfos['filter']].field, filters[formInfos['filter']].field]" ng-if="school.contestantData[formInfos.category]">
 		    	<td>{{ school.name }}</td>
-		    	<td>{{ school.zipcode + ' ' + school.city }}</td>
+		    	<td ng-if="formInfos.region != 'all'">{{ (formInfos.region == 'foreign' ? school.country+': ' : school.zipcode+' ')  + school.city }}</td>
 		    	<td>{{ school.contestantData.total }}</td>
 				<td ng-if="formInfos.category != 'total'">{{ school.contestantData[formInfos.category] }}</td>
 				<td ng-if="formInfos.category == 'total'">{{ school.contestantData.primaire }}</td>
