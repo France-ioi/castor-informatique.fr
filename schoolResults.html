@@ -14,7 +14,7 @@
 var app = angular.module("resultatsCator", ['ui.bootstrap']);
 app.controller("mainController", function($scope) {
       		$scope.contestData = contestData;
-      		$scope.formInfos = {filter: 'name', category: 'total'};
+      		$scope.formInfos = {filter: 'name', category: 'total', region: 'all'};
       		$scope.categories = {
       			'total': 'Tous les niveaux',
       			'primaire': 'Primaire',
@@ -23,6 +23,7 @@ app.controller("mainController", function($scope) {
       			'lyceepro': 'Lycée pro.'
       		};
       		$scope.regions = {
+      			"all": "Toutes les académies",
 			    "foreign": "Hors France",
 			    "aix-marseille": "Aix-Marseille",
 			    "amiens": "Amiens",
