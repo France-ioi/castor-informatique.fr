@@ -11,7 +11,7 @@
 require_once("config.php");
 
 function contest_current_phase() {
-   return 'contest-results';
+   return 'contest-soon';
    // one of: 'contest-running', 'contest-soon', 'contest-running', 'contest-over', 'contest-results-temp', 'contest-results'
 }
 

@@ -79,7 +79,8 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <div>
 
-<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : la demi-finale concours Algoréa (la suite du concours Castor) se déroule en ce moment et jusqu'au 12 Juin, sur <a href="http://concours.algorea.org">concours.algorea.org</a>. Allez sur <a href="http://algorea.org">algorea.org</a> savoir si vous êtes qualifié(e).</p></div>
+<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le prochain concours Castor aura lieu du 12 au 25 novembre 2017.</p>
+<p>Enseignants : inscrivez-vous dès maintenant !</p></div>
 <br/>
 
    <div style='float:right; text-align: center; margin-left:1em'>
@@ -97,11 +98,11 @@ Rejoignez-nous sur :
    <!-- L'édition 2013 a été un grand succès, avec près de <span class='index-important'>180&nbsp;000&nbsp;participants</span> répartis
    dans 1700&nbsp;collèges et lycées de toute la France.-->
    <?php if (contest_phase() == 'contest-soon'):?>
-      </p><p><span class='index-important'>L'édition 2016 se prépare ! Elle aura lieu du samedi 5 novembre à 8h au samedi 19 novembre à 23h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2017 se prépare ! Elle aura lieu du dimanche 12 novembre à 8h au samedi 25 novembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-running'):?>
-      </p><p><span class='index-important'>L'édition 2016 est en cours ! Elle se déroule du samedi 5 novembre à 8h au samedi 19 novembre à 23h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2017 est en cours ! Elle se déroule du samedi 5 novembre à 8h au samedi 25 novembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
-      </p><p><span class='index-important'>L'édition 2016 vient de se terminer, avec plus de 470 000 participants !</span> 
+      </p><p><span class='index-important'>L'édition 2017 vient de se terminer, avec plus de 470 000 participants !</span> 
       <p>
 	  <ul>
       <li><p><span style="color:red">Les coordinateurs ont accès aux scores, classements, diplômes et à la liste des élèves qualifiés au <a href="http://www.algorea.org">1er tour Algoréa</a> dans leur établissement.</p></li>
@@ -149,14 +150,14 @@ Rejoignez-nous sur :
    </p>
    <!--
    <p>
-   Les 10% meilleurs de chaque catégorie sont qualifiés pour le 1er tour du <a href="http://algorea.org">concours Algoréa</a>,<br/>qui se déroulera <span style="font-weight:bold">du 3 au 17 janvier 2017</span>.
+   Les meilleurs de chaque catégorie sont qualifiés pour le 1er tour du <a href="http://algorea.org">concours Algoréa</a>,<br/>qui se déroulera <span style="font-weight:bold">du 3 au 17 janvier 2017</span>.
    </p>
    -->
    <p style="text-align:center">
       <input class="plateforme-button" type="submit" value="Accès aux résultats du Castor 2016" onclick="document.location = 'resultats.php'">
    </p>
 <!--
-      <p style="float:clear">8200 élèves classés parmi les 10% meilleurs du Castor 2014 ont participé au concours <a href="http://algorea.org">Algoréa 2015</a>, et ont progressé au fil des 4 tours du concours, jusqu'à la finale, à laquelle 19 élèves de la 6ème à la 1ère ont été invités.</p>
+      <p style="float:clear">8200 élèves classés parmi les meilleurs du Castor 2014 ont participé au concours <a href="http://algorea.org">Algoréa 2015</a>, et ont progressé au fil des 4 tours du concours, jusqu'à la finale, à laquelle 19 élèves de la 6ème à la 1ère ont été invités.</p>
 -->
 <?php endif; ?>
 
@@ -172,7 +173,7 @@ Rejoignez-nous sur :
 <h1>Participer à l'édition 2017</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
-   <p>L'édition 2016 du concours Castor est en cours. Elle a lieu du 5 au 19 novembre 2016.</p>
+   <p>L'édition 2017 du concours Castor est en cours. Elle a lieu du 12 au 25 novembre 2017.</p>
    <ul>
    <li>
    Si vous êtes enseignant, vous pouvez encore vous <a href="http://coordinateur.castor-informatique.fr">inscrire</a>
@@ -183,7 +184,7 @@ Rejoignez-nous sur :
    exemple votre professeur de mathématiques ou de technologie.
    </ul>
 <?php else:?>
-   <p>La prochaine édition du concours Castor aura lieu en novembre 2017, après les vacances de la toussaint.</p>
+   <p>La prochaine édition du concours Castor aura lieu du 12 au 25 novembre 2017.</p>
    <p>Si vous êtes enseignant, <a href="http://coordinateur.castor-informatique.fr">inscrivez-vous</a>
    dès maintenant comme coordinateur.</p>
 
@@ -198,7 +199,7 @@ Rejoignez-nous sur :
 <!--
    <h1>Après le Castor : Concours Algoréa 2015</h1>
    <p>
-   Les 10% meilleurs participants du concours Castor 2014 étaient qualifiés pour le premier tour du concours <a href="http://www.algorea.org">Algoréa</a>, qui s'est déroulé du 2 au 8 février. Plus de 8200 élèves ont participé, pour la plupart dans leur établissement. La suite est sur <a href="http://www.algorea.org">algorea.org</a>
+   Les meilleurs participants du concours Castor 2014 étaient qualifiés pour le premier tour du concours <a href="http://www.algorea.org">Algoréa</a>, qui s'est déroulé du 2 au 8 février. Plus de 8200 élèves ont participé, pour la plupart dans leur établissement. La suite est sur <a href="http://www.algorea.org">algorea.org</a>
    </p>
    -->
    <!--
@@ -224,7 +225,7 @@ données, jeux de logique, informatique et société.</p>
 <li>Il peut être effectué à n'importe quel moment de cette période.</li>
 <li>Des corrections détaillées sont proposées peu après la clôture.</li>
 <li>Des diplômes sont offerts aux participants selon leur score.</li>
-<li>Les 10% meilleurs de chaque niveau sont qualifiés pour le <a href="http://www.algorea.org">concours Algoréa</a>.</li>
+<li>Les meilleurs de chaque niveau sont qualifiés pour le <a href="http://www.algorea.org">concours Algoréa</a>.</li>
 <li>Les sujets du concours peuvent être rejoués en ligne toute l'année.</li>
 </ul>
 </p>
@@ -261,15 +262,11 @@ Le Castor n'est qu'un premier pas vers la découverte de
 l'informatique.
 </p>
 <p>
-L'étape suivante est le concours <a href="http://algorea.org">Algoréa</a>, ouvert à partir du mois janvier, destiné à accompagner les élèves au fil de leur apprentissage de la programmation et de l'algorithmique.
-</p>
-<p>
-<font class='index-important'>Nouveauté cette année :</font> le langage Scratch pourra être utilisé pour résoudre les défis de programmation du concours Algoréa.
+L'étape suivante est le concours <a href="http://algorea.org">Algoréa</a>, ouvert à partir du mois janvier, destiné à accompagner les élèves au fil de leur apprentissage de la programmation et de l'algorithmique, en langages Blockly, Scratch ou Python.
 </p>
 <p>
 Pour progresser au fil de l'année et entre les différentes étapes du concours, <a href="http://www.france-ioi.org/">France-ioi</a> propose de nombreux cours et exercices dans les domaines de la programmation et l'algorithmique. Des contenus adaptés aux plus jeunes sont actuellement en préparation.
 </p>
-<p>Nous recommendons également <a href="http://javascool.gforge.inria.fr/">Java's Cool</a>, pour apprendre une version simplifiée de java au travers de nombreuses activités.</p>
 <p>
 Enfin,
 <a href="http://interstices.info/">Interstices</a> vous permet de 
@@ -279,13 +276,15 @@ découvrir les sciences du numérique.
 <?php //******************************************************************** ?>
 <h1>À propos du Castor</h1>
 
-<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment à la même période, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 1,3 million d'élèves ont participé au concours Castor 2015 dans le monde.
+<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment à la même période, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 1,6 million d'élèves ont participé au concours Castor 2016 dans le monde.
 </p>
 <p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Paris-Saclay</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
 
 <h1>Affiches</h1>
-<p>Pour faire connaîre le concours autour de vous, vous pouvez imprimer les affiches suivantes :</p>
+<p>Une affiche est en préparation pour faire connaître le concours. Elle sera disponible dans les prochains jours :</p>
+<center><img src="img/poster_castor_2017.png" style="width:300px"></center>
 <p>
+<!--
 <table style="text-align:center;font-weight:bold">
 <tr><td>Affiche CM1/CM2</td><td>Affiche collège</td><td>Affiche lycée</td></tr>
 <tr>
@@ -294,6 +293,7 @@ découvrir les sciences du numérique.
    <td style="padding:10px"><a href="documents/poster_castor_2016_lycee.pdf" target="new"><img src="img/poster_castor_2016_lycee.png" style="width:100%;margin:10px"></a></td>
 </tr>
 </table>
+-->
 </p>
 
 <?php page_footer(); ?>
