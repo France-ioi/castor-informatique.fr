@@ -65,14 +65,6 @@ $(function() {
    </tr>
 
    <tr>
-   <td>Relations partenaires</td>
-   <td>
-      Sylvie Boldo - Inria<br />
-      Thierry Vieville - Inria<br />
-   </td>
-   </tr>
-
-   <tr>
    <td>Suivi des inscriptions</td>
    <td>
       Françoise Tort - STEF, ENS Cachan<br />
@@ -82,26 +74,16 @@ $(function() {
    <tr>
    <td>Plateforme du concours</td>
    <td>
-      Sébastien Carlier - Consultant<br />
+      Sébastien Carlier - Consultant France-ioi<br />
       Mathias Hiron - France-ioi<br />
-      Élie Roux - Consultant<br />
+      Élie Roux - Consultant France-ioi<br />
    </td>
    </tr>
 
    <tr>
-   <td>Comité de sélection des sujets</td>
+   <td>Comité de sélection des sujets et rédaction du contenu</td>
    <td>
       Arthur Charguéraud - Inria - France-ioi<br/>
-      Mathias Hiron - France-ioi<br />
-      Françoise Tort - STEF, ENS Cachan<br />
-   </td>
-   </tr>
-
-   <tr>
-   <td>Préparation du contenu des sujets
-   </td>
-   <td>
-      Arthur Charguéraud - Inria - France-ioi<br />
       Mathias Hiron - France-ioi<br />
       Françoise Tort - STEF, ENS Cachan<br />
    </td>
@@ -112,7 +94,7 @@ $(function() {
    <td>
       Arthur Charguéraud - Inria - France-ioi<br/>
       Mathias Hiron - France-ioi<br/>
-      Nir Lavee - Consultant<br/>
+      Nir Lavee - Consultant France-ioi<br/>
    </td>
    </tr>
    <!--
@@ -139,7 +121,7 @@ $(function() {
    <td>Représentants des partenaires</td>
    <td>
       Martin Andler (Cap Maths)<br/>
-      Jean Pierre Cocquerez (CNRS/IN2I)<br />
+      Jean Pierre Cocquerez (CNRS/INS2I)<br />
       Rémi Ferrand (@Pascaline)<br />
       Christian Hamon (Tour 123)<br/>
       Sylvie Boldo (ANR)<br />
@@ -205,7 +187,7 @@ $(function() {
    <td>Plateforme du concours</td>
    <td>
       Mathias Hiron - France-ioi<br />
-      Élie Roux - Consultant<br />
+      Élie Roux - Consultant France-ioi<br />
    </td>
    </tr>
 
@@ -232,11 +214,11 @@ $(function() {
    <tr>
    <td>Développement des sujets interactifs</td>
    <td>
-      Sébastien Carlier - Consultant<br/>
+      Sébastien Carlier - Consultant France-ioi<br/>
       Arthur Charguéraud - Inria - France-ioi<br/>
-      Sylvain Chiron - Consultant<br />
+      Sylvain Chiron - Consultant France-ioi<br />
       Mathias Hiron - France-ioi<br/>
-      Nir Lavee - Consultant<br/>
+      Nir Lavee - Consultant France-ioi<br/>
    </td>
    </tr>
    <tr>
@@ -299,7 +281,7 @@ $(function() {
    <td>
       Martin Andler (Cap Maths)<br/>
       Sylvie Boldo (ANR)<br />
-      Jean Pierre Cocquerez (CNRS/IN2I)<br />
+      Jean Pierre Cocquerez (CNRS/INS2I)<br />
       Christian Colmant (@Pascaline)<br />
       Christian Hamon (Tour 123)<br/>
    </td>
@@ -364,7 +346,7 @@ $(function() {
    <td>Plateforme du concours</td>
    <td>
       Mathias Hiron - France-ioi<br />
-      Élie Roux - Consultant<br />
+      Élie Roux - Consultant France-ioi<br />
    </td>
    </tr>
 
@@ -473,7 +455,7 @@ $(function() {
    <td>Représentants des partenaires</td>
    <td>
       Jean-Pierre Archambault (EPI)<br />
-      Jean Pierre Cocquerez (CNRS/IN2I)<br />
+      Jean Pierre Cocquerez (CNRS/INS2I)<br />
       Christian Colmant (@Pascaline)<br />
       Christian Hamon (Tour 123)<br/>
       Mathias Hiron (France-ioi)<br />
@@ -544,9 +526,9 @@ $(function() {
    <tr>
    <td>Plateforme du concours</td>
    <td>
-      Sébastien Carlier - Consultant<br />
+      Sébastien Carlier - Consultant France-ioi<br />
       Mathias Hiron - France-ioi<br />
-      Geoffrey Huck - Consultant<br />
+      Geoffrey Huck - Consultant France-ioi<br />
    </td>
    </tr>
 
@@ -690,7 +672,7 @@ $(function() {
    <td>Représentants des partenaires</td>
    <td>
       Jean-Pierre Archambault (EPI)<br />
-      Jean Pierre Cocquerez (CNRS/IN2I)<br />
+      Jean Pierre Cocquerez (CNRS/INS2I)<br />
       Christian Colmant (@Pascaline)<br />
       Christian Hamon (Tour 123)<br/>
       Eric Sopena (SIF)<br />
@@ -892,7 +874,7 @@ $(function() {
    <tr>
    <td>Représentants des partenaires</td>
    <td>
-      Jean Pierre Cocquerez (CNRS/IN2I)<br />
+      Jean Pierre Cocquerez (CNRS/INS2I)<br />
       Eric Sopena (SIF)<br />
       Christian Colmant (@Pascaline)<br />
       Jean-Pierre Archambault (EPI)<br />

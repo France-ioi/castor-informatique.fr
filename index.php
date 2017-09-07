@@ -79,9 +79,9 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <div>
 
-<!--   <div style="background-color:#FFF0F0;border:solid black 1px;padding:5px">Les résultats du 1er tour du concours Algoréa 2016 <a href="resultats_algorea2016.php">sont disponibles</a>.</div>
+<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : la demi-finale concours Algoréa (la suite du concours Castor) se déroule en ce moment et jusqu'au 12 Juin, sur <a href="http://concours.algorea.org">concours.algorea.org</a>. Allez sur <a href="http://algorea.org">algorea.org</a> savoir si vous êtes qualifié(e).</p></div>
 <br/>
--->
+
    <div style='float:right; text-align: center; margin-left:1em'>
       <span style='font-size: normal'>Nombre de participants au concours Castor</span><br />
       <a href='resultats.php'><img src='img/participation.png' alt='Cliquez pour accéder aux statistiques détaillées.' width='340' height='151' style='margin-top:0.5em' /> </a>
@@ -92,7 +92,7 @@ Rejoignez-nous sur :
 
    <p style='font-weight: bold'>Le concours Castor vise à faire découvrir aux jeunes l'informatique et les sciences du numérique.</p>
    <p>
-   Le concours est organisé tous les ans, vers le début du mois de novembre. Il se déroule 
+   Le concours est organisé tous les ans, au mois de novembre. Il se déroule 
    sous la supervision d'un enseignant, en salle informatique.
    <!-- L'édition 2013 a été un grand succès, avec près de <span class='index-important'>180&nbsp;000&nbsp;participants</span> répartis
    dans 1700&nbsp;collèges et lycées de toute la France.-->
@@ -101,11 +101,17 @@ Rejoignez-nous sur :
    <?php elseif (contest_phase() == 'contest-running'):?>
       </p><p><span class='index-important'>L'édition 2016 est en cours ! Elle se déroule du samedi 5 novembre à 8h au samedi 19 novembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
-      </p><p><span class='index-important'>L'édition 2016 vient de se terminer.</span> 
+      </p><p><span class='index-important'>L'édition 2016 vient de se terminer, avec plus de 470 000 participants !</span> 
       <p>
-      <span style="color:red">Le calcul de tous les scores va demander un peu de temps. Les résultats seront disponibles dans les jours à venir.</span>
+	  <ul>
+      <li><p><span style="color:red">Les coordinateurs ont accès aux scores, classements, diplômes et à la liste des élèves qualifiés au <a href="http://www.algorea.org">1er tour Algoréa</a> dans leur établissement.</p></li>
+	  <li><p>Les sujets du Castor 2016 et leurs corrections sont en accès public.</p></li>
+	  <li><p>La synthèse des résultats sera disponible dans le courant de la semaine.</p></li>
+	  <li><p>Des parcours de <a href='http://preparation.algorea.org' target='_blank'>préparation au 1er tour Algoréa</a> sont disponibles.</p></li>
+	  <li><p>Le 1er tour Algoréa aura lieu du 3 au 17 Janvier, les coordinateurs peuvent déjà créer leurs groupes pour permettre aux qualifiés de participer.</p></li>
+	  </ul>
    <?php elseif (contest_phase() == 'contest-results-temp'):?>
-      </p><p><span class='index-important' style='color:red'>L'édition 2015 a été un grand succès, avec plus de 340 000 participants</span>  dans près de 2300 établissements&nbsp;!</p> 
+      </p><p><span class='index-important' style='color:red'>L'édition 2016 a été un grand succès, avec 474 903 participants</span>  dans 2885 établissements&nbsp;!</p> 
       <p>
       <span class='index-important'>Les coordinateurs peuvent consulter les scores sur leur <a href="http://coordinateur.castor-informatique.fr">interface coordinateur</a></span>, et corriger les éventuelles erreurs dans les noms des participants ou marquer les participations hors classement.
       </p>
@@ -131,21 +137,23 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <?php if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'):?>
 
-   <h1>Résultats 2015</h1>
+   <h1>Résultats 2016</h1>
 
    <p><span class='index-important'>
-      L'édition 2015 a été un grand succès, avec plus de <span class='index-important'>345 000 participants</span>  dans 2286 établissements&nbsp;!</span>
+      L'édition 2016 a été un grand succès, avec plus de <span class='index-important'>474 903 participants</span>  dans 2885 établissements&nbsp;!</span>
    </p>
    <p>
    Les participants peuvent <a href="http://concours.castor-informatique.fr?tab=continue">accéder à leur score</a> en utilisant leur code d'accès personnel fourni au début du concours.</p>
    <p>
-   Les coordinateurs peuvent accéder aux scores de tous leurs élèves sur <a href="http://coordinateur.castor-informatique.fr">l'interface coordinateur</a>.
+   Les coordinateurs peuvent accéder aux scores et classements de tous leurs élèves sur <a href="http://coordinateur.castor-informatique.fr">l'interface coordinateur</a>.
    </p>
+   <!--
    <p>
-   Les 10% meilleurs de chaque catégorie sont qualifiés pour le 1er tour du <a href="http://algorea.org">concours Algoréa</a>,<br/>qui se déroulera <span style="font-weight:bold">du 1er au 7 février 2016</span>.
+   Les 10% meilleurs de chaque catégorie sont qualifiés pour le 1er tour du <a href="http://algorea.org">concours Algoréa</a>,<br/>qui se déroulera <span style="font-weight:bold">du 3 au 17 janvier 2017</span>.
    </p>
+   -->
    <p style="text-align:center">
-      <input class="plateforme-button" type="submit" value="Accès aux résultats du Castor 2015" onclick="document.location = 'resultats.php'">
+      <input class="plateforme-button" type="submit" value="Accès aux résultats du Castor 2016" onclick="document.location = 'resultats.php'">
    </p>
 <!--
       <p style="float:clear">8200 élèves classés parmi les 10% meilleurs du Castor 2014 ont participé au concours <a href="http://algorea.org">Algoréa 2015</a>, et ont progressé au fil des 4 tours du concours, jusqu'à la finale, à laquelle 19 élèves de la 6ème à la 1ère ont été invités.</p>
@@ -161,7 +169,7 @@ Rejoignez-nous sur :
 </div>
 -->
 <?php //******************************************************************** ?>
-<h1>Participer à l'édition 2016</h1>
+<h1>Participer à l'édition 2017</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
    <p>L'édition 2016 du concours Castor est en cours. Elle a lieu du 5 au 19 novembre 2016.</p>
@@ -175,11 +183,11 @@ Rejoignez-nous sur :
    exemple votre professeur de mathématiques ou de technologie.
    </ul>
 <?php else:?>
-   <p>La prochaine édition du concours Castor aura lieu en novembre 2016.</p>
+   <p>La prochaine édition du concours Castor aura lieu en novembre 2017, après les vacances de la toussaint.</p>
    <p>Si vous êtes enseignant, <a href="http://coordinateur.castor-informatique.fr">inscrivez-vous</a>
    dès maintenant comme coordinateur.</p>
 
-   <p>En attendant l'édition 2016 du Castor, vous pouvez <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
+   <p>En attendant l'édition 2017 du Castor, vous pouvez <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
 
    <!--<p>En attendant, il est possible de <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a>.</p>-->
 <?php endif; ?>
@@ -212,7 +220,7 @@ données, jeux de logique, informatique et société.</p>
 <li>Il est <font class='index-important'>gratuit</font> et ne requiert <font class='index-important'>aucune connaissance préalable</font>  en informatique.</li>
 <li>Le concours est ouvert du CM1 à la terminale, et s'adapte au niveau des élèves.</li>
 <li>Les élèves participent seuls ou par binômes, en salle informatique.</li>
-<li>Le concours se déroule sur deux semaines, au mois du 5 au 19 novembre inclus.</li>
+<li>Le concours se déroule sur deux semaines, au mois de novembre.</li>
 <li>Il peut être effectué à n'importe quel moment de cette période.</li>
 <li>Des corrections détaillées sont proposées peu après la clôture.</li>
 <li>Des diplômes sont offerts aux participants selon leur score.</li>

@@ -115,12 +115,12 @@ Les classements seront publiés vers le 10 décembre. Les coordinateurs pourront
 
 <h1>Statistiques de participation</h1>
 
-<p>L'édition 2015 du concours Castor Informatique français a été un grand succès !</p>
+<p>L'édition 2016 du concours Castor Informatique français a été un grand succès !</p>
 
 <ul class="resultats-summary">
-<li>Le concours s'est déroulé du 14 au 21 novembre 2015.</li>
-<li><span class="resultats-important">345023 élèves</span> ont participé, dont 49% de filles.</li>
-<li><span class="resultats-important">2286 établissements</span> ont pris part au concours.</li>
+<li>Le concours s'est déroulé du 5 au 19 novembre 2016.</li>
+<li><span class="resultats-important">474&nbsp;903 élèves</span> ont participé.</li>
+<li><span class="resultats-important">2&nbsp;885 établissements</span> ont pris part au concours.</li>
 </ul>
 
 
@@ -143,14 +143,11 @@ Le classement n'est publié que jusqu'au début de l'année scolaire suivante.
 <!--<p>Le classement correspondant à chaque score sera disponible prochainement.</p>-->
 
 <p>
-Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6ème et que vous avez obtenu 388 points, vous pouvez voir dans le tableau que vous êtes classé(e) 248ème parmi tous les élèves de votre catégorie.
-Notez qu'il y a souvent des ex-aequo. Par exemple 4 élèves sont ex-aequo à la première place dans la catégorie 6ème avec un score de 480 points.
+Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6ème et que vous avez obtenu 300 points, vous pouvez voir dans le tableau que vous êtes classé(e) 1052ème parmi tous les élèves de votre catégorie.
+Notez qu'il y a souvent des ex-aequo. Par exemple 497 élèves sont ex-aequo à la 1052ème place dans la catégorie 6ème avec un score de 300 points.
 </p>
 
-<!--<p>
-Les élèves dont le nom est listé dans leur catégorie sont ceux qui recevront une clé USB à l'effigie du Castor, via leur coordinateur.
-</p>-->
-  <p>Notez que certains enfants de primaire ou collège ont leur participation rattachée à un lycée. Nous allons vérifier au cas par cas si l'établissement est le bon.</p>
+<p>Notez que certains élèves se sont trompés en indiquant leur classe, et que les coordinateurs n'ont pas encore corrigé. Les corrections pourront entraîner des changementsmineurs dans les classements.</p>
 
 <p>Rappel : vous pouvez obtenir votre score et voir le détail de vos résultats à l'aide de votre code personnel sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a>.</p>
 
@@ -181,15 +178,14 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <p>
       Les 10% meilleurs classés de chaque niveau scolaire et chaque type de participation (individuelle ou par binôme) sont sélectionnés pour l'étape suivante&nbsp;:
    </p>
-   <!--
    <p style="text-align:center;font-weight:bold">
-      le premier tour du concours <a href="http://www.algorea.org">Algoréa</a>, du 1er au 7 février 2016.
+      le premier tour du concours <a href="http://www.algorea.org">Algoréa</a>, du 3 au 17 janvier 2017.
    </p>
    <p>
       Les finalistes de ce concours gagnent un stage d'une semaine à Paris et des lots offerts par les sponsors.
    </p>
    <p>
-   <span style="font-weight:bold">Score minimal pour se qualifier à Algoréa :</span>
+   <span style="font-weight:bold">Score minimal pour se qualifier à Algoréa 2017 :</span>
    </p>
    <table class="thresholds">
       <tr style="font-weight:bold">
@@ -207,44 +203,49 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
          <td>1ère<br/>pro</td>
          <td>Tale<br/>pro</td>
       </tr>
-      <tr>
+     <tr>
          <td>Individuelle</td>
-         <td>266</td>
-         <td>299</td>
-         <td>322</td>
+         <td>220</td>
+         <td>250</td>
+         <td>260</td>
+         <td>290</td>
+         <td>310</td>
+         <td>325</td>
          <td>350</td>
-         <td>373</td>
-         <td>390</td>
-         <td>415</td>
-         <td>440</td>
-         <td>456</td>
-         <td>359</td>
-         <td>373</td>
-         <td>404</td>
+         <td>350</td>
+         <td>380</td>
+         <td>300</td>
+         <td>310</td>
+         <td>325</td>
       </tr>
       <tr>
          <td>Binôme</td>
+         <td>230</td>
+         <td>255</td>
          <td>280</td>
-         <td>310</td>
-         <td>338</td>
-         <td>366</td>
-         <td>387</td>
-         <td>406</td>
-         <td>426</td>
-         <td>450</td>
-         <td>456</td>
-         <td>392</td>
-         <td>383</td>
-         <td>410</td>
+         <td>300</td>
+         <td>320</td>
+         <td>340</td>
+         <td>350</td>
+         <td>350</td>
+         <td>390</td>
+         <td>320</td>
+         <td>320</td>
+         <td>340</td>
       </tr>
    </table>
    <br/>
-   -->
    <p>
-      Notez qu'il est aussi possible de se qualifier en résolvant au moins 12 exercices sur <a href="http://www.france-ioi.org">france-ioi.org</a>.
+      Notez qu'il est aussi possible de se qualifier en résolvant au moins 12 exercices sur <a href="http://www.france-ioi.org" target="_blank">france-ioi.org</a>.
+   </p>
+   <p>
+	  Des parcours de préparation au 1er tour Algoréa sont disponibles sur <a href="http://preparation.algorea.org" target="_blank">preparation.algorea.org</a>.
    </p>
 
 <h1 style="clear:both">Participation par établissement</h1>
+<p>
+Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établissements qui ont participé à cette édition, et le nombre de participants par catégorie.
+</p>
 
 <iframe src="schoolResults.html" style="width:760px;height:100vh;"></iframe>
 
@@ -258,6 +259,12 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
 <td width="33%">Année</td>
 <td width="33%">Élèves</td>
 <td width="33%">Établissements</td>
+</tr>
+
+<tr>
+<td>2016</td>
+<td>474 903</td>
+<td>2885</td>
 </tr>
 
 <tr>
@@ -306,6 +313,19 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
 <td>2<sup>nde</sup></td>
 <td>1<sup>ère</sup></td>
 <td>T<sup>ale</sup></td>
+</tr>
+
+<tr>
+<td>2016</td>
+<td>8&nbsp;310</td>
+<td>13&nbsp;359</td>
+<td>110&nbsp;648</td>
+<td>100&nbsp;083</td>
+<td>86&nbsp;949</td>
+<td>78&nbsp;786</td>
+<td>45&nbsp;581</td>
+<td>18&nbsp;830</td>
+<td>12&nbsp;355</td>
 </tr>
 
 <tr>
@@ -358,17 +378,6 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
 </tr>
 
 </table>
-
-
-<?php //******************************************************************** ?>
-<h1>Lien utiles</h1>
-
-<ul class="useful-links">
-<li>Apprendre à programmer sur <a href="http://www.france-ioi.org/">France-IOI</a></li>
-<li>Apprendre à programmer sur <a href="http://javascool.gforge.inria.fr/">Java's Cool</a></li>
-<li>Découvrir les sciences du numérique sur <a href="http://interstices.info/">Interstices</a></li>
-</ul>
-
 
 
 <?php page_footer(); ?>
