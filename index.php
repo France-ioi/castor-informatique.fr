@@ -63,11 +63,8 @@ Rejoignez-nous sur :
 
 <div class="submenu">
 <h1>Partenaires</h1>
-<a href="http://www.capmaths.fr/" class="menu-logo"><img width="50%" src="img/logo_capmaths.png" alt="CapMaths" class="logo-img" style="padding-bottom: 15px"></a>
-<a href="http://www.gouvernement.fr/programme-investissements-avenir" class="menu-logo"><img width="60%" src="img/logo_investissements_davenir.png" alt="investissements d'avenir" class="logo-img"></a>
 <a href="http://www.agence-nationale-recherche.fr/" class="menu-logo"><img width="80%" src="img/logo_anr.png" alt="Agence Nationale de la Recherche" class="logo-img" ></a>
 <a href="http://www.assopascaline.fr" class="menu-logo"><img width="95%" src="img/logo_pascaline.jpg" alt="pascaline" class="logo-img"></a>
-<a href="http://www.cnrs.fr/ins2i/" class="menu-logo"><img width="55%" src="img/logo_cnrs.gif" alt="cnrs" class="logo-img"></a>
 <a href="http://tour123.wordpress.com/" class="menu-logo"><img width="70%" src="img/logo_tour123.png" alt="Tour 123" class="logo-img" ></a>
 </div>
 
@@ -80,7 +77,9 @@ Rejoignez-nous sur :
 <div>
 
 <div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le prochain concours Castor aura lieu du 12 au 25 novembre 2017.</p>
-<p>Enseignants : inscrivez-vous dès maintenant !</p></div>
+<p>Enseignants : inscrivez-vous dès maintenant !</p>
+<p>L'affiche du concours 2017 est <a href="documents/poster_castor_2017.pdf" target="new">disponible</a> !</p>
+</div>
 <br/>
 
    <div style='float:right; text-align: center; margin-left:1em'>
@@ -280,9 +279,11 @@ découvrir les sciences du numérique.
 </p>
 <p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Paris-Saclay</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
 
-<h1>Affiches</h1>
-<p>Une affiche est en préparation pour faire connaître le concours. Elle sera disponible dans les prochains jours :</p>
-<center><img src="img/poster_castor_2017.png" style="width:300px"></center>
+<h1>Affiche</h1>
+<p>Voici une affiche que vous pouvez télécharger et imprimer pour faire connaître le concours :</p>
+<p>
+<center><a href="documents/poster_castor_2017.pdf" target="new"><img src="img/poster_castor_2017.png" style="width:300px"></a></center>
+</p>
 <p>
 <!--
 <table style="text-align:center;font-weight:bold">
