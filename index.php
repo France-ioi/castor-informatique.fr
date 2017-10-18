@@ -76,7 +76,8 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <div>
 
-<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le prochain concours Castor aura lieu du 12 au 25 novembre 2017.</p>
+<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le prochain concours Castor aura lieu du 12 novembre au 8 décembre 2017.</p>
+<p>La durée a été étendue du fait de l'évaluation nationale des élèves de 6e.</p>
 <p>Enseignants : inscrivez-vous dès maintenant !</p>
 <p>L'affiche du concours 2017 est <a href="documents/poster_castor_2017.pdf" target="new">disponible</a> !</p>
 </div>
@@ -97,9 +98,9 @@ Rejoignez-nous sur :
    <!-- L'édition 2013 a été un grand succès, avec près de <span class='index-important'>180&nbsp;000&nbsp;participants</span> répartis
    dans 1700&nbsp;collèges et lycées de toute la France.-->
    <?php if (contest_phase() == 'contest-soon'):?>
-      </p><p><span class='index-important'>L'édition 2017 se prépare ! Elle aura lieu du dimanche 12 novembre à 8h au samedi 25 novembre à 23h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2017 se prépare ! Elle aura lieu du dimanche 12 novembre à 8h au vendredi 8 décembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-running'):?>
-      </p><p><span class='index-important'>L'édition 2017 est en cours ! Elle se déroule du samedi 5 novembre à 8h au samedi 25 novembre à 23h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2017 est en cours ! Elle se déroule du dimanche 12 novembre à 8h au vendredi 8 décembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
       </p><p><span class='index-important'>L'édition 2017 vient de se terminer, avec plus de 470 000 participants !</span> 
       <p>
@@ -172,7 +173,7 @@ Rejoignez-nous sur :
 <h1>Participer à l'édition 2017</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
-   <p>L'édition 2017 du concours Castor est en cours. Elle a lieu du 12 au 25 novembre 2017.</p>
+   <p>L'édition 2017 du concours Castor est en cours. Elle a lieu du 12 novembre au 8 décembre 2017.</p>
    <ul>
    <li>
    Si vous êtes enseignant, vous pouvez encore vous <a href="http://coordinateur.castor-informatique.fr">inscrire</a>
@@ -183,7 +184,7 @@ Rejoignez-nous sur :
    exemple votre professeur de mathématiques ou de technologie.
    </ul>
 <?php else:?>
-   <p>La prochaine édition du concours Castor aura lieu du 12 au 25 novembre 2017.</p>
+   <p>La prochaine édition du concours Castor aura lieu du 12 novembre au 8 décembre 2017.</p>
    <p>Si vous êtes enseignant, <a href="http://coordinateur.castor-informatique.fr">inscrivez-vous</a>
    dès maintenant comme coordinateur.</p>
 
