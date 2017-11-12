@@ -70,7 +70,7 @@ Il est préférable qu'il y ait un responsable qui coordonne le concours dans l'
 
 <h2>Un enseignant peut-il être coordinateur de plusieurs établissements&nbsp;?</h2>
 <p>
-Oui. Si vous êtes dans cette situation, veuillez  nous contacter, par mail à <a href="mailto:info@castor-informatique.fr?subject=Castor-ajouter un établissement à mon compte&body=Bonjour,%0A%0AJe suis déjà coordinateur(trice) de l'établissement : <saisir le nom complet>.%0AJe souhaiterais &ecirc;tre coordinateur(trice) de l'établissement : <saisir le nom complet>. %0A Mon nom :  %0A%0A---------%0A(Vous recevrez une réponse prochainement)">info@castor-informatique.fr</a>
+Oui, l'interface coordinateur permet de gérer plusieurs établissements.
 </p>
 
 
