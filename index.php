@@ -79,7 +79,7 @@ Rejoignez-nous sur :
 <div>
 
 <div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le concours Castor 2017 est terminé. Nous préparons les résultats.</p>
-<p>Dès le 12 décembre, le concours de cryptanalyse <a href="http://concours-alkindi.fr" target="_blank">Alkindi</a>, organisé par Animath et France-ioi démarre pour les élèves de la 4ème à la seconde.</p>
+<p>Dès le 11 décembre, le concours de cryptanalyse <a href="http://concours-alkindi.fr" target="_blank">Alkindi</a>, organisé par Animath et France-ioi démarre pour les élèves de la 4ème à la seconde.</p>
 <p>Le 7 janvier, c'est le concours de programmation <a href="http://algorea.org" target="_blank">Algoréa</a> qui démarre. Vous pouvez dès maintenant vous y préparer.</p>
 </div>
 <br/>
