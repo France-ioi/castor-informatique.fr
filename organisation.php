@@ -125,6 +125,7 @@ $(function() {
 
    <td>Représentants des partenaires</td>
    <td>
+      Stéphane Gaussent (Fondation Blaise Pascal)<br />
       Rémi Ferrand (@Pascaline)<br />
       Martine Paindorge (Tour 123)<br/>
       Sylvie Boldo (ANR)<br />
@@ -138,9 +139,10 @@ $(function() {
 
 
    <table class="partenaires-table"><tr>
-   <td><a href="http://www.agence-nationale-recherche.fr/"><img width=130 src="img/logo_anr.png"  alt="ANR" class="logo-img"></a></td>
-   <td><a href="http://www.assopascaline.fr"><img width=130 src="img/logo_pascaline.jpg" alt="Pascaline" class="logo-img"></a></td>
-   <td><a href="http://tour123.wordpress.com/"><img width=90 src="img/logo_tour123.png"  alt="tour123" class="logo-img"></a></td>
+   <td><a href="http://fondationblaisepascal.strikingly.com/" target="_blank"><img style="width:150px;margin-right:30px" src="img/logo_blaise_pascal.png"  alt="Fondation Blaise Pascal" class="logo-img"></a></td>
+   <td><a href="http://www.agence-nationale-recherche.fr/ target="_blank""><img width=130 src="img/logo_anr.png"  alt="ANR" class="logo-img"></a></td>
+   <td><a href="http://www.assopascaline.fr" target="_blank"><img width=130 src="img/logo_pascaline.jpg" alt="Pascaline" class="logo-img"></a></td>
+   <td><a href="http://tour123.wordpress.com/" target="_blank"><img width=90 src="img/logo_tour123.png"  alt="tour123" class="logo-img"></a></td>
 
    </tr></table>
    </p>

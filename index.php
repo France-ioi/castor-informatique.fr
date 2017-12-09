@@ -63,9 +63,11 @@ Rejoignez-nous sur :
 
 <div class="submenu">
 <h1>Partenaires</h1>
-<a href="http://www.agence-nationale-recherche.fr/" class="menu-logo"><img width="80%" src="img/logo_anr.png" alt="Agence Nationale de la Recherche" class="logo-img" ></a>
-<a href="http://www.assopascaline.fr" class="menu-logo"><img width="95%" src="img/logo_pascaline.jpg" alt="pascaline" class="logo-img"></a>
-<a href="http://tour123.wordpress.com/" class="menu-logo"><img width="70%" src="img/logo_tour123.png" alt="Tour 123" class="logo-img" ></a>
+<a href="http://fondationblaisepascal.strikingly.com/" class="menu-logo"  target="_blank"><img width="80%" src="img/logo_blaise_pascal.png" alt="Fondation Blaise Pascal" class="logo-img"></a>
+
+<a href="http://www.agence-nationale-recherche.fr/" class="menu-logo"  target="_blank"><img width="80%" src="img/logo_anr.png" alt="Agence Nationale de la Recherche" class="logo-img" ></a>
+<a href="http://www.assopascaline.fr" class="menu-logo"  target="_blank"><img width="95%" src="img/logo_pascaline.jpg" alt="pascaline" class="logo-img"></a>
+<a href="http://tour123.wordpress.com/" class="menu-logo"  target="_blank"><img width="70%" src="img/logo_tour123.png" alt="Tour 123" class="logo-img" ></a>
 </div>
 
 
@@ -76,10 +78,9 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <div>
 
-<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le prochain concours Castor aura lieu du 12 novembre au 8 décembre 2017.</p>
-<p>La durée a été étendue du fait de l'évaluation nationale des élèves de 6e.</p>
-<p>Enseignants : inscrivez-vous dès maintenant !</p>
-<p>L'affiche du concours 2017 est <a href="documents/poster_castor_2017.pdf" target="new">disponible</a> !</p>
+<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le concours Castor 2017 est terminé. Nous préparons les résultats.</p>
+<p>Dès le 12 décembre, le concours de cryptanalyse <a href="http://concours-alkindi.fr" target="_blank">Alkindi</a>, organisé par Animath et France-ioi démarre pour les élèves de la 4ème à la seconde.</p>
+<p>Le 7 janvier, c'est le concours de programmation <a href="http://algorea.org" target="_blank">Algoréa</a> qui démarre. Vous pouvez dès maintenant vous y préparer.</p>
 </div>
 <br/>
 
@@ -102,8 +103,11 @@ Rejoignez-nous sur :
    <?php elseif (contest_phase() == 'contest-running'):?>
       </p><p><span class='index-important'>L'édition 2017 est en cours ! Elle se déroule du dimanche 12 novembre à 8h au vendredi 8 décembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
-      </p><p><span class='index-important'>L'édition 2017 vient de se terminer, avec plus de 470 000 participants !</span> 
+      </p><p><span class='index-important'>L'édition 2017 vient de se terminer, avec plus d'un demi-million de participants !</span> 
       <p>
+      Les résultats sont en cours de préparation. Les scores définitifs et qualifications <a href="http://algorea.org">au concours Algoréa</a> seront disponibles vers le 15 décembre. Les classements et diplômes arriveront un peu plus tard.
+      </p>
+      <!--
 	  <ul>
       <li><p><span style="color:red">Les coordinateurs ont accès aux scores, classements, diplômes et à la liste des élèves qualifiés au <a href="http://www.algorea.org">1er tour Algoréa</a> dans leur établissement.</p></li>
 	  <li><p>Les sujets du Castor 2016 et leurs corrections sont en accès public.</p></li>
@@ -111,6 +115,7 @@ Rejoignez-nous sur :
 	  <li><p>Des parcours de <a href='http://preparation.algorea.org' target='_blank'>préparation au 1er tour Algoréa</a> sont disponibles.</p></li>
 	  <li><p>Le 1er tour Algoréa aura lieu du 3 au 17 Janvier, les coordinateurs peuvent déjà créer leurs groupes pour permettre aux qualifiés de participer.</p></li>
 	  </ul>
+     -->
    <?php elseif (contest_phase() == 'contest-results-temp'):?>
       </p><p><span class='index-important' style='color:red'>L'édition 2016 a été un grand succès, avec 474 903 participants</span>  dans 2885 établissements&nbsp;!</p> 
       <p>
@@ -170,7 +175,7 @@ Rejoignez-nous sur :
 </div>
 -->
 <?php //******************************************************************** ?>
-<h1>Participer à l'édition 2017</h1>
+<h1>Participer à l'édition 2018</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
    <p>L'édition 2017 du concours Castor est en cours. Elle a lieu du 12 novembre au 8 décembre 2017.</p>
@@ -184,11 +189,11 @@ Rejoignez-nous sur :
    exemple votre professeur de mathématiques ou de technologie.
    </ul>
 <?php else:?>
-   <p>La prochaine édition du concours Castor aura lieu du 12 novembre au 8 décembre 2017.</p>
+   <p>La prochaine édition du concours Castor aura lieu en novembre 2018.</p>
    <p>Si vous êtes enseignant, <a href="http://coordinateur.castor-informatique.fr">inscrivez-vous</a>
    dès maintenant comme coordinateur.</p>
 
-   <p>En attendant l'édition 2017 du Castor, vous pouvez <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
+   <p>En attendant l'édition 2018 du Castor, vous pouvez <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
 
    <!--<p>En attendant, il est possible de <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a>.</p>-->
 <?php endif; ?>
@@ -225,7 +230,7 @@ données, jeux de logique, informatique et société.</p>
 <li>Il peut être effectué à n'importe quel moment de cette période.</li>
 <li>Des corrections détaillées sont proposées peu après la clôture.</li>
 <li>Des diplômes sont offerts aux participants selon leur score.</li>
-<li>Les meilleurs de chaque niveau sont qualifiés pour le <a href="http://www.algorea.org">concours Algoréa</a>.</li>
+<li>Chacun pourra participer au <a href="http://www.algorea.org">concours Algoréa</a>, dans une catégorie qui dépendra de son résultat.</li>
 <li>Les sujets du concours peuvent être rejoués en ligne toute l'année.</li>
 </ul>
 </p>

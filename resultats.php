@@ -170,20 +170,21 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    </p>
    <br/>
    <p>
-   Jusqu'en 2014, des clés USB à l'effigie du Castor étaient distribués aux élèves les mieux classés du concours Castor. Avec l'augmentation du nombre de participants, nous ne pouvions récompenser qu'un demi pourcent des participants, soit moins d'un lot par établissement. Pour que le concours reste gratuit, nous laissons désormais les établissements qui le souhaitent offrir eux-mêmes des lots aux mieux classés.
+    Le concours étant gratuit, et avec plus d'un demi-million de praticipants, nous ne proposons pas de lots pour les participants au concours Castor. Les récompenses sont le diplôme à imprimer par les coordinateurs et la qualification au concours Algoréa. Nous laissons désormais les établissements qui le souhaitent offrir eux-mêmes des lots aux mieux classés.
    </p>
 
 <h1 style="clear:both">Qualification à Algoréa</h1>
    
    <p>
-      Les 10% meilleurs classés de chaque niveau scolaire et chaque type de participation (individuelle ou par binôme) sont sélectionnés pour l'étape suivante&nbsp;:
+      Les participants au concours Castor peuvent ensuite participer au concours <a href="http://www.algorea.org">Algoréa</a>, dont l'objectif est de les accompagner dans leur apprentissage de la programmation. Chaque élève pourra participer dans une catégorie qui dépendra du score obtenu au concours Castor.
    </p>
    <p style="text-align:center;font-weight:bold">
-      le premier tour du concours <a href="http://www.algorea.org">Algoréa</a>, du 3 au 17 janvier 2017.
+      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> aura lieu du 7 au 20 janvier 2018.
    </p>
    <p>
       Les finalistes de ce concours gagnent un stage d'une semaine à Paris et des lots offerts par les sponsors.
    </p>
+<!--
    <p>
    <span style="font-weight:bold">Score minimal pour se qualifier à Algoréa 2017 :</span>
    </p>
@@ -235,13 +236,14 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
       </tr>
    </table>
    <br/>
+   -->
    <p>
-      Notez qu'il est aussi possible de se qualifier en résolvant au moins 12 exercices sur <a href="http://www.france-ioi.org" target="_blank">france-ioi.org</a>.
+      Pour ceux qui n'ont pas pu participer au concours Castor, d'autres modes de qualifications sont proposés.
    </p>
    <p>
-	  Des parcours de préparation au 1er tour Algoréa sont disponibles sur <a href="http://preparation.algorea.org" target="_blank">preparation.algorea.org</a>.
+	  Des parcours de préparation au concours Algoréa sont disponibles sur <a href="http://algorea.org" target="_blank">algorea.org</a>.
    </p>
-
+<!--
 <h1 style="clear:both">Participation par établissement</h1>
 <p>
 Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établissements qui ont participé à cette édition, et le nombre de participants par catégorie.
@@ -378,7 +380,7 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 </tr>
 
 </table>
-
+-->
 
 <?php page_footer(); ?>
 </div><!--mainbar-->
