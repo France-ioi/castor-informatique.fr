@@ -78,8 +78,8 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <div>
 
-<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le concours Castor 2017 est terminé. Nous préparons les résultats.</p>
-<p>Dès le 11 décembre, le concours de cryptanalyse <a href="http://concours-alkindi.fr" target="_blank">Alkindi</a>, organisé par Animath et France-ioi démarre pour les élèves de la 4ème à la seconde.</p>
+<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le concours Castor 2017 est terminé. Les premiers <a href="resultats.php">résultats sont disponibles</a></p>
+<p>Dès le 11 décembre, le concours de cryptanalyse <a href="http://concours-alkindi.fr" target="_blank">Alkindi</a>, organisé par Animath et France-ioi démarre pour les élèves de la 4e à la 2de.</p>
 <p>Le 7 janvier, c'est le concours de programmation <a href="http://algorea.org" target="_blank">Algoréa</a> qui démarre. Vous pouvez dès maintenant vous y préparer.</p>
 </div>
 <br/>
@@ -103,9 +103,10 @@ Rejoignez-nous sur :
    <?php elseif (contest_phase() == 'contest-running'):?>
       </p><p><span class='index-important'>L'édition 2017 est en cours ! Elle se déroule du dimanche 12 novembre à 8h au vendredi 8 décembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
-      </p><p><span class='index-important'>L'édition 2017 vient de se terminer, avec plus d'un demi-million de participants !</span> 
+      </p><p><span class='index-important'>L'édition 2017 vient de se terminer, avec plus d'un demi-million de participants !</span> </p>
+      <br/>
       <p>
-      Les résultats sont en cours de préparation. Les scores définitifs et qualifications <a href="http://algorea.org">au concours Algoréa</a> seront disponibles vers le 15 décembre. Les classements et diplômes arriveront un peu plus tard.
+      Les scores définitifs et qualifications <a href="http://algorea.org">au concours Algoréa</a> sont <a href="resultats.php">disponibles</a>.
       </p>
       <!--
 	  <ul>
@@ -271,11 +272,6 @@ L'étape suivante est le concours <a href="http://algorea.org">Algoréa</a>, ouv
 </p>
 <p>
 Pour progresser au fil de l'année et entre les différentes étapes du concours, <a href="http://www.france-ioi.org/">France-ioi</a> propose de nombreux cours et exercices dans les domaines de la programmation et l'algorithmique. Des contenus adaptés aux plus jeunes sont actuellement en préparation.
-</p>
-<p>
-Enfin,
-<a href="http://interstices.info/">Interstices</a> vous permet de 
-découvrir les sciences du numérique.
 </p>
 
 <?php //******************************************************************** ?>

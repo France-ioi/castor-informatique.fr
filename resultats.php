@@ -53,8 +53,41 @@ function loadMap() {
 
 <h1>Résultats</h1>
 
-<p>Le concours est désormais terminé. <span style='font-weight:bold'>Les résultats seront accessibles dans les jours à venir.</span></p>
+<!--<p>Le concours est désormais terminé. <span style='font-weight:bold'>Les résultats seront accessibles dans les jours à venir.</span></p>-->
 
+<p>L'édition 2017 du concours Castor est terminée. Plus de 598 000 élèves ont participé !</p>
+
+<p>Les coordinateurs ont accès à tous les scores et qualifications à <a href="http://www.algorea.org" target="_blank">Algoréa</a> de leurs élèves depuis leur interface coordinateur.</p>
+
+<p>Chaque élève peut revoir son score et sa participation en entrant son code d'équipe sur <a href="http://concours.castor-informatique.fr" target="_blank">concours.castor-informatique.fr</a>. Si vous avez perdu votre code d'équipe, votre coordinateur pourra vous transmettre vos résultats.</p>
+
+<p>Les seuils de qualifications au 1er tour du <a href="http://www.algorea.org" target="_blank">concours Algoréa</a> sont les suivants :</p>
+<style>
+.qualificationTable {
+   margin: 20px;
+}
+.qualificationTable tr td {
+   border: solid black 1px;
+   padding: 10px;
+}
+.qualificationTable tr:first-child td {
+   font-weight: bold;
+}
+</style>
+<table class="qualificationTable" cellspacing=0 cellpadding=0><tr><td>Score au concours Castor</td><td>Qualification à Algoréa</td></tr>
+<tr><td>Moins de 300 points</td><td>Oui, en catégorie blanche</td></tr>
+<tr><td>Entre 300 et 399 points</td><td>Oui, en catégorie jaune</td></tr>
+<tr><td>400 points ou plus</td><td>Oui, en catégorie orange</td></tr>
+</table>
+<p>
+Contrairement aux éditions précédentes, tous les participants au concours Castor sont qualifiés pour le concours Algoréa, dont le but et d'accompagner chacun dans son apprentissage de la programmation. Le score au Castor détermine la catégorie de départ.
+</p>
+<p>
+Pour plus d'informations sur les catégories et le concours Algoréa, rendez-vous sur <a href="http://www.algorea.org" target="_blank">algorea.org</a>
+</p>
+<p>
+Les classements, diplômes et statistiques diverses sur le concours Castor 2017 seront publiés fin décembre ou début janvier. Nous laissons un peu de temps pour permettre aux coordinateurs d'effectuer des corrections et de nous signaler toute anomalie, par exemple sur la classe de chaque élève.
+</p>
 <?php endif;
 
 if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'): ?>
@@ -166,13 +199,14 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <img src="img/diplome_castor_small.png" width="200" style="float:right">
 
    <p>
-   À l'issue du concours, des diplômes pour chacun des participants peuvent être imprimés par les coordinateurs.
+   Une fois les classements rendus définitifs, des diplômes pour chacun des participants peuvent être imprimés par les coordinateurs.
    </p>
    <br/>
    <p>
-    Le concours étant gratuit, et avec plus d'un demi-million de praticipants, nous ne proposons pas de lots pour les participants au concours Castor. Les récompenses sont le diplôme à imprimer par les coordinateurs et la qualification au concours Algoréa. Nous laissons désormais les établissements qui le souhaitent offrir eux-mêmes des lots aux mieux classés.
+    Le concours étant gratuit, et avec plus d'un demi-million de praticipants, nous ne proposons pas de lots pour les participants au concours Castor. Nous laissons désormais les établissements qui le souhaitent offrir eux-mêmes des lots aux mieux classés.</p>
+    <p>Les récompenses sont le diplôme à imprimer par les coordinateurs et la qualification au concours de programmation <a href="http://www.algorea.org" target="_blank">Algoréa</a>. 
    </p>
-
+<!--
 <h1 style="clear:both">Qualification à Algoréa</h1>
    
    <p>
@@ -184,6 +218,13 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <p>
       Les finalistes de ce concours gagnent un stage d'une semaine à Paris et des lots offerts par les sponsors.
    </p>
+   <p>
+      Pour ceux qui n'ont pas pu participer au concours Castor, d'autres modes de qualifications sont proposés.
+   </p>
+   <p>
+	  Des parcours de préparation au concours Algoréa sont disponibles sur <a href="http://algorea.org" target="_blank">algorea.org</a>.
+   </p>
+   -->
 <!--
    <p>
    <span style="font-weight:bold">Score minimal pour se qualifier à Algoréa 2017 :</span>
@@ -237,12 +278,6 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    </table>
    <br/>
    -->
-   <p>
-      Pour ceux qui n'ont pas pu participer au concours Castor, d'autres modes de qualifications sont proposés.
-   </p>
-   <p>
-	  Des parcours de préparation au concours Algoréa sont disponibles sur <a href="http://algorea.org" target="_blank">algorea.org</a>.
-   </p>
 <!--
 <h1 style="clear:both">Participation par établissement</h1>
 <p>
@@ -250,7 +285,7 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 </p>
 
 <iframe src="schoolResults.html" style="width:760px;height:100vh;"></iframe>
-
+-->
 <?php //******************************************************************** ?>
 <h1>Historique</h1>
 
