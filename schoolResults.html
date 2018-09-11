@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 		<meta charset="utf-8">
-      	<title>Résultats Castor 2016</title>
+      	<title>Résultats Castor 2017</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
       	<script src="https://code.angularjs.org/1.5.5/i18n/angular-locale_fr-fr.js"></script>
       	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.3.0/ui-bootstrap-tpls.js"></script>
-      	<script src="schoolResults-2016.js"></script>
+      	<script src="schoolResults-2017.js"></script>
       	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
       	<link rel="stylesheet" type="text/css" href="schoolResults.css">
 <body>
@@ -72,6 +72,10 @@ app.controller("mainController", function($scope) {
       			13: "2nde pro.",
       			14: "1e pro.",
       			15: "terminale pro.",
+      			16: "6e segpa",
+      			17: "5e segpa",
+      			18: "4e segpa",
+      			19: "3e segpa"
       		};
       		$scope.filters = {
       			'name': {'name': 'Nom', 'field': 'name'},
@@ -131,6 +135,10 @@ app.controller("mainController", function($scope) {
 				<th ng-if="formInfos.category == 'lyceepro'">2nde pro.</th>
 				<th ng-if="formInfos.category == 'lyceepro'">1e pro.</th>
 				<th ng-if="formInfos.category == 'lyceepro'">Terminale pro.</th>
+				<th ng-if="formInfos.category == 'college'">6e segpa</th>
+				<th ng-if="formInfos.category == 'college'">5e segpa</th>
+				<th ng-if="formInfos.category == 'college'">4e segpa</th>
+				<th ng-if="formInfos.category == 'college'">3e segpa</th>
 			</tr>
 			</thead>
 			<tbody>
@@ -155,6 +163,10 @@ app.controller("mainController", function($scope) {
 		    	<td ng-if="formInfos.category == 'lyceepro'">{{ school.contestantData[13] }}</td>
 		    	<td ng-if="formInfos.category == 'lyceepro'">{{ school.contestantData[14] }}</td>
 		    	<td ng-if="formInfos.category == 'lyceepro'">{{ school.contestantData[15] }}</td>
+		    	<td ng-if="formInfos.category == 'college'">{{ school.contestantData[16] }}</td>
+		    	<td ng-if="formInfos.category == 'college'">{{ school.contestantData[17] }}</td>
+		    	<td ng-if="formInfos.category == 'college'">{{ school.contestantData[18] }}</td>
+		    	<td ng-if="formInfos.category == 'college'">{{ school.contestantData[19] }}</td>
 		  	</tr>
 		  	</tbody>
 		</table>

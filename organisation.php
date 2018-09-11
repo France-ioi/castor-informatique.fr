@@ -39,6 +39,7 @@ $(function() {
 
 <div id="years">
    <ul class="years">
+      <li><a href="#years-2018">2018</a></li>
       <li><a href="#years-2017">2017</a></li>
       <li><a href="#years-2016">2016</a></li>
       <li><a href="#years-2015">2015</a></li>
@@ -47,6 +48,106 @@ $(function() {
       <li><a href="#years-2012">2012</a></li>
       <li><a href="#years-2011">2011</a></li>
    </ul>
+<div id="years-2018">
+   <table width="100%" style="margin-top:1em"><tr>
+   <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=200 src="img/logo_ens_paris_saclay.png" alt="ENS" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.france-ioi.org"><img width=165 src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="http://www.inria.fr"><img width=200 src="img/logo_inria.png" alt="inria" class="logo-img"></a></td></tr></table>
+
+   <table class="orga-table">
+
+   <tr>
+   <td style="width:40%">Organisation et coordination</td>
+   <td>
+      Arthur Charguéraud - Inria - France-ioi<br />
+      Mathias Hiron - France-ioi<br />
+      Françoise Tort - STEF, ENS Paris Saclay<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Suivi des inscriptions</td>
+   <td>
+      Françoise Tort - STEF, ENS Paris Saclay<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Plateforme du concours</td>
+   <td>
+      Michel Blockelet - Consultant France-ioi<br />
+      Sébastien Carlier - Consultant France-ioi<br />
+      Mathias Hiron - France-ioi<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Comité de sélection des sujets et rédaction du contenu</td>
+   <td>
+      Arthur Charguéraud - Inria - France-ioi<br/>
+      Mathias Hiron - France-ioi<br />
+      Françoise Tort - STEF, ENS Paris Saclay<br />
+   </td>
+   </tr>
+
+   <tr>
+   <td>Développement des sujets interactifs</td>
+   <td>
+   </td>
+   </tr>
+   <tr>
+   <td>Tests en situation</td>
+   <td>
+      Marielle Léonard - France-ioi<br/>
+   </td>
+   </tr>
+   <tr>
+   <td>Hotline pendant le concours</td>
+   <td>
+      Mathias Hiron - France-ioi<br />
+   </td>
+   </tr>
+   <tr>
+
+   <tr>
+   <td>Représentation de la France au ‘BEBRAS Workshop’</td>
+   <td>
+      Mathias Hiron - France-ioi<br />
+   </td>
+   </tr>
+
+   <td>Représentants des partenaires</td>
+   <td>
+      Stéphane Gaussent (Fondation Blaise Pascal)<br />
+      Rémi Ferrand (Talents du numérique)<br />
+      Martine Paindorge (Tour 123)<br/>
+      Sylvie Boldo (ANR)<br />
+   </td>
+   </tr>
+
+   </table>
+      
+
+   <h1>Partenaires</h1>
+
+
+   <table class="partenaires-table"><tr>
+   <td><a href="http://fondationblaisepascal.strikingly.com/" target="_blank"><img style="width:180px;margin-right:10px" src="img/logo_blaise_pascal.png"  alt="Fondation Blaise Pascal" class="logo-img"></a></td>
+   <td><a href="https://www.gouvernement.fr/programme-investissements-avenir/commissariat-general-investissement" class="menu-logo" target="_blank"><img style="width:80px" src="img/logo_pia.png" alt="Programme Investissements d' Avenir" class="logo-img"></a></td>
+   <td><a href="http://www.agence-nationale-recherche.fr/" target="_blank"><img width=130 src="img/logo_anr.png"  alt="ANR" class="logo-img"></a></td>
+   <td><a href="https://talentsdunumerique.com" target="_blank"><img width=180 src="img/logo_talents_numerique.png" alt="Talents du numérique" class="logo-img"></a></td>
+   <td><a href="http://tour123.wordpress.com/" target="_blank"><img width=90 src="img/logo_tour123.png"  alt="tour123" class="logo-img"></a></td>
+
+   </tr></table>
+   </p>
+   <h1>Autres remerciements</h1>
+   <p>
+   Nous remercions l'ensemble des responsables du concours Castor <a href="http://bebras.org">au niveau international</a>, et les nombreux auteurs de sujets.
+   </p>
+   <p>
+   Et un grand merci à tous les enseignants et leurs établissements, qui organisent le concours partout en France et ailleurs. 
+   </p>
+</div>
 <!---------------------------------------------------------------------------------->
 <div id="years-2017">
    <table width="100%" style="margin-top:1em"><tr>
@@ -126,7 +227,7 @@ $(function() {
    <td>Représentants des partenaires</td>
    <td>
       Stéphane Gaussent (Fondation Blaise Pascal)<br />
-      Rémi Ferrand (@Pascaline)<br />
+      Rémi Ferrand (Talents du numérique)<br />
       Martine Paindorge (Tour 123)<br/>
       Sylvie Boldo (ANR)<br />
    </td>
@@ -139,9 +240,10 @@ $(function() {
 
 
    <table class="partenaires-table"><tr>
-   <td><a href="http://fondationblaisepascal.strikingly.com/" target="_blank"><img style="width:150px;margin-right:30px" src="img/logo_blaise_pascal.png"  alt="Fondation Blaise Pascal" class="logo-img"></a></td>
-   <td><a href="http://www.agence-nationale-recherche.fr/ target="_blank""><img width=130 src="img/logo_anr.png"  alt="ANR" class="logo-img"></a></td>
-   <td><a href="http://www.assopascaline.fr" target="_blank"><img width=130 src="img/logo_pascaline.jpg" alt="Pascaline" class="logo-img"></a></td>
+   <td><a href="http://fondationblaisepascal.strikingly.com/" target="_blank"><img style="width:180px;margin-right:10px" src="img/logo_blaise_pascal.png"  alt="Fondation Blaise Pascal" class="logo-img"></a></td>
+   <td><a href="https://www.gouvernement.fr/programme-investissements-avenir/commissariat-general-investissement" class="menu-logo" target="_blank"><img style="width:80px" src="img/logo_pia.png" alt="Programme Investissements d' Avenir" class="logo-img"></a></td>
+   <td><a href="http://www.agence-nationale-recherche.fr/" target="_blank"><img width=130 src="img/logo_anr.png"  alt="ANR" class="logo-img"></a></td>
+   <td><a href="https://talentsdunumerique.com" target="_blank"><img width=180 src="img/logo_talents_numerique.png" alt="Talents du numérique" class="logo-img"></a></td>
    <td><a href="http://tour123.wordpress.com/" target="_blank"><img width=90 src="img/logo_tour123.png"  alt="tour123" class="logo-img"></a></td>
 
    </tr></table>

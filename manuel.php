@@ -32,7 +32,7 @@ L'inscription doit être réalisée par un(e) enseignant(e) dit "coordinateur" q
 
 <h2>Qui peut participer au Castor Informatique&nbsp;?</h2>
 <p>
-Le concours est ouvert à tous les niveaux de collège et lycée français dans toutes les filières, et également au CM1-CM2 depuis 2015.
+Le concours est ouvert à tous les niveaux du CM1 à la terminale, des écoles, collèges et lycées français dans toutes les filières.
 </p>
 
 
@@ -107,11 +107,6 @@ Oui. Le candidat ne peut pas participer au concours en plusieurs fois. Une fois 
 <h2>Les élèves peuvent-ils(elles) passer l'épreuve hors temps scolaire, depuis leur domicile par exemple&nbsp;?</h2>
 <p>
 Non. Pour des raisons d'équité pour l'ensemble des candidats du concours (plusieurs centaines de milliers sur toute la France), il est important qu'il soit passé dans des conditions similaires par tous ; c'est-à-dire sur le temps scolaire et sous l'encadrement d'un enseignant. </</p>
-
-<h2>Pourquoi les élèves doivent-ils indiquer leur genre lors du concours&nbsp;?</h2>
-<p>Le concours Castor souhaite &oelig;uvrer à la promotion de l'informatique et de la science du numérique et de ses métiers auprès de tous les jeunes et, en particulier, auprès des filles. Les données sur le genre, à fournir au début de la participation au concours,
- nous permettront de calculer les taux de participation des filles, et leurs taux de réussite, nous apportant certainement des arguments en faveur de l'intéressement des filles à l'informatique.</p>
-
 
 </div><!--manuel-->
 

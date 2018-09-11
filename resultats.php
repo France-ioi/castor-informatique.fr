@@ -49,17 +49,13 @@ function loadMap() {
 
 <p>Le concours se déroule du 5 au 19 novembre. <span style='font-weight:bold'>Les résultats seront annoncés après la fin du concours.</span></p>
 
-<?php endif; if (contest_phase() == 'contest-over'):?>
+<?php endif; if (contest_phase() == 'contest-over' || contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'):?>
 
 <h1>Résultats</h1>
 
 <!--<p>Le concours est désormais terminé. <span style='font-weight:bold'>Les résultats seront accessibles dans les jours à venir.</span></p>-->
 
-<p>L'édition 2017 du concours Castor est terminée. Plus de 598 000 élèves ont participé !</p>
-
-<p>Les coordinateurs ont accès à tous les scores et qualifications à <a href="http://www.algorea.org" target="_blank">Algoréa</a> de leurs élèves depuis leur interface coordinateur.</p>
-
-<p>Chaque élève peut revoir son score et sa participation en entrant son code d'équipe sur <a href="http://concours.castor-informatique.fr" target="_blank">concours.castor-informatique.fr</a>. Si vous avez perdu votre code d'équipe, votre coordinateur pourra vous transmettre vos résultats.</p>
+<p>L'édition 2017 du concours Castor est terminée. Plus de 600 000 élèves ont participé !</p>
 
 <p>Les seuils de qualifications au 1er tour du <a href="http://www.algorea.org" target="_blank">concours Algoréa</a> sont les suivants :</p>
 <style>
@@ -85,14 +81,16 @@ Contrairement aux éditions précédentes, tous les participants au concours Cas
 <p>
 Pour plus d'informations sur les catégories et le concours Algoréa, rendez-vous sur <a href="http://www.algorea.org" target="_blank">algorea.org</a>
 </p>
+<!--
 <p>
 Les classements, diplômes et statistiques diverses sur le concours Castor 2017 seront publiés fin décembre ou début janvier. Nous laissons un peu de temps pour permettre aux coordinateurs d'effectuer des corrections et de nous signaler toute anomalie, par exemple sur la classe de chaque élève.
 </p>
+-->
 <?php endif;
 
 if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'): ?>
 
-<h1>Consultez les résultats</h1>
+<h1>Consultez vos résultats</h1>
 
 <table class="results-table">
 <tr>
@@ -101,7 +99,7 @@ if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-res
    <p class="results-table-title">Accès élève</p>
 
    <p>Pour consulter votre score et <!--accéder aux corrections, --> revoir vos réponses, 
-   allez sur la <a href="http://concours.castor-informatique.fr?tab=continue">plate-forme du concours</a> et utilisez le code que vous avez noté au moment de commencer le concours.
+   allez sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a> et utilisez le code que vous avez noté au moment de commencer le concours, ou bien votre code de participant si vous en avez un.
    </p>
    <!--
    <div class="login-results">
@@ -119,7 +117,7 @@ if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-res
 <td>
    <p class="results-table-title">Accès coordinateur</p>
 
-   <p>Les coordinateurs peuvent consulter les scores de tous leurs élèves sur la <a href="http://coordinateur.castor-informatique.fr">plate-forme coordinateur</a>.</p>
+   <p>Les coordinateurs peuvent consulter les scores, classements et qualifications Algoréa de tous leurs élèves sur la <a href="http://coordinateur.castor-informatique.fr">plateforme coordinateur</a>.</p>
    <br/>
 
    <?php if (contest_phase() == 'contest-results-temp'): ?>
@@ -148,12 +146,12 @@ Les classements seront publiés vers le 10 décembre. Les coordinateurs pourront
 
 <h1>Statistiques de participation</h1>
 
-<p>L'édition 2016 du concours Castor Informatique français a été un grand succès !</p>
+<p>L'édition 2017 du concours Castor Informatique français a été un grand succès !</p>
 
 <ul class="resultats-summary">
-<li>Le concours s'est déroulé du 5 au 19 novembre 2016.</li>
-<li><span class="resultats-important">474&nbsp;903 élèves</span> ont participé.</li>
-<li><span class="resultats-important">2&nbsp;885 établissements</span> ont pris part au concours.</li>
+<li>Le concours s'est déroulé du 12 novembre au 8 décembre 2017.</li>
+<li><span class="resultats-important">600&nbsp;427 élèves</span> ont participé.</li>
+<li><span class="resultats-important">3&nbsp;284 établissements</span> ont pris part au concours.</li>
 </ul>
 
 
@@ -176,16 +174,16 @@ Le classement n'est publié que jusqu'au début de l'année scolaire suivante.
 <!--<p>Le classement correspondant à chaque score sera disponible prochainement.</p>-->
 
 <p>
-Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6ème et que vous avez obtenu 300 points, vous pouvez voir dans le tableau que vous êtes classé(e) 1052ème parmi tous les élèves de votre catégorie.
-Notez qu'il y a souvent des ex-aequo. Par exemple 497 élèves sont ex-aequo à la 1052ème place dans la catégorie 6ème avec un score de 300 points.
+Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6<sup>e</sup> et que vous avez obtenu 300 points, vous pouvez voir dans le tableau que vous êtes classé(e) 3444<sup>e</sup> parmi tous les élèves de votre catégorie.
+Notez qu'il y a souvent des ex-aequo. Par exemple 381 élèves sont ex-aequo à la 3444<sup>e</sup> place dans la catégorie 6<sup>e</sup> avec un score de 300 points.
 </p>
-
+<!--
 <p>Notez que certains élèves se sont trompés en indiquant leur classe, et que les coordinateurs n'ont pas encore corrigé. Les corrections pourront entraîner des changementsmineurs dans les classements.</p>
-
-<p>Rappel : vous pouvez obtenir votre score et voir le détail de vos résultats à l'aide de votre code personnel sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a>.</p>
+-->
+<p>Rappel : vous pouvez obtenir votre score et voir le détail de vos résultats à l'aide de votre code de participant sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a>.</p>
 
 <div class="resultats-graphiques" style="margin-top:0.5em;margin-bottom:1em">
-<?php include("resultats2016_castor.php"); ?>
+<?php include("resultats2017_alkindi.php"); ?>
 </div>
 <!--
 <p>
@@ -199,11 +197,11 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <img src="img/diplome_castor_small.png" width="200" style="float:right">
 
    <p>
-   Une fois les classements rendus définitifs, des diplômes pour chacun des participants peuvent être imprimés par les coordinateurs.
+   <!--Une fois les classements rendus définitifs, d-->Des diplômes pour chacun des participants peuvent être imprimés par les coordinateurs.
    </p>
    <br/>
    <p>
-    Le concours étant gratuit, et avec plus d'un demi-million de praticipants, nous ne proposons pas de lots pour les participants au concours Castor. Nous laissons désormais les établissements qui le souhaitent offrir eux-mêmes des lots aux mieux classés.</p>
+    Le concours étant gratuit, et avec plus d'un demi-million de praticipants, nous ne proposons pas de lots pour les participants au concours Castor. Chaque établissement qui le souhaite peut offrir des lots aux mieux classés. Le plus important est le plaisir de participer et de progresser grâce aux concours.</p>
     <p>Les récompenses sont le diplôme à imprimer par les coordinateurs et la qualification au concours de programmation <a href="http://www.algorea.org" target="_blank">Algoréa</a>. 
    </p>
 <!--
@@ -278,14 +276,14 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    </table>
    <br/>
    -->
-<!--
+
 <h1 style="clear:both">Participation par établissement</h1>
 <p>
 Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établissements qui ont participé à cette édition, et le nombre de participants par catégorie.
 </p>
 
 <iframe src="schoolResults.html" style="width:760px;height:100vh;"></iframe>
--->
+
 <?php //******************************************************************** ?>
 <h1>Historique</h1>
 
@@ -296,6 +294,11 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td width="33%">Année</td>
 <td width="33%">Élèves</td>
 <td width="33%">Établissements</td>
+</tr>
+<tr>
+<td>2017</td>
+<td>600 427</td>
+<td>3284</td>
 </tr>
 
 <tr>
@@ -350,6 +353,19 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td>2<sup>nde</sup></td>
 <td>1<sup>ère</sup></td>
 <td>T<sup>ale</sup></td>
+</tr>
+
+<tr>
+<td>2017</td>
+<td>8&nbsp;921</td>
+<td>14&nbsp;426</td>
+<td>140&nbsp;148</td>
+<td>127&nbsp;823</td>
+<td>115&nbsp;495</td>
+<td>101&nbsp;164</td>
+<td>56&nbsp;807</td>
+<td>21&nbsp;017</td>
+<td>14&nbsp;608</td>
 </tr>
 
 <tr>
@@ -415,7 +431,6 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 </tr>
 
 </table>
--->
 
 <?php page_footer(); ?>
 </div><!--mainbar-->

@@ -63,11 +63,12 @@ Rejoignez-nous sur :
 
 <div class="submenu">
 <h1>Partenaires</h1>
-<a href="http://fondationblaisepascal.strikingly.com/" class="menu-logo"  target="_blank"><img width="80%" src="img/logo_blaise_pascal.png" alt="Fondation Blaise Pascal" class="logo-img"></a>
+<a href="http://fondationblaisepascal.strikingly.com/" class="menu-logo"  target="_blank"><img width="100%" src="img/logo_blaise_pascal.png" alt="Fondation Blaise Pascal" class="logo-img"></a>
+<a href="https://www.gouvernement.fr/programme-investissements-avenir/commissariat-general-investissement" class="menu-logo" target="_blank"><img width="50%" src="img/logo_pia.png" alt="Programme Investissements d' Avenir" class="logo-img"></a>
 
-<a href="http://www.agence-nationale-recherche.fr/" class="menu-logo"  target="_blank"><img width="80%" src="img/logo_anr.png" alt="Agence Nationale de la Recherche" class="logo-img" ></a>
-<a href="http://www.assopascaline.fr" class="menu-logo"  target="_blank"><img width="95%" src="img/logo_pascaline.jpg" alt="pascaline" class="logo-img"></a>
-<a href="http://tour123.wordpress.com/" class="menu-logo"  target="_blank"><img width="70%" src="img/logo_tour123.png" alt="Tour 123" class="logo-img" ></a>
+<a href="http://www.agence-nationale-recherche.fr/" class="menu-logo"  target="_blank"><img width="70%" src="img/logo_anr.png" alt="Agence Nationale de la Recherche" class="logo-img" ></a>
+<a href="https://talentsdunumerique.com" class="menu-logo"  target="_blank"><img width="100%" src="img/logo_talents_numerique.png" alt="pascaline" class="logo-img"></a>
+<a href="http://tour123.wordpress.com/" class="menu-logo"  target="_blank"><img width="60%" src="img/logo_tour123.png" alt="Tour 123" class="logo-img" ></a>
 </div>
 
 
@@ -78,9 +79,11 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <div>
 
-<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><p>Annonce : le concours Castor 2017 est terminé. Les premiers <a href="resultats.php">résultats sont disponibles</a></p>
-<p>Dès le 11 décembre, le concours de cryptanalyse <a href="http://concours-alkindi.fr" target="_blank">Alkindi</a>, organisé par Animath et France-ioi démarre pour les élèves de la 4e à la 2de.</p>
-<p>Le 7 janvier, c'est le concours de programmation <a href="http://algorea.org" target="_blank">Algoréa</a> qui démarre. Vous pouvez dès maintenant vous y préparer.</p>
+<div style="background-color:#FFF0F0;border:solid black 1px;padding:5px"><!--<p>Annonce : le concours Castor 2017 est terminé. Les <a href="resultats.php">résultats sont disponibles</a></p>-->
+<!--
+<p>La demi-finale du concours <a href="http://algorea.org" target="_blank">Algoréa</a> est terminée. 24 élèves ont été invités à la finale à Paris et ont déjà été contactés. Ceux qui ont fait la demi-finale peuvent voir leur résultat en se reconnectant sur <a href="http://concours.algorea.org" target="_blank">concours.algorea.org</a> et vérifier s'ils sont qualifiés pour la finale en ligne (du 15 juillet au 31 août). Les coordinateurs ont aussi accès aux résultats.</p>
+-->
+<p>Le concours Castor 2018 se déroulera du 11 novembre au 7 décembre prochains.</p>
 </div>
 <br/>
 
@@ -99,11 +102,11 @@ Rejoignez-nous sur :
    <!-- L'édition 2013 a été un grand succès, avec près de <span class='index-important'>180&nbsp;000&nbsp;participants</span> répartis
    dans 1700&nbsp;collèges et lycées de toute la France.-->
    <?php if (contest_phase() == 'contest-soon'):?>
-      </p><p><span class='index-important'>L'édition 2017 se prépare ! Elle aura lieu du dimanche 12 novembre à 8h au vendredi 8 décembre à 23h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2018 se prépare ! Elle aura lieu du dimanche 11 novembre à 8h au vendredi 7 décembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-running'):?>
-      </p><p><span class='index-important'>L'édition 2017 est en cours ! Elle se déroule du dimanche 12 novembre à 8h au vendredi 8 décembre à 23h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2018 est en cours ! Elle se déroule du dimanche 11 novembre à 8h au vendredi 7 décembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
-      </p><p><span class='index-important'>L'édition 2017 vient de se terminer, avec plus d'un demi-million de participants !</span> </p>
+      </p><p><span class='index-important'>L'édition 2018 vient de se terminer, avec plus d'un demi-million de participants !</span> </p>
       <br/>
       <p>
       Les scores définitifs et qualifications <a href="http://algorea.org">au concours Algoréa</a> sont <a href="resultats.php">disponibles</a>.
@@ -130,7 +133,7 @@ Rejoignez-nous sur :
    </p>
 
    <p style="text-align: center">
-      <input class="plateforme-button" type="submit" value="Aller au concours" onclick="document.location = 'http://concours.castor-informatique.fr'"> 
+  <!--    <input class="plateforme-button" type="submit" value="Aller au concours" onclick="document.location = 'http://concours.castor-informatique.fr'"> -->
       <?php if (contest_phase() == 'contest-results-temp'):?>
       <input class="plateforme-button" type="submit" value="Accès aux résultats de l'édition 2013" onclick="document.location = 'resultats.php'">
       <?php endif; ?>
@@ -144,13 +147,13 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <?php if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'):?>
 
-   <h1>Résultats 2016</h1>
+   <h1>Résultats 2017</h1>
 
    <p><span class='index-important'>
-      L'édition 2016 a été un grand succès, avec plus de <span class='index-important'>474 903 participants</span>  dans 2885 établissements&nbsp;!</span>
+      L'édition 2017 a été un grand succès, avec plus de <span class='index-important'>600 000 participants</span>  dans 3284 établissements&nbsp;!</span>
    </p>
    <p>
-   Les participants peuvent <a href="http://concours.castor-informatique.fr?tab=continue">accéder à leur score</a> en utilisant leur code d'accès personnel fourni au début du concours.</p>
+   Les participants peuvent <a href="http://concours.castor-informatique.fr?tab=continue">accéder à leur score</a> en utilisant leur code d'équipe fourni au début du concours, ou leur code de participant.</p>
    <p>
    Les coordinateurs peuvent accéder aux scores et classements de tous leurs élèves sur <a href="http://coordinateur.castor-informatique.fr">l'interface coordinateur</a>.
    </p>
@@ -160,7 +163,7 @@ Rejoignez-nous sur :
    </p>
    -->
    <p style="text-align:center">
-      <input class="plateforme-button" type="submit" value="Accès aux résultats du Castor 2016" onclick="document.location = 'resultats.php'">
+      <input class="plateforme-button" type="submit" value="Accès aux résultats du Castor 2017" onclick="document.location = 'resultats.php'">
    </p>
 <!--
       <p style="float:clear">8200 élèves classés parmi les meilleurs du Castor 2014 ont participé au concours <a href="http://algorea.org">Algoréa 2015</a>, et ont progressé au fil des 4 tours du concours, jusqu'à la finale, à laquelle 19 élèves de la 6ème à la 1ère ont été invités.</p>
@@ -179,10 +182,10 @@ Rejoignez-nous sur :
 <h1>Participer à l'édition 2018</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
-   <p>L'édition 2017 du concours Castor est en cours. Elle a lieu du 12 novembre au 8 décembre 2017.</p>
+   <p>L'édition 2018 du concours Castor se prépare. Elle aura lieu du 11 novembre au 7 décembre 2018.</p>
    <ul>
    <li>
-   Si vous êtes enseignant, vous pouvez encore vous <a href="http://coordinateur.castor-informatique.fr">inscrire</a>
+   Si vous êtes enseignant, vous pouvez vous <a href="http://coordinateur.castor-informatique.fr">inscrire</a>
    comme coordinateur.
    </li>
    <li>
@@ -277,7 +280,7 @@ Pour progresser au fil de l'année et entre les différentes étapes du concours
 <?php //******************************************************************** ?>
 <h1>À propos du Castor</h1>
 
-<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment à la même période, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 1,6 million d'élèves ont participé au concours Castor 2016 dans le monde.
+<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment à la même période, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 2 millions d'élèves ont participé à diverses éditions du concours Castor 2017 dans le monde.
 </p>
 <p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Paris-Saclay</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
 
