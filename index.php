@@ -84,6 +84,7 @@ Rejoignez-nous sur :
 <p>La demi-finale du concours <a href="http://algorea.org" target="_blank">Algoréa</a> est terminée. 24 élèves ont été invités à la finale à Paris et ont déjà été contactés. Ceux qui ont fait la demi-finale peuvent voir leur résultat en se reconnectant sur <a href="http://concours.algorea.org" target="_blank">concours.algorea.org</a> et vérifier s'ils sont qualifiés pour la finale en ligne (du 15 juillet au 31 août). Les coordinateurs ont aussi accès aux résultats.</p>
 -->
 <p>Le concours Castor 2018 se déroulera du 11 novembre au 7 décembre prochains.</p>
+<p>L'affiche est disponible en bas de cette page.</p>
 </div>
 <br/>
 
@@ -285,9 +286,9 @@ Pour progresser au fil de l'année et entre les différentes étapes du concours
 <p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Paris-Saclay</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
 
 <h1>Affiche</h1>
-<p>Voici une affiche que vous pouvez télécharger et imprimer pour faire connaître le concours :</p>
+<p>Voici une affiche que vous pouvez télécharger et imprimer pour faire connaître le concours 2018 :</p>
 <p>
-<center><a href="documents/poster_castor_2017.pdf" target="new"><img src="img/poster_castor_2017.png" style="width:300px"></a></center>
+<center><a href="documents/poster_castor_2018.pdf" target="new"><img src="img/poster_castor_2018.png" style="width:300px"></a></center>
 </p>
 <p>
 <!--
