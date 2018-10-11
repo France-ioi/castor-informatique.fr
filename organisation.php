@@ -61,14 +61,7 @@ $(function() {
    <td>
       Arthur Charguéraud - Inria - France-ioi<br />
       Mathias Hiron - France-ioi<br />
-      Françoise Tort - STEF, ENS Paris Saclay<br />
-   </td>
-   </tr>
-
-   <tr>
-   <td>Suivi des inscriptions</td>
-   <td>
-      Françoise Tort - STEF, ENS Paris Saclay<br />
+      Françoise Tort - ENS Paris Saclay<br />
    </td>
    </tr>
 
@@ -86,7 +79,7 @@ $(function() {
    <td>
       Arthur Charguéraud - Inria - France-ioi<br/>
       Mathias Hiron - France-ioi<br />
-      Françoise Tort - STEF, ENS Paris Saclay<br />
+      Françoise Tort - ENS Paris Saclay<br />
    </td>
    </tr>
 
@@ -109,13 +102,6 @@ $(function() {
    </tr>
    <tr>
 
-   <tr>
-   <td>Représentation de la France au ‘BEBRAS Workshop’</td>
-   <td>
-      Mathias Hiron - France-ioi<br />
-   </td>
-   </tr>
-
    <td>Représentants des partenaires</td>
    <td>
       Stéphane Gaussent (Fondation Blaise Pascal)<br />
@@ -132,7 +118,7 @@ $(function() {
 
 
    <table class="partenaires-table"><tr>
-   <td><a href="http://fondationblaisepascal.strikingly.com/" target="_blank"><img style="width:180px;margin-right:10px" src="img/logo_blaise_pascal.png"  alt="Fondation Blaise Pascal" class="logo-img"></a></td>
+   <td><a href="https://www.fondation-blaise-pascal.org/" target="_blank"><img style="width:180px;margin-right:10px" src="img/logo_blaise_pascal.png"  alt="Fondation Blaise Pascal" class="logo-img"></a></td>
    <td><a href="https://www.gouvernement.fr/programme-investissements-avenir/commissariat-general-investissement" class="menu-logo" target="_blank"><img style="width:80px" src="img/logo_pia.png" alt="Programme Investissements d' Avenir" class="logo-img"></a></td>
    <td><a href="http://www.agence-nationale-recherche.fr/" target="_blank"><img width=130 src="img/logo_anr.png"  alt="ANR" class="logo-img"></a></td>
    <td><a href="https://talentsdunumerique.com" target="_blank"><img width=180 src="img/logo_talents_numerique.png" alt="Talents du numérique" class="logo-img"></a></td>
@@ -477,7 +463,7 @@ $(function() {
    <tr>
    <td>Hébergement de la plateforme pendant l'année</td>
    <td>
-      <a href="http://aquaray.fr">aquaray.fr</a> (via Guillaume de Lafond)<br />
+      <a href="http://aquaray.com">aquaray.com</a> (via Guillaume de Lafond)<br />
    </td>
    </tr>
 
@@ -652,7 +638,7 @@ $(function() {
    <tr>
    <td>Hébergement de la plateforme pendant l'année</td>
    <td>
-      <a href="http://aquaray.fr">aquaray.fr</a> (via Guillaume de Lafond)<br />
+      <a href="http://aquaray.com">aquaray.com</a> (via Guillaume de Lafond)<br />
    </td>
    </tr>
 
@@ -860,7 +846,7 @@ $(function() {
    <tr>
    <td>Hébergement de la plate-forme</td>
    <td>
-      <a href="http://aquaray.fr">aquaray.fr</a> (via Guillaume de Lafond)<br />
+      <a href="http://aquaray.com">aquaray.com</a> (via Guillaume de Lafond)<br />
    </td>
    </tr>
 
@@ -1054,7 +1040,7 @@ $(function() {
    <tr>
    <td>Hébergement de la plate-forme</td>
    <td>
-      <a href="http://aquaray.fr">aquaray.fr</a> (via Guillaume de Lafond)<br />
+      <a href="http://aquaray.com">aquaray.com</a> (via Guillaume de Lafond)<br />
    </td>
    </tr>
 

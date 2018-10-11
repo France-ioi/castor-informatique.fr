@@ -63,7 +63,7 @@ Rejoignez-nous sur :
 
 <div class="submenu">
 <h1>Partenaires</h1>
-<a href="http://fondationblaisepascal.strikingly.com/" class="menu-logo"  target="_blank"><img width="100%" src="img/logo_blaise_pascal.png" alt="Fondation Blaise Pascal" class="logo-img"></a>
+<a href="https://www.fondation-blaise-pascal.org/" class="menu-logo"  target="_blank"><img width="100%" src="img/logo_blaise_pascal.png" alt="Fondation Blaise Pascal" class="logo-img"></a>
 <a href="https://www.gouvernement.fr/programme-investissements-avenir/commissariat-general-investissement" class="menu-logo" target="_blank"><img width="50%" src="img/logo_pia.png" alt="Programme Investissements d' Avenir" class="logo-img"></a>
 
 <a href="http://www.agence-nationale-recherche.fr/" class="menu-logo"  target="_blank"><img width="70%" src="img/logo_anr.png" alt="Agence Nationale de la Recherche" class="logo-img" ></a>
