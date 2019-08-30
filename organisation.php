@@ -69,7 +69,6 @@ $(function() {
    <td>Plateforme du concours</td>
    <td>
       Michel Blockelet - Consultant France-ioi<br />
-      Sébastien Carlier - Consultant France-ioi<br />
       Mathias Hiron - France-ioi<br />
    </td>
    </tr>
@@ -79,6 +78,7 @@ $(function() {
    <td>
       Arthur Charguéraud - Inria - France-ioi<br/>
       Mathias Hiron - France-ioi<br />
+      Marielle Léonard - France-ioi<br/>
       Françoise Tort - ENS Paris Saclay<br />
    </td>
    </tr>
@@ -86,6 +86,7 @@ $(function() {
    <tr>
    <td>Développement des sujets interactifs</td>
    <td>
+      Arnaud Le Grand - Consultant France-ioi
    </td>
    </tr>
    <tr>

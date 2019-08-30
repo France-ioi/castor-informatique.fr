@@ -11,7 +11,7 @@
 require_once("config.php");
 
 function contest_current_phase() {
-   return 'contest-soon';
+   return 'contest-results';
    // one of: 'contest-running', 'contest-soon', 'contest-running', 'contest-over', 'contest-results-temp', 'contest-results'
 }
 
@@ -71,7 +71,7 @@ function page_menu_full() { ?>
   <a name="menu_item" href="index.php">Présentation</a>
   <a name="menu_item" href="http://concours.castor-informatique.fr">Accès aux sujets</a>
   <a name="menu_item" href="resultats.php">Accès aux résultats</a>
-  <a name="menu_item" href="http://coordinateur.castor-informatique.fr">Accès coordinateur</a>
+  <a name="menu_item" href="https://coordinateur.castor-informatique.fr">Accès coordinateur</a>
 </div>
 
 <div class="submenu">

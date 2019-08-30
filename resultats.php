@@ -1,4 +1,4 @@
-   <?php include("common.php"); ?>
+<?php include("common.php"); ?>
 <!DOCTYPE html>
 <html>
 
@@ -53,11 +53,11 @@ function loadMap() {
 
 <h1>Résultats</h1>
 
-<!--<p>Le concours est désormais terminé. <span style='font-weight:bold'>Les résultats seront accessibles dans les jours à venir.</span></p>-->
+<p>L'édition 2018 du concours Castor est terminée. 676 301 élèves ont participé !</p>
 
-<p>L'édition 2017 du concours Castor est terminée. Plus de 600 000 élèves ont participé !</p>
 
-<p>Les seuils de qualifications au 1er tour du <a href="http://www.algorea.org" target="_blank">concours Algoréa</a> sont les suivants :</p>
+
+<p>Tous les élèves peuvent ensuite participer au <a href="http://www.algorea.org" target="_blank">concours Algoréa</a>. Voici en fonction du score obtenu lors du concours Castor, la catégorie à laquelle chacun peut accéder directement :</p>
 <style>
 .qualificationTable {
    margin: 20px;
@@ -70,13 +70,12 @@ function loadMap() {
    font-weight: bold;
 }
 </style>
-<table class="qualificationTable" cellspacing=0 cellpadding=0><tr><td>Score au concours Castor</td><td>Qualification à Algoréa</td></tr>
-<tr><td>Moins de 300 points</td><td>Oui, en catégorie blanche</td></tr>
-<tr><td>Entre 300 et 399 points</td><td>Oui, en catégorie jaune</td></tr>
-<tr><td>400 points ou plus</td><td>Oui, en catégorie orange</td></tr>
+<table class="qualificationTable" cellspacing=0 cellpadding=0><tr><td>Score au concours Castor</td><td>Catégorie Algoréa</td></tr>
+<tr><td>Moins de 350 points</td><td>blanche</td></tr>
+<tr><td>Entre 350 et 449 points</td><td>jaune</td></tr>
+<tr><td>450 points ou plus</td><td>orange</td></tr>
 </table>
 <p>
-Contrairement aux éditions précédentes, tous les participants au concours Castor sont qualifiés pour le concours Algoréa, dont le but et d'accompagner chacun dans son apprentissage de la programmation. Le score au Castor détermine la catégorie de départ.
 </p>
 <p>
 Pour plus d'informations sur les catégories et le concours Algoréa, rendez-vous sur <a href="http://www.algorea.org" target="_blank">algorea.org</a>
@@ -89,7 +88,6 @@ Les classements, diplômes et statistiques diverses sur le concours Castor 2017 
 <?php endif;
 
 if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'): ?>
-
 <h1>Consultez vos résultats</h1>
 
 <table class="results-table">
@@ -98,7 +96,7 @@ if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-res
 
    <p class="results-table-title">Accès élève</p>
 
-   <p>Pour consulter votre score et <!--accéder aux corrections, --> revoir vos réponses, 
+   <p>Pour consulter votre score, accéder aux corrections etrevoir vos réponses, 
    allez sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a> et utilisez le code que vous avez noté au moment de commencer le concours, ou bien votre code de participant si vous en avez un.
    </p>
    <!--
@@ -112,12 +110,11 @@ if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-res
    <p>
    Si vous avez perdu votre code, contactez votre coordinateur.
    </p>
-
 </td>
 <td>
    <p class="results-table-title">Accès coordinateur</p>
 
-   <p>Les coordinateurs peuvent consulter les scores, classements et qualifications Algoréa de tous leurs élèves sur la <a href="http://coordinateur.castor-informatique.fr">plateforme coordinateur</a>.</p>
+   <p>Les coordinateurs peuvent consulter les scores, classements et qualifications Algoréa de tous leurs élèves sur la <a href="https://coordinateur.castor-informatique.fr">plateforme coordinateur</a>.</p>
    <br/>
 
    <?php if (contest_phase() == 'contest-results-temp'): ?>
@@ -146,12 +143,12 @@ Les classements seront publiés vers le 10 décembre. Les coordinateurs pourront
 
 <h1>Statistiques de participation</h1>
 
-<p>L'édition 2017 du concours Castor Informatique français a été un grand succès !</p>
+<p>L'édition 2018 du concours Castor Informatique français a été un grand succès !</p>
 
 <ul class="resultats-summary">
-<li>Le concours s'est déroulé du 12 novembre au 8 décembre 2017.</li>
-<li><span class="resultats-important">600&nbsp;427 élèves</span> ont participé.</li>
-<li><span class="resultats-important">3&nbsp;284 établissements</span> ont pris part au concours.</li>
+<li>Le concours s'est déroulé du 11 novembre au 7 décembre 2018.</li>
+<li><span class="resultats-important">676&nbsp;301 élèves</span> ont participé.</li>
+<li><span class="resultats-important">3&nbsp;787 établissements</span> ont pris part au concours.</li>
 </ul>
 
 
@@ -174,8 +171,8 @@ Le classement n'est publié que jusqu'au début de l'année scolaire suivante.
 <!--<p>Le classement correspondant à chaque score sera disponible prochainement.</p>-->
 
 <p>
-Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6<sup>e</sup> et que vous avez obtenu 300 points, vous pouvez voir dans le tableau que vous êtes classé(e) 3444<sup>e</sup> parmi tous les élèves de votre catégorie.
-Notez qu'il y a souvent des ex-aequo. Par exemple 381 élèves sont ex-aequo à la 3444<sup>e</sup> place dans la catégorie 6<sup>e</sup> avec un score de 300 points.
+Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6<sup>e</sup> et que vous avez obtenu 300 points, vous pouvez voir dans le tableau que vous êtes classé(e) 3954<sup>e</sup> parmi tous les élèves de votre catégorie.
+Notez qu'il y a souvent des ex-aequo. Par exemple 921 élèves sont ex-aequo à la 3954<sup>e</sup> place dans la catégorie 6<sup>e</sup> avec un score de 300 points.
 </p>
 <!--
 <p>Notez que certains élèves se sont trompés en indiquant leur classe, et que les coordinateurs n'ont pas encore corrigé. Les corrections pourront entraîner des changementsmineurs dans les classements.</p>
@@ -183,7 +180,7 @@ Notez qu'il y a souvent des ex-aequo. Par exemple 381 élèves sont ex-aequo à 
 <p>Rappel : vous pouvez obtenir votre score et voir le détail de vos résultats à l'aide de votre code de participant sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a>.</p>
 
 <div class="resultats-graphiques" style="margin-top:0.5em;margin-bottom:1em">
-<?php include("resultats2017_alkindi.php"); ?>
+<?php include("resultats2018_castor.php"); ?>
 </div>
 <!--
 <p>
@@ -198,20 +195,21 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
 
    <p>
    <!--Une fois les classements rendus définitifs, d-->Des diplômes pour chacun des participants peuvent être imprimés par les coordinateurs.
+<!--
    </p>
    <br/>
    <p>
     Le concours étant gratuit, et avec plus d'un demi-million de praticipants, nous ne proposons pas de lots pour les participants au concours Castor. Chaque établissement qui le souhaite peut offrir des lots aux mieux classés. Le plus important est le plaisir de participer et de progresser grâce aux concours.</p>
     <p>Les récompenses sont le diplôme à imprimer par les coordinateurs et la qualification au concours de programmation <a href="http://www.algorea.org" target="_blank">Algoréa</a>. 
    </p>
-<!--
-<h1 style="clear:both">Qualification à Algoréa</h1>
+-->
+<h1 style="clear:both">Participation à Algoréa</h1>
    
    <p>
       Les participants au concours Castor peuvent ensuite participer au concours <a href="http://www.algorea.org">Algoréa</a>, dont l'objectif est de les accompagner dans leur apprentissage de la programmation. Chaque élève pourra participer dans une catégorie qui dépendra du score obtenu au concours Castor.
    </p>
    <p style="text-align:center;font-weight:bold">
-      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> aura lieu du 7 au 20 janvier 2018.
+      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> a lieu du 7 au 20 janvier 2018.
    </p>
    <p>
       Les finalistes de ce concours gagnent un stage d'une semaine à Paris et des lots offerts par les sponsors.
@@ -222,61 +220,6 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <p>
 	  Des parcours de préparation au concours Algoréa sont disponibles sur <a href="http://algorea.org" target="_blank">algorea.org</a>.
    </p>
-   -->
-<!--
-   <p>
-   <span style="font-weight:bold">Score minimal pour se qualifier à Algoréa 2017 :</span>
-   </p>
-   <table class="thresholds">
-      <tr style="font-weight:bold">
-         <td>Type de participation</td>
-         <td>CM1</td>
-         <td>CM2</td>
-         <td>6ème</td>
-         <td>5ème</td>
-         <td>4ème</td>
-         <td>3ème</td>
-         <td>2nde</td>
-         <td>1ère</td>
-         <td>Tale</td>
-         <td>2nde<br/>pro</td>
-         <td>1ère<br/>pro</td>
-         <td>Tale<br/>pro</td>
-      </tr>
-     <tr>
-         <td>Individuelle</td>
-         <td>220</td>
-         <td>250</td>
-         <td>260</td>
-         <td>290</td>
-         <td>310</td>
-         <td>325</td>
-         <td>350</td>
-         <td>350</td>
-         <td>380</td>
-         <td>300</td>
-         <td>310</td>
-         <td>325</td>
-      </tr>
-      <tr>
-         <td>Binôme</td>
-         <td>230</td>
-         <td>255</td>
-         <td>280</td>
-         <td>300</td>
-         <td>320</td>
-         <td>340</td>
-         <td>350</td>
-         <td>350</td>
-         <td>390</td>
-         <td>320</td>
-         <td>320</td>
-         <td>340</td>
-      </tr>
-   </table>
-   <br/>
-   -->
-
 <h1 style="clear:both">Participation par établissement</h1>
 <p>
 Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établissements qui ont participé à cette édition, et le nombre de participants par catégorie.
@@ -294,6 +237,11 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td width="33%">Année</td>
 <td width="33%">Élèves</td>
 <td width="33%">Établissements</td>
+</tr>
+<tr>
+<td>2018</td>
+<td>676 301</td>
+<td>3787</td>
 </tr>
 <tr>
 <td>2017</td>
@@ -353,6 +301,20 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td>2<sup>nde</sup></td>
 <td>1<sup>ère</sup></td>
 <td>T<sup>ale</sup></td>
+</tr>
+
+<tr>
+<td>2018</td>
+<td>10&nbsp;375</td>
+<td>15&nbsp;987</td>
+<td>159&nbsp;691</td>
+<td>154&nbsp;030</td>
+<td>134&nbsp;498</td>
+<td>112&nbsp;006</td>
+
+<td>58&nbsp;410</td>
+<td>18&nbsp;960</td>
+<td>12&nbsp;344</td>
 </tr>
 
 <tr>
@@ -431,7 +393,6 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 </tr>
 
 </table>
-
 <?php page_footer(); ?>
 </div><!--mainbar-->
 
