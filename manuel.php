@@ -83,7 +83,7 @@ Oui, l'interface coordinateur permet de gérer plusieurs établissements.
 
 <h2>Le concours demande-t-il une préparation des élèves&nbsp;?</h2>
 <p>
-Pas nécessairement. Aucun prérequis n'est nécessaire. Il est néanmoins possible de rejouer les <a href="http://concours.castor-informatique.fr?tab=home">anciens concours</a>, qui sont accompagnés de corrigés détaillés et d'une explication du contexte scientifique.
+Pas nécessairement. Aucun prérequis n'est nécessaire. Il est néanmoins possible de rejouer les <a href="https://concours.castor-informatique.fr?tab=home">anciens concours</a>, qui sont accompagnés de corrigés détaillés et d'une explication du contexte scientifique.
 </p>
 
 

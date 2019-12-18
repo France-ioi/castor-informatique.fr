@@ -40,7 +40,7 @@ h3 {
 
 <h1>RGPD - Protection des données à caractère personnel</h1>
 <p>
-Lors de la participation d’établissement et d’utilisateurs aux concours Castor et Algoréa, des informations personnelles sont collectées.
+Lors de la participation d’établissements et d’utilisateurs aux concours Castor et Algoréa, des informations personnelles sont collectées.
 </p>
 <p>
 France-ioi s'engage à respecter toutes les lois et réglementations sur la protection des données ainsi collectées.
@@ -81,7 +81,7 @@ France-ioi s'engage à respecter toutes les lois et réglementations sur la prot
 <b>Données collectées (requises) :</b>
 <ul>
    <li>Nom, prénom</li>
-   <li>Genre</li>
+   <li>Titre (M., Mme, ...)</li>
    <li>Adresses email</li>
    <li>Coordonnées de l’établissement</li>
 </ul>
@@ -137,11 +137,11 @@ Conformément aux dispositions légales et réglementaires applicables, en parti
    <li>Exercer son droit d’accès, pour connaître les données personnelles qui le concernent ;</li>
    <li>Demander la mise à jour de ses données, si celles-ci sont inexactes ;</li>
    <li>Demander la portabilité ou la suppression de ses données ;</li>
-   <li>(Le cas échéant) Demander la suppression de son compte ;</li>
+   <li>Demander la suppression de son compte lorsqu'il en a créé un ;</li>
    <li>Demander la limitation du traitement de ses données ;</li>
    <li>S'opposer, pour des motifs légitimes, au traitement de ses données ;</li>
-   <li>(Le cas échéant) S'opposer ou retirer son consentement à l’utilisation, par nos services,
-   de ses coordonnées pour l’envoi de nos promotions et sollicitations via courriers électroniques, messages SMS, appels téléphoniques et courriers postaux. Ce droit demeure valable que les informations le concernant nous aient été transmises directement par lui ou par des partenaires tiers à qui l'utilisateur les a communiquées (dans ce cas, il faudra cliquer sur les liens de désinscription prévus dans nos courriels ou nous contacter dans les conditions ci après).</li>
+   <li>S'opposer ou retirer son consentement à l’utilisation, par nos services,
+         de ses coordonnées pour l’envoi d'emails d'informations sur le concours et occasionnellement nos autres contenus et outils pédagogiques via courriers électroniques, ou courriers postaux adressés à l'établissement. Il faudra pour cela cliquer sur les liens de désinscription prévus dans nos courriels ou nous contacter dans les conditions ci après.</li>
 </ul>
 <p>
 Ces différents droits sont à exercer soit en modifiant les paramètres de son compte, soit par courriel à l'adresse suivante : info@france-ioi.org.
@@ -165,13 +165,60 @@ conservation de leurs données par France-ioi.
 <p>
 Si un utilisateur ne souhaite pas/plus recevoir nos actualités et sollicitations (par téléphone, SMS, courrier postal ou électronique) et invitations, il a la faculté de nous l’indiquer dans le cadre du présent formulaire , de modifier vos choix en nous contactant dans les conditions évoquées ci-dessus ou, en modifiant les paramètres de son profil en ligne.
 </p>
-<h1>Informations complémentaires</h1>
+<h1>Utilisation de cookies</h1>
 <p>
 Aucun des sites rattachés au concours n'utilise de cookies de longue durée.
 </p>
 <p>
 Ils n'utilisent que des cookies à durée très réduite (moins de 3h), avec pour unique rôle de permettre à l'utilisateur de pouvoir retrouver sa session en cas de fermeture de son navigateur par erreur, ou rechargement de la page.
 </p>
+<h1>Algorithmes de calcul des scores et classements</h1>
+<h3>Calcul du score</h3>
+   <p>
+   Suite au déroulement d'une épreuve du concours, le score de chaque participant est calculé.
+   </p>
+   <p>
+   Il s'agit simplement de la somme des points obtenus sur chaque sujet.
+   </p>
+   <p>
+   Dans le cas des trois premiers tours du concours Algoréa, le score est relatif à une catégorie : blanche, jaune, orange ou verte.
+   </p>
+<h3>Catégories du concours Algoréa</h3>
+   <p>
+   Lors des trois premiers tours du concours Algoréa, les élèves participent dans une catégorie, parmi blanche, jaune, orange ou verte, de la plus facile à la plus difficile. Chaque catégorie correspond à des notions de programmation plus avancées que les précédentes.
+   </p>
+   <p>
+   Les participants au concours Castor ayant obtenu un très bon score (fixé chaque année lors de l'annonce des résultats), peuvent être qualifiés directement en catégorie jaune ou orange pour le concours Algoréa, et commencer dans ces catégories s'ils le souhaitent, avec l'accord de leur coordinateur. Les autres élèves commencent en catégorie blanche.
+   </p>
+   <p>
+   Lorsqu'un participant obtient 100 points ou plus dans sa catégorie, il se qualifie pour la catégorie suivante. Il peut alors participer à cette catégorie lors du même tour, ou bien lors des tours suivants. Dans le cas contraire, il peut tenter au tour suivant, d'améliorer son meilleur score dans sa catégorie.
+   </p>
+<h3>Calcul des classements</h3>
+   <p>
+   Chaque participant se voit ensuite attribuer un classement national. Ce classement est relatif à l'ensemble des participants de même niveau scolaire ayant participé dans le même mode : individuel ou binômes. Ainsi, les 6e individuels sont classés séparément des 6e binômes.
+   </p>
+   <p>
+   Pour le concours Algoréa, les participants en catégorie verte sont classés devant ceux en catégorie orange, puis jaune, puis blanche.
+   </p>
+   <p>
+   Selon le même principe, un classement au sein de l'établissement est effectué.
+   </p>
+   <p>
+   Seul le participant, les coordinateurs de son établissement, et les administrateurs de notre base de données ont accès au score et au classement.
+   </p>
+   <p>
+   Le classement des finalistes du concours Algoréa est rendu public, avec l'accord des parents.
+   </p>
+<h3>Sélections</h3>
+   <p>
+   Aucune sélection n'est effectuée pour la participation au concours Castor et les trois premiers tours du concours Algoréa, qui sont ouverts à tous les élèves du CM1 à la Terminale.
+   </p>
+   <p>
+   Sont sélectionnés en demi-finale du concours Algoréa, les élèves ayant atteint un seuil de catégorie et score qui dépend du niveau scolaire, et est annoncé à l'issue du 3ème tour.
+   </p>
+   <p>
+   Sont sélectionnés en finale du concours Algoréa, les participants les mieux classés de chaque niveau scolaire, dans la limite des places disponibles (de 20 à 30 places au total).
+   </p>
 
 <h1>Informations complémentaires</h1>
 <p>

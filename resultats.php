@@ -47,7 +47,7 @@ function loadMap() {
 
 <h1>Résultats</h1>
 
-<p>Le concours se déroule du 5 au 19 novembre. <span style='font-weight:bold'>Les résultats seront annoncés après la fin du concours.</span></p>
+<p>Le concours se déroule du 10 novembre au 14 décembre. <span style='font-weight:bold'>Les résultats seront annoncés après la fin du concours.</span></p>
 
 <?php endif; if (contest_phase() == 'contest-over' || contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'):?>
 
@@ -209,7 +209,7 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
       Les participants au concours Castor peuvent ensuite participer au concours <a href="http://www.algorea.org">Algoréa</a>, dont l'objectif est de les accompagner dans leur apprentissage de la programmation. Chaque élève pourra participer dans une catégorie qui dépendra du score obtenu au concours Castor.
    </p>
    <p style="text-align:center;font-weight:bold">
-      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> a lieu du 7 au 20 janvier 2018.
+      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> a lieu du 6 au 20 janvier 2020.
    </p>
    <p>
       Les finalistes de ce concours gagnent un stage d'une semaine à Paris et des lots offerts par les sponsors.
@@ -220,13 +220,14 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <p>
 	  Des parcours de préparation au concours Algoréa sont disponibles sur <a href="http://algorea.org" target="_blank">algorea.org</a>.
    </p>
+<!--
 <h1 style="clear:both">Participation par établissement</h1>
 <p>
 Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établissements qui ont participé à cette édition, et le nombre de participants par catégorie.
 </p>
 
 <iframe src="schoolResults.html" style="width:760px;height:100vh;"></iframe>
-
+-->
 <?php //******************************************************************** ?>
 <h1>Historique</h1>
 

@@ -5,6 +5,37 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Concours Castor Informatique Français</title>
+<script>
+var checked = false;
+if(window.location.protocol != 'https:') {
+  try {
+    var xhr = new XMLHttpRequest();
+    xhr.onload = function() {
+      if (window.location.hostname != '127.0.0.1') {
+         window.location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+      } else {
+         checked = true;     
+      }
+    }
+    xhr.open('GET', 'https://static4.castor-informatique.fr/contestAssets/https_test.txt');
+    xhr.send();
+  } catch(e) {
+      checked = true;     
+  }
+} else {
+   checked = true;     
+}
+
+function loadBody() {
+   if (checked) {
+      var body = document.getElementById("body");
+      body.style.display = "block";
+   } else {
+      setTimeout(loadBody, 100);
+   }
+}
+
+</script>
 <?php page_includes(); ?>
 
 <script>
@@ -19,7 +50,7 @@ function initQuestionFrame(id) {
 
 </head>
 
-<body>
+<body style='display:none' id='body' onload='loadBody()'>
 <center>
 
 <?php page_header(""); 
@@ -56,9 +87,9 @@ Rejoignez-nous sur :
 
 <div class="submenu">
 <h1>Organisateurs</h1>
-<a href="http://www.ens-cachan.fr/" class="menu-logo"><img width="95%" src="img/logo_ens_paris_saclay.png" alt="ENS Paris-Saclay" class="logo-img"></a>
 <a href="http://www.france-ioi.org" class="menu-logo"><img width="80%" src="img/logo_franceioi_200px.png"  alt="france-ioi" class="logo-img"></a>
 <a href="http://www.inria.fr" class="menu-logo"><img width="95%" src="img/logo_inria.png" alt="inria" class="logo-img" style="margin-bottom:15px;"></a>
+<a href="http://www.ens-cachan.fr/" class="menu-logo"><img width="95%" src="img/logo_ens_paris_saclay.png" alt="ENS Paris-Saclay" class="logo-img"></a>
 </div>
 
 <div class="submenu">
@@ -66,9 +97,9 @@ Rejoignez-nous sur :
 <a href="https://www.fondation-blaise-pascal.org/" class="menu-logo"  target="_blank"><img width="100%" src="img/logo_blaise_pascal.png" alt="Fondation Blaise Pascal" class="logo-img"></a>
 <a href="https://www.gouvernement.fr/programme-investissements-avenir/commissariat-general-investissement" class="menu-logo" target="_blank"><img width="50%" src="img/logo_pia.png" alt="Programme Investissements d' Avenir" class="logo-img"></a>
 
-<a href="http://www.agence-nationale-recherche.fr/" class="menu-logo"  target="_blank"><img width="70%" src="img/logo_anr.png" alt="Agence Nationale de la Recherche" class="logo-img" ></a>
+<!--<a href="http://www.agence-nationale-recherche.fr/" class="menu-logo"  target="_blank"><img width="70%" src="img/logo_anr.png" alt="Agence Nationale de la Recherche" class="logo-img" ></a>-->
 <a href="https://talentsdunumerique.com" class="menu-logo"  target="_blank"><img width="100%" src="img/logo_talents_numerique.png" alt="pascaline" class="logo-img"></a>
-<a href="http://tour123.wordpress.com/" class="menu-logo"  target="_blank"><img width="60%" src="img/logo_tour123.png" alt="Tour 123" class="logo-img" ></a>
+<!--<a href="http://tour123.wordpress.com/" class="menu-logo"  target="_blank"><img width="60%" src="img/logo_tour123.png" alt="Tour 123" class="logo-img" ></a>-->
 </div>
 
 
@@ -83,13 +114,15 @@ Rejoignez-nous sur :
 <!--
 <p>La demi-finale du concours <a href="http://algorea.org" target="_blank">Algoréa</a> est terminée. 24 élèves ont été invités à la finale à Paris et ont déjà été contactés. Ceux qui ont fait la demi-finale peuvent voir leur résultat en se reconnectant sur <a href="http://concours.algorea.org" target="_blank">concours.algorea.org</a> et vérifier s'ils sont qualifiés pour la finale en ligne (du 15 juillet au 31 août). Les coordinateurs ont aussi accès aux résultats.</p>
 -->
-<p>Le concours Castor 2019 se prépare. Il aura lieu du 10 novembre au 6 décembre 2019.</p>
+<p>Le concours Castor Informatique 2019 est terminé. Plus de 700&nbsp;000 élèves ont participé !</p>
+<p>Les résultats sont en cours de préparation. Les coordinateurs peuvent dès maintenant vérifier les données et corriger d'éventuelles erreurs de saisie.</p>
+<p>En attendant, préparez-vous pour le concours de programmation <a href="https://algorea.org">Algoréa 2020</a>, dont le 1er tour commencera à la rentrée.</p>
 </div>
 <br/>
 
    <div style='float:right; text-align: center; margin-left:1em'>
       <span style='font-size: normal'>Nombre de participants au concours Castor</span><br />
-      <a href='resultats.php'><img src='img/participation.png' alt='Cliquez pour accéder aux statistiques détaillées.' width='340' height='151' style='margin-top:0.5em' /> </a>
+      <a href='resultats.php'><img src='img/participation.png' alt='Cliquez pour accéder aux statistiques détaillées.' width='340' style='margin-top:0.5em' /> </a>
       <!--  -->
    </div>
       <?php //   width='375' height='176' ?>
@@ -104,9 +137,9 @@ Rejoignez-nous sur :
    <?php if (contest_phase() == 'contest-soon'):?>
       </p><p><span class='index-important'>L'édition 2018 se prépare ! Elle aura lieu du dimanche 11 novembre à 8h au vendredi 7 décembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-running'):?>
-      </p><p><span class='index-important'>L'édition 2018 est en cours ! Elle se déroule du dimanche 11 novembre à 8h au vendredi 7 décembre à 23h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2019 est en cours ! Elle se déroule sur <a href="https://concours.castor-informatique.fr">concours.castor-informatique.fr</a> du dimanche 10 novembre à 8h au samedi 14 décembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
-      </p><p><span class='index-important'>L'édition 2018 vient de se terminer, avec près de 680 000 participants !</span> </p>
+      </p><p><span class='index-important'>L'édition 2019 vient de se terminer, avec plus de 700 000 participants !</span> </p>
       <br/>
 <!--
       <p>
@@ -125,7 +158,7 @@ Rejoignez-nous sur :
    <?php elseif (contest_phase() == 'contest-results-temp'):?>
       </p><p><span class='index-important' style='color:red'>L'édition 2016 a été un grand succès, avec 474 903 participants</span>  dans 2885 établissements&nbsp;!</p> 
       <p>
-      <span class='index-important'>Les coordinateurs peuvent consulter les scores sur leur <a href="http://coordinateur.castor-informatique.fr">interface coordinateur</a></span>, et corriger les éventuelles erreurs dans les noms des participants ou marquer les participations hors classement.
+      <span class='index-important'>Les coordinateurs peuvent consulter les scores sur leur <a href="https://coordinateur.castor-informatique.fr">interface coordinateur</a></span>, et corriger les éventuelles erreurs dans les noms des participants ou marquer les participations hors classement.
       </p>
       <p>
       Le classement définitif sera annoncé vers le 10 décembre, le temps pour les coordinateurs de faire les corrections nécessaires.
@@ -135,12 +168,12 @@ Rejoignez-nous sur :
    </p>
 
    <p style="text-align: center">
-  <!--    <input class="plateforme-button" type="submit" value="Aller au concours" onclick="document.location = 'http://concours.castor-informatique.fr'"> -->
+  <!--    <input class="plateforme-button" type="submit" value="Aller au concours" onclick="document.location = 'https://concours.castor-informatique.fr'"> -->
       <?php if (contest_phase() == 'contest-results-temp'):?>
       <input class="plateforme-button" type="submit" value="Accès aux résultats de l'édition 2013" onclick="document.location = 'resultats.php'">
       <?php endif; ?>
       <?php if (true):?>
-      <input class="plateforme-button" type="submit" value="S'entraîner sur les sujets passés" onclick="document.location = 'http://concours.castor-informatique.fr'">
+      <input class="plateforme-button" type="submit" value="S'entraîner sur les sujets passés" onclick="document.location = 'https://concours.castor-informatique.fr'">
       <?php endif; ?>
    </p>
 
@@ -155,9 +188,9 @@ Rejoignez-nous sur :
       L'édition 2018 a été un grand succès, avec <span class='index-important'>676 301 participants</span>  dans 3787 établissements&nbsp;!</span>
    </p>
    <p>
-   Les participants peuvent <a href="http://concours.castor-informatique.fr?tab=continue">accéder à leur score</a> en utilisant leur code d'équipe fourni au début du concours, ou leur code de participant.</p>
+   Les participants peuvent <a href="https://concours.castor-informatique.fr?tab=continue">accéder à leur score</a> en utilisant leur code d'équipe fourni au début du concours, ou leur code de participant.</p>
    <p>
-   Les coordinateurs peuvent accéder aux scores et classements de tous leurs élèves sur <a href="http://coordinateur.castor-informatique.fr">l'interface coordinateur</a>.
+   Les coordinateurs peuvent accéder aux scores et classements de tous leurs élèves sur <a href="https://coordinateur.castor-informatique.fr">l'interface coordinateur</a>.
    </p>
    <!--
    <p>
@@ -181,13 +214,13 @@ Rejoignez-nous sur :
 </div>
 -->
 <?php //******************************************************************** ?>
-<h1>Participer à l'édition 2019</h1>
+<h1>Participer à l'édition 2020</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
-   <p>L'édition 2018 du concours Castor se déroule du 11 novembre au 7 décembre 2018.</p>
+   <p>L'édition 2019 du concours Castor se déroule du 10 novembre au 14 décembre 2019, sur <a href="https://concours.castor-informatique.fr">concours.castor-informatique.fr</a>.</p>
    <ul>
    <li>
-   Si vous êtes enseignant, vous pouvez vous <a href="http://coordinateur.castor-informatique.fr">inscrire</a>
+   Si vous êtes enseignant, vous pouvez vous <a href="https://coordinateur.castor-informatique.fr">inscrire</a>
    comme coordinateur.
    </li>
    <li>
@@ -195,16 +228,16 @@ Rejoignez-nous sur :
    exemple votre professeur de mathématiques ou de technologie.
    </ul>
 <?php else:?>
-   <p>La prochaine édition du concours Castor aura lieu du 10 novembre au 6 décemre 2019.</p>
-   <p>Si vous êtes enseignant, <a href="http://coordinateur.castor-informatique.fr">inscrivez-vous</a>
+   <p>La prochaine édition du concours Castor aura lieu du 8 novembre au 5 décembre 2020.</p>
+   <p>Si vous êtes enseignant, <a href="https://coordinateur.castor-informatique.fr">inscrivez-vous</a>
    dès maintenant comme coordinateur.</p>
 
-   <p>En attendant l'édition 2019 du Castor, vous pouvez <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
+   <p>En attendant l'édition 2020 du Castor, vous pouvez <a href='https://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
 
-   <!--<p>En attendant, il est possible de <a href='http://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a>.</p>-->
+   <!--<p>En attendant, il est possible de <a href='https://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a>.</p>-->
 <?php endif; ?>
 <!--
-<p>En attendant le concours, <a href='http://concours.castor-informatique.fr?tab=home'>rejouez les concours passés</a> ou apprenez la programmation<br/>sur <a href="http://www.france-ioi.org/">France-ioi.org</a>&nbsp;!
+<p>En attendant le concours, <a href='https://concours.castor-informatique.fr?tab=home'>rejouez les concours passés</a> ou apprenez la programmation<br/>sur <a href="http://www.france-ioi.org/">France-ioi.org</a>&nbsp;!
 -->
 
 <!--
@@ -214,7 +247,7 @@ Rejoignez-nous sur :
    </p>
    -->
    <!--
-   <p><b>Le concours est ouvert jusqu'au 6 février 18h pour la participation dans l'établissement. Il se déroule sur <a href="http://concours.castor-informatique.fr">concours.castor-informatique.fr</a>.</p>
+   <p><b>Le concours est ouvert jusqu'au 6 février 18h pour la participation dans l'établissement. Il se déroule sur <a href="https://concours.castor-informatique.fr">concours.castor-informatique.fr</a>.</p>
    <p>La participation de chez soi sera ouverte du vendredi 6 février 18h au dimanche 8 février minuit.</p>
    -->
 
@@ -262,7 +295,7 @@ données, jeux de logique, informatique et société.</p>
 <?php //******************************************************************** ?>
 <h1>Rejouer les concours</h1>
 
-<p style="text-align: center"><input class="plateforme-button" type="submit" value="Accès à tous les sujets du concours Castor" onclick="document.location = 'http://concours.castor-informatique.fr'"></p>
+<p style="text-align: center"><input class="plateforme-button" type="submit" value="Accès à tous les sujets du concours Castor" onclick="document.location = 'https://concours.castor-informatique.fr'"></p>
 
 
 <?php //******************************************************************** ?>
@@ -282,21 +315,15 @@ Pour progresser au fil de l'année et entre les différentes étapes du concours
 <?php //******************************************************************** ?>
 <h1>À propos du Castor</h1>
 
-<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment à la même période, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Plus de 2 millions d'élèves ont participé à diverses éditions du concours Castor 2017 dans le monde.
+<p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 50 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment à la même période, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Près de 3 millions d'élèves ont participé à diverses éditions du concours Castor 2018 dans le monde.
 </p>
 <p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a>, <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Paris-Saclay</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
 
 <h1>Affiche</h1>
+<p>Voici une affiche que vous pouvez télécharger et imprimer pour faire connaître le concours 2019 :</p>
 <p>
-L'affiche du concours 2019 à télécharger et imprimer sera prochaînement disponible.
+<center><a href="documents/poster_castor_2019.pdf" target="new"><img src="img/poster_castor_2019.png" style="width:300px"></a></center>
 </p>
-<!--
-<p>Voici une affiche que vous pouvez télécharger et imprimer pour faire connaître le concours 2018 :</p>
-<p>
-<center><a href="documents/poster_castor_2018.pdf" target="new"><img src="img/poster_castor_2018.png" style="width:300px"></a></center>
-</p>
-<p>
--->
 <!--
 <table style="text-align:center;font-weight:bold">
 <tr><td>Affiche CM1/CM2</td><td>Affiche collège</td><td>Affiche lycée</td></tr>
