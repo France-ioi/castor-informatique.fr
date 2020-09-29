@@ -53,7 +53,7 @@ function loadMap() {
 
 <h1>Résultats</h1>
 
-<p>L'édition 2018 du concours Castor est terminée. 676 301 élèves ont participé !</p>
+<p>L'édition 2019 du concours Castor est terminée. 703 817 élèves ont participé !</p>
 
 
 
@@ -71,9 +71,9 @@ function loadMap() {
 }
 </style>
 <table class="qualificationTable" cellspacing=0 cellpadding=0><tr><td>Score au concours Castor</td><td>Catégorie Algoréa</td></tr>
-<tr><td>Moins de 350 points</td><td>blanche</td></tr>
-<tr><td>Entre 350 et 449 points</td><td>jaune</td></tr>
-<tr><td>450 points ou plus</td><td>orange</td></tr>
+<tr><td>Moins de 340 points</td><td>blanche</td></tr>
+<tr><td>Entre 340 et 439 points</td><td>jaune</td></tr>
+<tr><td>440 points ou plus</td><td>orange</td></tr>
 </table>
 <p>
 </p>
@@ -143,16 +143,16 @@ Les classements seront publiés vers le 10 décembre. Les coordinateurs pourront
 
 <h1>Statistiques de participation</h1>
 
-<p>L'édition 2018 du concours Castor Informatique français a été un grand succès !</p>
+<p>L'édition 2019 du concours Castor Informatique français a été un grand succès !</p>
 
 <ul class="resultats-summary">
-<li>Le concours s'est déroulé du 11 novembre au 7 décembre 2018.</li>
-<li><span class="resultats-important">676&nbsp;301 élèves</span> ont participé.</li>
-<li><span class="resultats-important">3&nbsp;787 établissements</span> ont pris part au concours.</li>
+<li>Le concours s'est déroulé du 10 novembre au 14 décembre 2019.</li>
+<li><span class="resultats-important">703&nbsp;817 élèves</span> ont participé.</li>
+<li><span class="resultats-important">3&nbsp;820 établissements</span> ont pris part au concours.</li>
 </ul>
 
 
-<p style="text-align: center"><input class="plateforme-button" type="button" value="Rejouer tous les sujets du concours Castor" onclick="document.location = 'http://concours.castor-informatique.fr?tab=home'"></p>
+<p style="text-align: center"><input class="plateforme-button" type="button" value="Rejouer tous les sujets du concours Castor" onclick="document.location = 'http://concours.castor-informatique.fr'"></p>
 <!--
 <h1>Établissements participants</h1>
 
@@ -171,8 +171,8 @@ Le classement n'est publié que jusqu'au début de l'année scolaire suivante.
 <!--<p>Le classement correspondant à chaque score sera disponible prochainement.</p>-->
 
 <p>
-Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6<sup>e</sup> et que vous avez obtenu 300 points, vous pouvez voir dans le tableau que vous êtes classé(e) 3954<sup>e</sup> parmi tous les élèves de votre catégorie.
-Notez qu'il y a souvent des ex-aequo. Par exemple 921 élèves sont ex-aequo à la 3954<sup>e</sup> place dans la catégorie 6<sup>e</sup> avec un score de 300 points.
+Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6<sup>e</sup> et que vous avez obtenu 300 points, vous pouvez voir dans le tableau que vous êtes classé(e) 2265<sup>e</sup> parmi tous les élèves de votre catégorie.
+Notez qu'il y a souvent des ex-aequo. Par exemple 742 élèves sont ex-aequo à la 2265<sup>e</sup> place dans la catégorie 6<sup>e</sup> avec un score de 300 points.
 </p>
 <!--
 <p>Notez que certains élèves se sont trompés en indiquant leur classe, et que les coordinateurs n'ont pas encore corrigé. Les corrections pourront entraîner des changementsmineurs dans les classements.</p>
@@ -180,7 +180,7 @@ Notez qu'il y a souvent des ex-aequo. Par exemple 921 élèves sont ex-aequo à 
 <p>Rappel : vous pouvez obtenir votre score et voir le détail de vos résultats à l'aide de votre code de participant sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a>.</p>
 
 <div class="resultats-graphiques" style="margin-top:0.5em;margin-bottom:1em">
-<?php include("resultats2018_castor.php"); ?>
+<?php include("resultats2019_castor.php"); ?>
 </div>
 <!--
 <p>
@@ -209,7 +209,7 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
       Les participants au concours Castor peuvent ensuite participer au concours <a href="http://www.algorea.org">Algoréa</a>, dont l'objectif est de les accompagner dans leur apprentissage de la programmation. Chaque élève pourra participer dans une catégorie qui dépendra du score obtenu au concours Castor.
    </p>
    <p style="text-align:center;font-weight:bold">
-      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> a lieu du 6 au 20 janvier 2020.
+      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> ouvre le 6 janvier 2020.
    </p>
    <p>
       Les finalistes de ce concours gagnent un stage d'une semaine à Paris et des lots offerts par les sponsors.
@@ -220,14 +220,13 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <p>
 	  Des parcours de préparation au concours Algoréa sont disponibles sur <a href="http://algorea.org" target="_blank">algorea.org</a>.
    </p>
-<!--
 <h1 style="clear:both">Participation par établissement</h1>
 <p>
 Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établissements qui ont participé à cette édition, et le nombre de participants par catégorie.
 </p>
 
 <iframe src="schoolResults.html" style="width:760px;height:100vh;"></iframe>
--->
+
 <?php //******************************************************************** ?>
 <h1>Historique</h1>
 
@@ -238,6 +237,11 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td width="33%">Année</td>
 <td width="33%">Élèves</td>
 <td width="33%">Établissements</td>
+</tr>
+<tr>
+<td>2019</td>
+<td>703 817</td>
+<td>3820</td>
 </tr>
 <tr>
 <td>2018</td>
@@ -302,6 +306,20 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td>2<sup>nde</sup></td>
 <td>1<sup>ère</sup></td>
 <td>T<sup>ale</sup></td>
+</tr>
+
+<tr>
+<td>2019</td>
+<td>11&nbsp;071</td>
+<td>17&nbsp;035</td>
+<td>171&nbsp;172</td>
+<td>162&nbsp;355</td>
+<td>140&nbsp;714</td>
+<td>113&nbsp;871</td>
+
+<td>63&nbsp;270</td>
+<td>13&nbsp;210</td>
+<td>9&nbsp;362</td>
 </tr>
 
 <tr>
