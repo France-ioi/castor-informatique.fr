@@ -227,7 +227,7 @@ Rejoignez-nous sur :
 <h1>Participer à l'édition 2020</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
-   <p>L'édition 2020 du concours Castor se déroule du 5 novembre au 8 décembre 2020, sur <a href="https://concours.castor-informatique.fr">concours.castor-informatique.fr</a>.</p>
+   <p>L'édition 2020 du concours Castor se déroule du 8 novembre au 5 décembre 2020, sur <a href="https://concours.castor-informatique.fr">concours.castor-informatique.fr</a>.</p>
    <ul>
    <li>
    Si vous êtes enseignant, vous pouvez vous <a href="https://coordinateur.castor-informatique.fr">inscrire</a>
