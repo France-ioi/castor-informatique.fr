@@ -31,13 +31,13 @@ if(window.location.protocol != 'https:') {
 <div style="text-align:center">
    <div style='background-color:#F0F0F0;border:1px solid;padding:20px;width:800px;color:black;font-family:"Open Sans", sans-serif;margin:auto'>
    <p>
-   Le concours Castor se déroule du 10 novembre au 14 décembre 2019.
+   Le concours Castor se déroule du 12 novembre au 22 décembre 2023.
    <!--Le 3e tour du concours Algoréa 2019 est en cours.-->
    </p><br/>
    <p>
    Vous pouvez accéder aux pages de présentation<br/>
-   du <a href="http://castor-informatique.fr/home.php" style='color:#2482bf;font-weight:bold'>concours Castor</a> et du
-   <a href="http://www.algorea.org" style='color:#2482bf;font-weight:bold'>concours Algoréa</a>.
+   du <a href="https://castor-informatique.fr/home.php" style='color:#2482bf;font-weight:bold'>concours Castor</a> et du
+   <a href="https://www.algorea.org" style='color:#2482bf;font-weight:bold'>concours Algoréa</a>.
    </p>
    </div>
    <br/><br/>
