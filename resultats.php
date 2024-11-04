@@ -40,20 +40,36 @@ function loadMap() {
 
 <div id="mainbar" class="mainbarstyle">
 
+<h1>Résultats des années précédentes</h1>
 
+<p>
+Vous pouvez consulter les classements obtenus en fonction des scores pour les éditions passsées du concours, et par exemple déterminer suite à un entraînement sur un concours, quel classement vous auriez obtenu !
+</p>
+<p>
+Résultats par édition :
+<a href="resultats_2023.php" target="_blank">2023</a>,
+<a href="resultats_2022.php" target="_blank">2022</a>,
+<a href="resultats_2021.php" target="_blank">2021</a>,
+<a href="resultats_2020.php" target="_blank">2020</a>,
+<a href="resultats_2019.php" target="_blank">2019</a>,
+<a href="resultats_2018.php" target="_blank">2018</a>,
+<a href="resultats_2017.php" target="_blank">2017</a>,
+<a href="resultats_2016.php" target="_blank">2016</a>,
+<a href="resultats_2015.php" target="_blank">2015</a>.
+</p>
 
 <?php //******************************************************************** ?>
-<?php if (contest_phase() == 'contest-running'):?>
+<?php if (contest_phase() == 'contest-running' || contest_phase() == 'contest-soon'):?>
 
-<h1>Résultats</h1>
+<h1>Résultats 2024</h1>
 
-<p>Le concours se déroule du 10 novembre au 14 décembre. <span style='font-weight:bold'>Les résultats seront annoncés après la fin du concours.</span></p>
+<p>Le concours se déroule du 10 novembre au 21 décembre. <span style='font-weight:bold'>Les résultats seront annoncés après la fin du concours.</span></p>
 
 <?php endif; if (contest_phase() == 'contest-over' || contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'):?>
 
 <h1>Résultats</h1>
 
-<p>L'édition 2019 du concours Castor est terminée. 703 817 élèves ont participé !</p>
+<p>L'édition 2023 du concours Castor est terminée. 688&nbsp;837 élèves ont participé !</p>
 
 
 
@@ -71,9 +87,9 @@ function loadMap() {
 }
 </style>
 <table class="qualificationTable" cellspacing=0 cellpadding=0><tr><td>Score au concours Castor</td><td>Catégorie Algoréa</td></tr>
-<tr><td>Moins de 340 points</td><td>blanche</td></tr>
-<tr><td>Entre 340 et 439 points</td><td>jaune</td></tr>
-<tr><td>440 points ou plus</td><td>orange</td></tr>
+<tr><td>Moins de 210 points</td><td>blanche</td></tr>
+<tr><td>Entre 210 et 299 points</td><td>jaune</td></tr>
+<tr><td>300 points ou plus</td><td>orange</td></tr>
 </table>
 <p>
 </p>
@@ -92,6 +108,7 @@ if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-res
 
 <table class="results-table">
 <tr>
+<!--
 <td style="border-right: solid 1px gray; width: <?php if (contest_phase() == 'contest-results-temp') { echo "50%"; } else { echo "60%"; } ?>;">
 
    <p class="results-table-title">Accès élève</p>
@@ -105,12 +122,12 @@ if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-res
    <input name="result_eleve_code" type="text" style="width:8em">
    <input name="result_eleve_submit" type="submit" value="Accéder à mes résultats">
    </div>
-   -->
+   >
 
    <p>
    Si vous avez perdu votre code, contactez votre coordinateur.
    </p>
-</td>
+</td>-->
 <td>
    <p class="results-table-title">Accès coordinateur</p>
 
@@ -139,16 +156,16 @@ Les classements seront publiés vers le 10 décembre. Les coordinateurs pourront
 <?php endif; ?>
 
 
-<?php if (contest_phase() == 'contest-results' || contest_phase() == 'contest-soon'): ?>
+<?php if (contest_phase() == 'contest-results'): ?>
 
 <h1>Statistiques de participation</h1>
 
-<p>L'édition 2019 du concours Castor Informatique français a été un grand succès !</p>
+<p>L'édition 2024 du concours Castor Informatique français a été un grand succès !</p>
 
 <ul class="resultats-summary">
-<li>Le concours s'est déroulé du 10 novembre au 14 décembre 2019.</li>
-<li><span class="resultats-important">703&nbsp;817 élèves</span> ont participé.</li>
-<li><span class="resultats-important">3&nbsp;820 établissements</span> ont pris part au concours.</li>
+<li>Le concours s'est déroulé du 10 novembre au 21 décembre 2024.</li>
+<li><span class="resultats-important">688&nbsp;837 élèves</span> ont participé.</li>
+<li><span class="resultats-important">3&nbsp;810 établissements</span> ont pris part au concours.</li>
 </ul>
 
 
@@ -171,8 +188,8 @@ Le classement n'est publié que jusqu'au début de l'année scolaire suivante.
 <!--<p>Le classement correspondant à chaque score sera disponible prochainement.</p>-->
 
 <p>
-Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6<sup>e</sup> et que vous avez obtenu 300 points, vous pouvez voir dans le tableau que vous êtes classé(e) 2265<sup>e</sup> parmi tous les élèves de votre catégorie.
-Notez qu'il y a souvent des ex-aequo. Par exemple 742 élèves sont ex-aequo à la 2265<sup>e</sup> place dans la catégorie 6<sup>e</sup> avec un score de 300 points.
+Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6<sup>e</sup> et que vous avez obtenu 200 points, vous pouvez voir dans le tableau que vous êtes classé(e) 2457<sup>e</sup> parmi tous les élèves de votre catégorie.
+Notez qu'il y a souvent des ex-aequo. Par exemple 746 élèves sont ex-aequo à la 2457<sup>e</sup> place dans la catégorie 6<sup>e</sup> avec un score de 200 points.
 </p>
 <!--
 <p>Notez que certains élèves se sont trompés en indiquant leur classe, et que les coordinateurs n'ont pas encore corrigé. Les corrections pourront entraîner des changementsmineurs dans les classements.</p>
@@ -180,7 +197,7 @@ Notez qu'il y a souvent des ex-aequo. Par exemple 742 élèves sont ex-aequo à 
 <p>Rappel : vous pouvez obtenir votre score et voir le détail de vos résultats à l'aide de votre code de participant sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a>.</p>
 
 <div class="resultats-graphiques" style="margin-top:0.5em;margin-bottom:1em">
-<?php include("resultats2019_castor.php"); ?>
+<?php include("resultats/resultats2023_castor.php"); ?>
 </div>
 <!--
 <p>
@@ -194,7 +211,7 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <img src="img/diplome_castor_small.png" width="200" style="float:right">
 
    <p>
-   <!--Une fois les classements rendus définitifs, d-->Des diplômes pour chacun des participants peuvent être imprimés par les coordinateurs.
+   <!--Une fois les classements rendus définitifs, d-->Des diplômes pour chacun des participants peuvent être imprimés par les coordinateurs une fois le concours terminé et les classements annoncés, fin décembre.
 <!--
    </p>
    <br/>
@@ -209,7 +226,7 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
       Les participants au concours Castor peuvent ensuite participer au concours <a href="http://www.algorea.org">Algoréa</a>, dont l'objectif est de les accompagner dans leur apprentissage de la programmation. Chaque élève pourra participer dans une catégorie qui dépendra du score obtenu au concours Castor.
    </p>
    <p style="text-align:center;font-weight:bold">
-      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> ouvre le 6 janvier 2020.
+      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> ouvre le 6 janvier 2025.
    </p>
    <p>
       Les finalistes de ce concours gagnent un stage d'une semaine à Paris et des lots offerts par les sponsors.
@@ -220,13 +237,14 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <p>
 	  Des parcours de préparation au concours Algoréa sont disponibles sur <a href="http://algorea.org" target="_blank">algorea.org</a>.
    </p>
+<!--
 <h1 style="clear:both">Participation par établissement</h1>
 <p>
 Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établissements qui ont participé à cette édition, et le nombre de participants par catégorie.
 </p>
 
-<iframe src="schoolResults.html" style="width:760px;height:100vh;"></iframe>
-
+<iframe src="resultats/schoolResults.html" style="width:760px;height:100vh;"></iframe>
+-->
 <?php //******************************************************************** ?>
 <h1>Historique</h1>
 
@@ -237,6 +255,26 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td width="33%">Année</td>
 <td width="33%">Élèves</td>
 <td width="33%">Établissements</td>
+</tr>
+<tr>
+<td>2023</td>
+<td>688 837</td>
+<td>3810</td>
+</tr>
+<tr>
+<td>2022</td>
+<td>698 449</td>
+<td>3874</td>
+</tr>
+<tr>
+<td>2021</td>
+<td>671 020</td>
+<td>3642</td>
+</tr>
+<tr>
+<td>2020</td>
+<td>524 914</td>
+<td>3045</td>
 </tr>
 <tr>
 <td>2019</td>
@@ -306,6 +344,65 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td>2<sup>nde</sup></td>
 <td>1<sup>ère</sup></td>
 <td>T<sup>ale</sup></td>
+</tr>
+
+<tr>
+<td>2023</td>
+<td>8&nbsp;232</td>
+<td>12&nbsp;229</td>
+<td>154&nbsp;254</td>
+<td>166&nbsp;688</td>
+<td>144&nbsp;455</td>
+<td>110&nbsp;623</td>
+
+<td>65&nbsp;836</td>
+<td>15&nbsp;183</td>
+<td>8&nbsp;679</td>
+</tr>
+
+
+<tr>
+<td>2022</td>
+<td>8&nbsp;086</td>
+<td>12&nbsp;840</td>
+<td>173&nbsp;077</td>
+<td>163&nbsp;924</td>
+<td>142&nbsp;852</td>
+<td>113&nbsp;450</td>
+
+<td>62&nbsp;865</td>
+<td>13&nbsp;045</td>
+<td>8&nbsp;310</td>
+</tr>
+
+
+<tr>
+<td>2021</td>
+<td>8&nbsp;026</td>
+<td>10&nbsp;998</td>
+<td>163&nbsp;874</td>
+<td>155&nbsp;298</td>
+<td>139&nbsp;573</td>
+<td>109&nbsp;085</td>
+
+<td>63&nbsp;445</td>
+<td>13&nbsp;397</td>
+<td>7&nbsp;324</td>
+</tr>
+
+
+<tr>
+<td>2020</td>
+<td>7&nbsp;000</td>
+<td>10&nbsp;127</td>
+<td>128&nbsp;730</td>
+<td>119&nbsp;703</td>
+<td>105&nbsp;419</td>
+<td>91&nbsp;342</td>
+
+<td>47&nbsp;177</td>
+<td>9&nbsp;184</td>
+<td>4&nbsp;916</td>
 </tr>
 
 <tr>

@@ -50,7 +50,7 @@ donner à tous une image différente de l'informatique et y compris aux filles !
 
 <h2>Le concours est-il accessible aux élèves non-voyant(e)s&nbsp;?</h2>
 <p>
-Non malheureusement. Les premières années nous proposions une version texte adaptée du concours, mais qui n'ont été utilisées que par moins d'une dizaine d'élèves. Ces dernières années, les sujets sont devenus très interactifs et visuelle, et une version en texte pur n'aurait plus de sens.
+Non malheureusement. Les premières années nous proposions une version texte adaptée du concours, mais qui n'ont été utilisées que par moins d'une dizaine d'élèves. Ces dernières années, les sujets sont devenus très interactifs et visuels, et une version en texte pur n'aurait plus de sens.
 </p>
 
 
