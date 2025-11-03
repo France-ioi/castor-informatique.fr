@@ -47,6 +47,7 @@ Vous pouvez consulter les classements obtenus en fonction des scores pour les é
 </p>
 <p>
 Résultats par édition :
+<a href="resultats_2024.php" target="_blank">2024</a>,
 <a href="resultats_2023.php" target="_blank">2023</a>,
 <a href="resultats_2022.php" target="_blank">2022</a>,
 <a href="resultats_2021.php" target="_blank">2021</a>,
@@ -61,15 +62,15 @@ Résultats par édition :
 <?php //******************************************************************** ?>
 <?php if (contest_phase() == 'contest-running' || contest_phase() == 'contest-soon'):?>
 
-<h1>Résultats 2024</h1>
+<h1>Résultats 2025</h1>
 
-<p>Le concours se déroule du 10 novembre au 21 décembre. <span style='font-weight:bold'>Les résultats seront annoncés après la fin du concours.</span></p>
+<p>Le concours se déroule du 9 novembre au 20 décembre. <span style='font-weight:bold'>Les résultats seront annoncés après la fin du concours.</span></p>
 
 <?php endif; if (contest_phase() == 'contest-over' || contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'):?>
 
 <h1>Résultats</h1>
 
-<p>L'édition 2023 du concours Castor est terminée. 688&nbsp;837 élèves ont participé !</p>
+<p>L'édition 2024 du concours Castor est terminée. 650&nbsp;541 élèves élèves ont participé !</p>
 
 
 
@@ -87,9 +88,9 @@ Résultats par édition :
 }
 </style>
 <table class="qualificationTable" cellspacing=0 cellpadding=0><tr><td>Score au concours Castor</td><td>Catégorie Algoréa</td></tr>
-<tr><td>Moins de 210 points</td><td>blanche</td></tr>
-<tr><td>Entre 210 et 299 points</td><td>jaune</td></tr>
-<tr><td>300 points ou plus</td><td>orange</td></tr>
+<tr><td>Moins de 230 points</td><td>blanche</td></tr>
+<tr><td>Entre 230 et 400 points</td><td>jaune</td></tr>
+<!--<tr><td>310 points ou plus</td><td>orange</td></tr>-->
 </table>
 <p>
 </p>
@@ -164,8 +165,8 @@ Les classements seront publiés vers le 10 décembre. Les coordinateurs pourront
 
 <ul class="resultats-summary">
 <li>Le concours s'est déroulé du 10 novembre au 21 décembre 2024.</li>
-<li><span class="resultats-important">688&nbsp;837 élèves</span> ont participé.</li>
-<li><span class="resultats-important">3&nbsp;810 établissements</span> ont pris part au concours.</li>
+<li><span class="resultats-important">650&nbsp;541 élèves</span> ont participé.</li>
+<li><span class="resultats-important">3&nbsp;806 établissements</span> ont pris part au concours.</li>
 </ul>
 
 
@@ -187,9 +188,8 @@ Le classement n'est publié que jusqu'au début de l'année scolaire suivante.
 
 <!--<p>Le classement correspondant à chaque score sera disponible prochainement.</p>-->
 
-<p>
-Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6<sup>e</sup> et que vous avez obtenu 200 points, vous pouvez voir dans le tableau que vous êtes classé(e) 2457<sup>e</sup> parmi tous les élèves de votre catégorie.
-Notez qu'il y a souvent des ex-aequo. Par exemple 746 élèves sont ex-aequo à la 2457<sup>e</sup> place dans la catégorie 6<sup>e</sup> avec un score de 200 points.
+Les graphes et tableaux ci-dessous vous permettent de déterminer le classement à partir du score. Par exemple, si vous avez participé individuellement dans la catégorie 6<sup>e</sup> et que vous avez obtenu 200 points, vous pouvez voir dans le tableau que vous êtes classé(e) 6101<sup>e</sup> parmi tous les élèves de votre catégorie.
+Notez qu'il y a souvent des ex-aequo. Par exemple 5 élèves sont ex-aequo à la 6101<sup>e</sup> place dans la catégorie 6<sup>e</sup> avec un score de 200 points.
 </p>
 <!--
 <p>Notez que certains élèves se sont trompés en indiquant leur classe, et que les coordinateurs n'ont pas encore corrigé. Les corrections pourront entraîner des changementsmineurs dans les classements.</p>
@@ -197,7 +197,7 @@ Notez qu'il y a souvent des ex-aequo. Par exemple 746 élèves sont ex-aequo à 
 <p>Rappel : vous pouvez obtenir votre score et voir le détail de vos résultats à l'aide de votre code de participant sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a>.</p>
 
 <div class="resultats-graphiques" style="margin-top:0.5em;margin-bottom:1em">
-<?php include("resultats/resultats2023_castor.php"); ?>
+<?php include("resultats/resultats2024_castor.php"); ?>
 </div>
 <!--
 <p>
@@ -226,7 +226,7 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
       Les participants au concours Castor peuvent ensuite participer au concours <a href="http://www.algorea.org">Algoréa</a>, dont l'objectif est de les accompagner dans leur apprentissage de la programmation. Chaque élève pourra participer dans une catégorie qui dépendra du score obtenu au concours Castor.
    </p>
    <p style="text-align:center;font-weight:bold">
-      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> ouvre le 6 janvier 2025.
+      Le premier tour du concours <a href="http://www.algorea.org">Algoréa</a> ouvre le 5 janvier 2026.
    </p>
    <p>
       Les finalistes de ce concours gagnent un stage d'une semaine à Paris et des lots offerts par les sponsors.
@@ -255,6 +255,11 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td width="33%">Année</td>
 <td width="33%">Élèves</td>
 <td width="33%">Établissements</td>
+</tr>
+<tr>
+<td>2024</td>
+<td>650 541</td>
+<td>3806</td>
 </tr>
 <tr>
 <td>2023</td>
@@ -345,6 +350,21 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td>1<sup>ère</sup></td>
 <td>T<sup>ale</sup></td>
 </tr>
+
+<tr>
+<td>2024</td>
+<td>8&nbsp;024</td>
+<td>12&nbsp;084</td>
+<td>135&nbsp;027</td>
+<td>158&nbsp;831</td>
+<td>136&nbsp;070</td>
+<td>107&nbsp;476</td>
+
+<td>66&nbsp;355</td>
+<td>15&nbsp;052</td>
+<td>9&nbsp;331</td>
+</tr>
+
 
 <tr>
 <td>2023</td>

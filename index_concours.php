@@ -31,7 +31,7 @@ if(window.location.protocol != 'https:') {
 <div style="text-align:center">
    <div style='background-color:#F0F0F0;border:1px solid;padding:20px;width:800px;color:black;font-family:"Open Sans", sans-serif;margin:auto'>
    <p>
-   Le concours Castor se déroule du 12 novembre au 22 décembre 2023.
+   Le concours Castor se déroule du 10 novembre au 21 décembre 2024.
    <!--Le 3e tour du concours Algoréa 2019 est en cours.-->
    </p><br/>
    <p>
