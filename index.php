@@ -92,12 +92,9 @@ Rejoignez-nous sur :
 
 <div class="submenu">
 <h1>Partenaires</h1>
-<a href="http://www.inria.fr" class="menu-logo"><img width="95%" src="img/logo_inria.png" alt="inria" class="logo-img" style="margin-bottom:15px;"></a>
-<a href="http://www.ens-cachan.fr/" class="menu-logo"><img width="95%" src="img/logo_ens_paris_saclay.png" alt="ENS Paris-Saclay" class="logo-img"></a>
-</div>
+<a href="https://www.inria.fr" class="menu-logo"><img width="95%" src="img/logo_inria.png" alt="inria" class="logo-img" style="margin-bottom:15px;" target="_blank"></a>
 
-<div class="submenu">
-<h1>Sponsors</h1>
+<a href="https://www.esiea.fr/" class="menu-logo" target="_blank"><img width="95%" src="img/logo_esiea.png" alt="ESIEA" class="logo-img"></a>
 <!--
 <a href="https://www.fondation-blaise-pascal.org/" class="menu-logo"  target="_blank"><img width="100%" src="img/logo_blaise_pascal.png" alt="Fondation Blaise Pascal" class="logo-img"></a>
 <br/>
@@ -120,10 +117,11 @@ Rejoignez-nous sur :
 <div>
 
 <div style="background-color:#FFF0F0;border:solid black 1px;padding:5px">
-<!--
-<p>Le concours Castor 2024 est terminé. Les <a href="resultats.php">résultats sont disponibles</a>.</p>
+
+<p>Le concours Castor 2025 est terminé. Les <a href="resultats.php">résultats sont disponibles</a>.</p>
 <p>L'étape suivante est le concours <a href="https://algorea.org">Algorea</a>. L'épreuve du premier tour se déroule <a href="https://concours.castor-informatique.fr">ici</a>.</p>
--->
+<p>Les enseignants peuvent inscrire leurs classes et organiser des entraînements sur leur <a href="https://coordinateur.castor-informatique.fr">interface coordinateur</a>.</p>
+
 <!--
 <p>La demi-finale du concours <a href="http://algorea.org" target="_blank">Algoréa</a> est terminée. 24 élèves ont été invités à la finale à Paris et ont déjà été contactés. Ceux qui ont fait la demi-finale peuvent voir leur résultat en se reconnectant sur <a href="http://concours.algorea.org" target="_blank">concours.algorea.org</a> et vérifier s'ils sont qualifiés pour la finale en ligne (du 15 juillet au 31 août). Les coordinateurs ont aussi accès aux résultats.</p>
 -->
@@ -132,11 +130,11 @@ Rejoignez-nous sur :
 <p>Les enseignants peuvent inscrire leurs classes à tout moment sur leur <a href="https://coordinateur.castor-informatique.fr">interface coordinateur</a>.</p>
 
 -->
-
+<!--
 <p>Le concours Castor Informatique 2025 se déroulera du 9 novembre au 20 décembre 2025.</p>
 <p>Environ 700 000 participants sont attendus.</p>
 <p>Les enseignants peuvent inscrire leurs classes et organiser des entraînements sur leur <a href="https://coordinateur.castor-informatique.fr">interface coordinateur</a>.</p>
-
+-->
 </div>
 <br/>
 <!--
@@ -156,7 +154,7 @@ Rejoignez-nous sur :
    <?php if (contest_phase() == 'contest-soon'):?>
       <!--</p><p><span class='index-important'>L'édition 2021 se prépare ! Elle aura lieu du dimanche 7 novembre à 8h au dimanche 5 décembre à 23h, heure de Paris.</span>-->
    <?php elseif (contest_phase() == 'contest-running'):?>
-      </p><p><span class='index-important'>L'édition 2024 est en cours ! Elle se déroule sur <a href="https://concours.castor-informatique.fr">concours.castor-informatique.fr</a> du dimanche 10 novembre au samedi 21 décembre à 23h, heure de Paris.</span>
+      </p><p><span class='index-important'>L'édition 2025 est en cours ! Elle se déroule sur <a href="https://concours.castor-informatique.fr">concours.castor-informatique.fr</a> du dimanche 9 novembre au samedi 20 décembre à 23h, heure de Paris.</span>
    <?php elseif (contest_phase() == 'contest-over'):?>
       </p><p><span class='index-important'>L'édition 2020 vient de se terminer, avec plus de 520 000 participants !</span> </p>
       <br/>
@@ -203,10 +201,10 @@ Rejoignez-nous sur :
 <?php //******************************************************************** ?>
 <?php if (contest_phase() == 'contest-results-temp' || contest_phase() == 'contest-results'):?>
 
-   <h1>Résultats 2024</h1>
+   <h1>Résultats 2025</h1>
 
    <p><span class='index-important'>
-      L'édition 2024 a été un grand succès, avec <span class='index-important'>650&nbsp;541 participants</span>  dans 3806 établissements&nbsp;!</span>
+      L'édition 2025 a été un grand succès, avec <span class='index-important'>653&nbsp;692 participants</span>  dans 3809 établissements&nbsp;!</span>
    </p>
 <!--
    <p>
@@ -221,7 +219,7 @@ Rejoignez-nous sur :
    </p>
    -->
    <p style="text-align:center">
-      <input class="plateforme-button" type="submit" value="Accès aux résultats du Castor 2022" onclick="document.location = 'resultats.php'">
+      <input class="plateforme-button" type="submit" value="Accès aux résultats du Castor 2025" onclick="document.location = 'resultats.php'">
    </p>
 <!--
       <p style="float:clear">8200 élèves classés parmi les meilleurs du Castor 2014 ont participé au concours <a href="http://algorea.org">Algoréa 2015</a>, et ont progressé au fil des 4 tours du concours, jusqu'à la finale, à laquelle 19 élèves de la 6ème à la 1ère ont été invités.</p>
@@ -237,7 +235,7 @@ Rejoignez-nous sur :
 </div>
 -->
 <?php //******************************************************************** ?>
-<h1>Participer à l'édition 2025</h1>
+<h1>Participer à l'édition 2026</h1>
 
 <?php if (contest_phase() == 'contest-soon' || contest_phase() == 'contest-running'):?>
    <p>L'édition 2025 du concours Castor se déroule du 9 novembre au 20 décembre 2025, sur <a href="https://concours.castor-informatique.fr">concours.castor-informatique.fr</a>.</p>
@@ -251,11 +249,11 @@ Rejoignez-nous sur :
    exemple votre professeur de mathématiques ou de technologie.
    </ul>
 <?php else:?>
-   <p>La prochaine édition du concours Castor aura lieu du 9 novembre au 20 décembre 2025.</p>
+   <p>La prochaine édition du concours Castor aura lieu du 8 novembre au 19 décembre 2026.</p>
    <p>Si vous êtes enseignant, <a href="https://coordinateur.castor-informatique.fr">inscrivez-vous</a>
    dès maintenant comme coordinateur.</p>
 
-   <p>En attendant l'édition 2025 du Castor, vous pouvez <a href='https://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
+   <p>En attendant l'édition 2026 du Castor, vous pouvez <a href='https://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a> ou apprendre la programmation sur <a href="http://www.france-ioi.org/">France-ioi.org</a>.
 
    <!--<p>En attendant, il est possible de <a href='https://concours.castor-informatique.fr?tab=home'>rejouer les concours passés</a>.</p>-->
 <?php endif; ?>
@@ -340,17 +338,16 @@ Pour progresser au fil de l'année et entre les différentes étapes du concours
 
 <p>Le Castor Informatique a été créé en Lituanie en 2004, et est <a href="http://www.bebras.org/">organisé dans 79 pays</a>, dont la France depuis 2011. Chaque pays organise le concours indépendamment à la même période, en suivant des règles communes. Les pays se réunissent chaque année pour préparer un ensemble de questions, parmi lesquelles chacun effectue sa propre sélection de sujets. Près de 4 millions d'élèves ont participé à diverses éditions du concours Castor 2023 dans le monde.
 </p>
-<p>L'édition Française est organisée par l'association <a href="http://www.france-ioi.org">France-ioi</a> en partenariat avec <a href="http://www.inria.fr">Inria</a> et l'<a href="http://www.ens-cachan.fr">ENS Paris-Saclay</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
+<p>L'édition Française est organisée par l'association <a href="https://www.france-ioi.org" target="_blank">France-ioi</a>, avec le soutien de <a href="http://www.inria.fr">Inria</a> et de l'<a href="https://www.esiea.fr/" target="_blank">ESIEA</a>, grâce à la contribution de <a href="organisation.php">nombreuses personnes</a>.
 
 <h1>Affiche</h1>
-<p>Une affiche du concours 2025 sera disponible en début d'année scolaire 2025-2026.
-<!--
+<!--<p>Une affiche du concours 2025 sera disponible en début d'année scolaire 2025-2026.-->
 
-<p>Voici une affiche que vous pouvez télécharger et imprimer pour faire connaître le concours 2024 :</p>
+<p>Voici une affiche que vous pouvez télécharger et imprimer pour faire connaître le concours 2026 :</p>
 <p>
 <center>
-<a href="documents/poster_castor_2024.pdf" target="new"><img src="img/poster_castor_2024.png" style="width:300px"></a>
--->
+<a href="documents/poster_castor_2026.pdf" target="new"><img src="img/poster_castor_2026.png" style="width:300px"></a>
+
 <!--
 &nbsp;&nbsp;&nbsp;
 

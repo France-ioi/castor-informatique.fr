@@ -47,6 +47,7 @@ Vous pouvez consulter les classements obtenus en fonction des scores pour les é
 </p>
 <p>
 Résultats par édition :
+<a href="resultats_2025.php" target="_blank">2025</a>,
 <a href="resultats_2024.php" target="_blank">2024</a>,
 <a href="resultats_2023.php" target="_blank">2023</a>,
 <a href="resultats_2022.php" target="_blank">2022</a>,
@@ -70,7 +71,7 @@ Résultats par édition :
 
 <h1>Résultats</h1>
 
-<p>L'édition 2024 du concours Castor est terminée. 650&nbsp;541 élèves élèves ont participé !</p>
+<p>L'édition 2025 du concours Castor est terminée. 653&nbsp;692 élèves élèves ont participé !</p>
 
 
 
@@ -88,9 +89,8 @@ Résultats par édition :
 }
 </style>
 <table class="qualificationTable" cellspacing=0 cellpadding=0><tr><td>Score au concours Castor</td><td>Catégorie Algoréa</td></tr>
-<tr><td>Moins de 230 points</td><td>blanche</td></tr>
-<tr><td>Entre 230 et 400 points</td><td>jaune</td></tr>
-<!--<tr><td>310 points ou plus</td><td>orange</td></tr>-->
+<tr><td>Moins de 250 points</td><td>blanche</td></tr>
+<tr><td>Entre 250 et 400 points</td><td>jaune</td></tr>
 </table>
 <p>
 </p>
@@ -161,12 +161,12 @@ Les classements seront publiés vers le 10 décembre. Les coordinateurs pourront
 
 <h1>Statistiques de participation</h1>
 
-<p>L'édition 2024 du concours Castor Informatique français a été un grand succès !</p>
+<p>L'édition 2025 du concours Castor Informatique français a été un grand succès !</p>
 
 <ul class="resultats-summary">
-<li>Le concours s'est déroulé du 10 novembre au 21 décembre 2024.</li>
-<li><span class="resultats-important">650&nbsp;541 élèves</span> ont participé.</li>
-<li><span class="resultats-important">3&nbsp;806 établissements</span> ont pris part au concours.</li>
+<li>Le concours s'est déroulé du 9 novembre au 20 décembre 2025.</li>
+<li><span class="resultats-important">653&nbsp;692 élèves</span> ont participé.</li>
+<li><span class="resultats-important">3&nbsp;809 établissements</span> ont pris part au concours.</li>
 </ul>
 
 
@@ -197,7 +197,7 @@ Notez qu'il y a souvent des ex-aequo. Par exemple 5 élèves sont ex-aequo à la
 <p>Rappel : vous pouvez obtenir votre score et voir le détail de vos résultats à l'aide de votre code de participant sur la <a href="http://concours.castor-informatique.fr?tab=continue">plateforme du concours</a>.</p>
 
 <div class="resultats-graphiques" style="margin-top:0.5em;margin-bottom:1em">
-<?php include("resultats/resultats2024_castor.php"); ?>
+<?php include("resultats/resultats2025_castor.php"); ?>
 </div>
 <!--
 <p>
@@ -237,14 +237,12 @@ Vous pouvez également consulter le <a href='img/scores_castor_2014.pdf'>taux de
    <p>
 	  Des parcours de préparation au concours Algoréa sont disponibles sur <a href="http://algorea.org" target="_blank">algorea.org</a>.
    </p>
-<!--
 <h1 style="clear:both">Participation par établissement</h1>
 <p>
 Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établissements qui ont participé à cette édition, et le nombre de participants par catégorie.
 </p>
 
 <iframe src="resultats/schoolResults.html" style="width:760px;height:100vh;"></iframe>
--->
 <?php //******************************************************************** ?>
 <h1>Historique</h1>
 
@@ -255,6 +253,11 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td width="33%">Année</td>
 <td width="33%">Élèves</td>
 <td width="33%">Établissements</td>
+</tr>
+<tr>
+<td>2025</td>
+<td>653 692</td>
+<td>3809</td>
 </tr>
 <tr>
 <td>2024</td>
@@ -349,6 +352,20 @@ Ci-dessous, vous pouvez consulter pour chaque académie, la liste des établisse
 <td>2<sup>nde</sup></td>
 <td>1<sup>ère</sup></td>
 <td>T<sup>ale</sup></td>
+</tr>
+
+<tr>
+<td>2025</td>
+<td>7&nbsp;360</td>
+<td>12&nbsp;660</td>
+<td>141&nbsp;009</td>
+<td>162&nbsp;285</td>
+<td>138&nbsp;069</td>
+<td>105&nbsp;517</td>
+
+<td>64&nbsp;993</td>
+<td>13&nbsp;066</td>
+<td>8&nbsp;733</td>
 </tr>
 
 <tr>

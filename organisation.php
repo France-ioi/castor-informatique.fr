@@ -55,7 +55,7 @@ $(function() {
 -->
 <div id="years-2022">
 <p>
-   Le concours Castor Informatique est organisé par l'association France-ioi, en partenariat avec Inria et l'ENS Paris Saclay.
+   Le concours Castor Informatique est organisé par l'association France-ioi.
 </p>
    <table width="100%" style="margin-top:1em"><tr>
    <td width="33%" align="center"></td>
@@ -90,7 +90,8 @@ $(function() {
    <tr>
    <td>Développement des sujets interactifs</td>
    <td>
-      Arnaud Le Grand<br/>	  
+      Arnaud Le Grand<br/>	 
+      Hugo Peyraud-Magnin<br/>
    </td>
    </tr>
    <tr>
@@ -101,31 +102,19 @@ $(function() {
    </tr>
    <tr>
 
-   <td>Représentants des partenaires</td>
-   <td>
-      Arthur Charguéraud (Inria)<br />
-      Françoise Tort (ENS Paris Saclay)<br />
-   </td>
-   <tr>
-   </tr>
-
    </table>
    
    <h1>Partenaires</h1>
 
    <table width="100%" style="margin-top:1em"><tr>
-   <td width="33%" align="center"><a href="http://www.inria.fr"><img width=200 src="img/logo_inria.png" alt="inria" class="logo-img"></a></td>
-   <td width="33%" align="center"><a href="http://www.ens-cachan.fr/"><img width=200 src="img/logo_ens_paris_saclay.png" alt="ENS" class="logo-img"></a></td>
-   </tr></table>
+   <td width="33%" align="center"><a href="https://www.inria.fr" target="_blank"><img width=300 src="img/logo_inria.png" alt="inria" class="logo-img"></a></td>
+   <td width="33%" align="center"><a href="https://www.esiea.fr/" target="_blank"><img width=300 src="img/logo_esiea.png" alt="ESIEA" class="logo-img"></a></td>
+   </tr>
 
-
-   <h1>Sponsors</h1>
-
-
-   <table class="partenaires-table"><tr>
 <!--   <td><a href="https://www.fondation-blaise-pascal.org/" target="_blank"><img style="width:180px;margin-right:10px" src="img/logo_blaise_pascal.png"  alt="Fondation Blaise Pascal" class="logo-img"></a></td>
    <td><a href="https://www.gouvernement.fr/programme-investissements-avenir/commissariat-general-investissement" class="menu-logo" target="_blank"><img style="width:80px" src="img/logo_pia.png" alt="Programme Investissements d' Avenir" class="logo-img"></a></td>-->
-   <td><a href="https://talentsdunumerique.com" target="_blank"><img width=180 src="img/logo_talents_numerique.png" alt="Talents du numérique" class="logo-img"></a></td>
+   <tr>
+   <td colspan=2><center><a href="https://talentsdunumerique.com" target="_blank"><img width=180 src="img/logo_talents_numerique.png" alt="Talents du numérique" class="logo-img"></a></center></td>
 
    </tr></table>
    </p>
